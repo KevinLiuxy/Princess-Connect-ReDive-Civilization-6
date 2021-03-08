@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon -->
+<!-- Author: liuxi -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_256.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_80.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_64.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_50.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_48.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_45.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_44.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_36.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_30.dds"/>
+		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_22.dds"/>
+
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_256.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_80.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_64.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_55.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_45.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_32.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_PCR_KYARU" Atlas="ICON_ATLAS_PCR_KYARU" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_PRINCESS_CONNECT_REDIVE" Atlas="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" Index="0"/>
+	</IconDefinitions>
+</GameData>

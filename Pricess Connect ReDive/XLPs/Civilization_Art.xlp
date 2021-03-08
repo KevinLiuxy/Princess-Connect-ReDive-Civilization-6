@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Civilization_Art"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_256"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_32"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_45"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_50"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_55"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_64"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_80"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Kyaru_Loading"/>
+			<m_ObjectName text="PCR_Kyaru_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Kyaru_Menu"/>
+			<m_ObjectName text="PCR_Kyaru_Menu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_22"/>
+			<m_ObjectName text="Princess_Connect_ReDive_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_256"/>
+			<m_ObjectName text="Princess_Connect_ReDive_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_30"/>
+			<m_ObjectName text="Princess_Connect_ReDive_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_36"/>
+			<m_ObjectName text="Princess_Connect_ReDive_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_44"/>
+			<m_ObjectName text="Princess_Connect_ReDive_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_45"/>
+			<m_ObjectName text="Princess_Connect_ReDive_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_48"/>
+			<m_ObjectName text="Princess_Connect_ReDive_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_50"/>
+			<m_ObjectName text="Princess_Connect_ReDive_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_64"/>
+			<m_ObjectName text="Princess_Connect_ReDive_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Princess_Connect_ReDive_80"/>
+			<m_ObjectName text="Princess_Connect_ReDive_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Background_Diplomacy"/>
+			<m_ObjectName text="Background_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Background_Loading"/>
+			<m_ObjectName text="Background_Loading"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

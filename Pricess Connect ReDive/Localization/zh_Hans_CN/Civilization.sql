@@ -1,0 +1,68 @@
+-- Civilization
+-- Author: liuxi
+--------------------------------------------------------------
+INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
+VALUES
+	-- City Names
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_1",  "兰德索尔"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_2",  "美食殿堂"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_3",  "动物苑"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_4",  "伊丽莎白牧场"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_5",  "拉比林斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_6",  "墨丘利"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_7",  "茜林蒂亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_8",  "朱诺"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_9",  "帕拉斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_10",  "赫柏"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_11",  "维斯塔"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_12",  "克瑞斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_13",  "弗洛拉"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_14",  "墨提斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_15",  "伊丽丝"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_16",  "弗丽嘉"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_17",  "洛蕾塔"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_18",  "热亚那"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_19",  "博洛尼亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_20",  "多萝西亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_21",  "尤金妮亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_22",  "塔利亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_23",  "赛梅斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_24",  "菲德斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_25",  "法埃顿"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_26",  "马提尔德"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_27",  "雷蒂乌斯"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_28",  "佩特罗"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_29",  "迪兹塔尔"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_30",  "弗泰拉"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_31",  "法斯奇亚"),
+	("zh_Hans_CN",	"LOC_CITY_NAME_PRINCESS_CONNECT_REDIVE_32",  "维娜"),
+--------------------------------------------------------------
+	-- Citizen Names
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_MALE_1",		"虹村雪"			),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_1",		"出云宫子"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_2",		"冰川镜华"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_3",		"妮侬·朱贝尔"	),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_4",		"美波铃奈"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_5",		"宫坂珠希"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_6",		"藤堂秋乃"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_7",		"柏崎栞"			),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_8",		"喜屋武香织"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_9",		"安芸真琴"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_10",	"姬宫真步"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_11",	"天野铃莓"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_12",	"佐佐木咲恋"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_13",	"柏崎初音"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_14",	"星野静流"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_15",	"衣之咲璃乃"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_16",	"樱井望"			),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_17",	"三角千歌"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_18",	"草野优衣"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_19",	"茧宫纺希"		),
+	("zh_Hans_CN",	"LOC_CITIZEN_PRINCESS_CONNECT_REDIVE_FEMALE_20",	"园上矛依未"		),
+
+--------------------------------------------------------------
+	-- Civilization Info
+	("zh_Hans_CN",	"LOC_CIVINFO_PRINCESS_CONNECT_REDIVE_LOCATION",		"阿斯特莱亚"		),
+	("zh_Hans_CN",	"LOC_CIVINFO_PRINCESS_CONNECT_REDIVE_SIZE",			"120,000 km²"	),
+	("zh_Hans_CN",	"LOC_CIVINFO_PRINCESS_CONNECT_REDIVE_POPULATION",	"c. 1500 万"		),
+	("zh_Hans_CN",	"LOC_CIVINFO_PRINCESS_CONNECT_REDIVE_CAPITAL",		"兰德索尔"		);
