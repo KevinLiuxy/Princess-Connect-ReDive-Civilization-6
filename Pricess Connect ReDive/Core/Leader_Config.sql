@@ -9,8 +9,6 @@ INSERT INTO Players(
 	CivilizationAbilityName,
 	CivilizationAbilityDescription,
 	CivilizationAbilityIcon,
-	Portrait,
-	PortraitBackground,
 	LeaderType,
 	LeaderName,
 	LeaderIcon,
@@ -28,8 +26,6 @@ INSERT INTO Players(
 	/* CivAbilityDesc   */ 'LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_DESCRIPTION',
 	/* CivAbilityIcon	*/ 'ICON_CIVILIZATION_PRINCESS_CONNECT_REDIVE',
 	-- Leader
-	/* Portrait			 */ 'LEADER_LEADER_CUSTOM_NEUTRAL.dds',
-	/* PortraitBG		 */ 'LEADER_JOHN_CURTIN_BACKGROUND',
 	/* LeaderType		 */ 'LEADER_PCR_KYARU',
 	/* LeaderName		 */ 'LOC_LEADER_PCR_KYARU_NAME',
 	/* LeaderIcon		 */ 'ICON_LEADER_PCR_KYARU',

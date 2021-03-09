@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Princess Connect! Re:Dive"/>
+		<name text="Princess Connect! Re：Dive"/>
 		<id text="f7e7e896-7341-4b2c-8e10-61e5d66768f3"/>
 	</id>
 	<artConsumers>
@@ -140,8 +140,6 @@
 		</Element>
 		<Element>
 			<consumerName text="UI"/>
-			<relativeArtDefPaths>
-			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="UITexture"/>
 			</libraryDependencies>

@@ -2,10 +2,10 @@
 <AssetObjects..TextureInstance>
 	<m_ExportSettings>
 		<ePixelformat>PF_R8G8B8A8_UNORM</ePixelformat>
-		<eFilterType>FT_BOX</eFilterType>
+		<eFilterType>FT_LANCZOS6</eFilterType>
 		<bUseMips>false</bUseMips>
 		<iNumManualMips>0</iNumManualMips>
-		<bCompleteMipChain>true</bCompleteMipChain>
+		<bCompleteMipChain>false</bCompleteMipChain>
 		<fValueClampMin>0.000000</fValueClampMin>
 		<fValueClampMax>1.000000</fValueClampMax>
 		<fSupportScale>1.000000</fSupportScale>
@@ -20,7 +20,40 @@
 		<bSampleFromTopLayer>false</bSampleFromTopLayer>
 	</m_ExportSettings>
 	<m_CookParams>
-		<m_Values/>
+		<m_Values>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="IsScalable"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>2</m_nValue>
+				<m_ParamName text="TexturePadding"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="IsStandalone"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="IsTiled"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>128</m_nValue>
+				<m_ParamName text="TargetWidth"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>128</m_nValue>
+				<m_ParamName text="TargetHeight"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="ResizeToTarget"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="LinearBlending"/>
+			</Element>
+		</m_Values>
 	</m_CookParams>
 	<m_Version>
 		<major>1</major>
@@ -35,7 +68,7 @@
 	<m_SourceFilePath text="//civ6/main/Pricess Connect ReDive\Textures\Leader_PCR_Kyaru_64.dds"/>
 	<m_SourceObjectName text=""/>
 	<m_ImportedTime>0</m_ImportedTime>
-	<m_ExportedTime>3625890454</m_ExportedTime>
+	<m_ExportedTime>4203795443</m_ExportedTime>
 	<m_ClassName text="UserInterface"/>
 	<m_DataFiles>
 		<Element>
@@ -45,8 +78,6 @@
 	</m_DataFiles>
 	<m_Name text="Leader_PCR_Kyaru_64"/>
 	<m_Description text=""/>
-	<m_Tags>
-		<Element text="UserInterface"/>
-	</m_Tags>
+	<m_Tags/>
 </AssetObjects..TextureInstance>
 

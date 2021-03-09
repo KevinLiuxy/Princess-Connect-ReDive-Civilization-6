@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Princess Connect! Re:Dive</Name>
+    <Name>Princess Connect! Re：Dive</Name>
     <Guid>f7e7e896-7341-4b2c-8e10-61e5d66768f3</Guid>
     <ProjectGuid>5cd6f5dd-3cd9-410a-a714-831b161adbdf</ProjectGuid>
     <ModVersion>1</ModVersion>
@@ -22,7 +22,7 @@
     <AssemblyName>Pricess Connect ReDive</AssemblyName>
     <RootNamespace>Pricess Connect ReDive</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Localization/en_US/Menu.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Core/Leader_Kyaru.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Core/Leader_Kyaru.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -37,9 +37,9 @@
     <Folder Include="Textures" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ArtDefs\LeaderFallback.artdef">
+    <ArtDef Include="ArtDefs\LeaderFallback.artdef">
       <SubType>Content</SubType>
-    </Content>
+    </ArtDef>
     <Content Include="Core\Icon.xml">
       <SubType>Content</SubType>
     </Content>
@@ -50,9 +50,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Colour_Config.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Leader_Art.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Leader_Config.sql">
@@ -73,147 +70,15 @@
     <Content Include="Localization\zh_Hans_CN\Menu.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Mod.Art.xml">
+    <Content Include="Pricess Connect ReDive.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\Background_Diplomacy.dds">
+    <XLP Include="XLPs\Civilization_Art.xlp">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Background_Diplomacy.tex">
+    </XLP>
+    <XLP Include="XLPs\LeaderFallback.xlp">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Background_Loading.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Background_Loading.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_55.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_55.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Leader_PCR_Kyaru_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_InGame.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_InGame.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_Loading.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_Loading.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_Menu.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PCR_Kyaru_Menu.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_22.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_30.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_30.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_36.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_36.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_44.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_44.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_48.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Princess_Connect_ReDive_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Civilization_Art.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\LeaderFallback.xlp">
-      <SubType>Content</SubType>
-    </Content>
+    </XLP>
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
