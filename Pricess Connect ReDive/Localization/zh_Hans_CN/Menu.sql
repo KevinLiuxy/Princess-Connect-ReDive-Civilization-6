@@ -4,36 +4,36 @@
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
 	-- Civilization General
-	("zh_Hans_CN",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_NAME",		"公主连结"		),
-	("zh_Hans_CN",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_DESCRIPTION",	"美食殿堂"		),
-	("zh_Hans_CN",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_ADJECTIVE",  	"公主连结"		),
+	('zh_Hans_CN',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_NAME',		'公主连结'	),
+	('zh_Hans_CN',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_DESCRIPTION',	'美食殿堂'	),
+	('zh_Hans_CN',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_ADJECTIVE',  	'公主连结'	),
 
 	-- Leader
-	("zh_Hans_CN",	"LOC_LEADER_PCR_KYARU_NAME",			"凯露"			),
-	("zh_Hans_CN",	"LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME",	"猫耳的魔法使"	),
-	("zh_Hans_CN",	"LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION",
-		"Placeholder."
+	('zh_Hans_CN',	'LOC_LEADER_PCR_KYARU_NAME',			'凯露'			),
+	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME',	'猫耳的魔法使'	),
+	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION',
+		'市中心魅力为迷人的城市 +10% [ICON_Science] 科技值，+10% [ICON_Culture] 文化值，+1 [ICON_Amenities] 宜居度；魅力为惊艳的城市获得的加成将翻倍。[NEWLINE]解锁“公会”后免费获得1个间谍（并且增加1个间谍容量）。'
 	),
 
 	-- Unique Ability
-	("zh_Hans_CN",	"LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_NAME",	"公主连结! Re:Dive"	),
-	("zh_Hans_CN",	"LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_DESCRIPTION",
-		"Increased Amenities [ICON_Amenities] in Coastal Cities. Gain additional +1 Food [ICON_Food] and +1 Production [ICON_Production] from Sea-Based Improvements."
+	('zh_Hans_CN',	'LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_NAME',	'讨伐魔物'	),
+	('zh_Hans_CN',	'LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_DESCRIPTION',
+		'与 [ICON_Barbarian] 魔物（蛮族和自由城市单位）作战时 +5 [ICON_Strength] 战斗力。[NEWLINE]击败 [ICON_Barbarian] 魔物后获得等同于其 [ICON_Strength] 战斗力的 [ICON_Food] 食物和 [ICON_Gold] 金币。'
 	),
 
 	-- Unique Infrastructure
-	("zh_Hans_CN",	"LOC_BUILDING_PRINCESS_CONNECT_REDIVE_UI1_NAME",	"行会小屋"	),
-	("zh_Hans_CN",	"LOC_BUILDING_PRINCESS_CONNECT_REDIVE_UI1_DESCRIPTION",
-		"Provides +3 Food [ICON_Food] and +1 Gold [ICON_Gold]. Whenever a Great Person [ICON_GreatPerson] is recruited, gain a bonus to your Food [ICON_Food] in this city."
+	('zh_Hans_CN',	'LOC_DISTRICT_PRINCESS_CONNECT_REDIVE_UI1_NAME',	'行会之家'		),
+	('zh_Hans_CN',	'LOC_DISTRICT_PRINCESS_CONNECT_REDIVE_UI1_DESCRIPTION',
+		'您城市里的公会城区，代替商业中心，建造费用更低。+3 [ICON_Housing] 住房，2 [ICON_Amenities] 宜居度，2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]解锁特色区域项目 [ICON_DISTRICT_CITY_CENTER] 公会战：[NEWLINE]提供额外 [ICON_Gold] 金币和忠诚度，完成时获得大商人点数和大将军点数。'
 	),
 
 	-- Unique Unit
-	("zh_Hans_CN",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_NAME",		"公主骑士"	),
-	("zh_Hans_CN",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_DESCRIPTION",
-		"Stronger than the Warrior it replaces, this unit receives additional +5 Combat Strength [ICON_Strength] on Snow Terrain and +25% experience from combat."
+	('zh_Hans_CN',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_NAME',		'公主骑士'		),
+	('zh_Hans_CN',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_DESCRIPTION',
+		'公主连结中世纪特色近战单位。受伤害时，不会遭受战斗力减益。'
 	),
 
-	("zh_Hans_CN",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_NAME",		"公主射手"	),
-	("zh_Hans_CN",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_DESCRIPTION",
-		"Stronger than the Warrior it replaces, this unit receives additional +5 Combat Strength [ICON_Strength] on Snow Terrain and +25% experience from combat."
+	('zh_Hans_CN',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_NAME',		'公主射手'		),
+	('zh_Hans_CN',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_DESCRIPTION',
+		'取代弩手的公主连结中世纪特色远程单位。受伤害时，不会遭受战斗力减益。'
 	);

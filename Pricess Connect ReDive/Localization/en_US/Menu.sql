@@ -4,36 +4,36 @@
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
 	-- Civilization General
-	("en_US",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_NAME",		"Pricess Connect"		),
-	("en_US",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_DESCRIPTION",	"Gourmet Edifice"		),
-	("en_US",	"LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_ADJECTIVE",  	"Pricess Connect"		),
+	('en_US',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_NAME',		'Pricess Connect'	),
+	('en_US',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_DESCRIPTION',	'Gourmet Edifice'	),
+	('en_US',	'LOC_CIVILIZATION_PRINCESS_CONNECT_REDIVE_ADJECTIVE',  	'Pricess Connect'	),
 
 	-- Leader
-	("en_US",	"LOC_LEADER_PCR_KYARU_NAME",			"Kyaru"					),
-	("en_US",	"LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME",	"The Catty Sorceress"	),
-	("en_US",	"LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION",
-		"Placeholder."
+	('en_US',	'LOC_LEADER_PCR_KYARU_NAME',			'Kyaru'					),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME',	'The Catty Sorceress'	),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION',
+		'City Center with Charming Appeal receives +10% [ICON_Science] Science, +10% [ICON_Culture] Culture, +1 [ICON_Amenities] Amenities in the city. City Center with Breathtaking Appeal double all these amounts.[NEWLINE]Receives a free Spy (and extra spy capacity) with the Guild civic.'
 	),
 
 	-- Unique Ability
-	("en_US",	"LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_NAME",	"Pricess Connect! Re:Dive"	),
-	("en_US",	"LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_DESCRIPTION",
-		"Increased Amenities [ICON_Amenities] in Coastal Cities. Gain additional +1 Food [ICON_Food] and +1 Production [ICON_Production] from Sea-Based Improvements."
+	('en_US',	'LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_NAME',	'Adventure Quests'	),
+	('en_US',	'LOC_TRAIT_CIVILIZATION_PRINCESS_CONNECT_REDIVE_UA_DESCRIPTION',
+		'+5 [ICON_Strength] Combat Strength against [ICON_Barbarian] Monsters (Barbarian and Free-City units).[NEWLINE]Combat victories against [ICON_Barbarian] Monsters provide [ICON_Food] Food and [ICON_Gold] Gold equal to the [ICON_Strength] Combat Strength of the defeated unit.'
 	),
 
 	-- Unique Infrastructure
-	("en_US",	"LOC_BUILDING_PRINCESS_CONNECT_REDIVE_UI1_NAME",	"Guild House"		),
-	("en_US",	"LOC_BUILDING_PRINCESS_CONNECT_REDIVE_UI1_DESCRIPTION",
-		"Provides +3 Food [ICON_Food] and +1 Gold [ICON_Gold]. Whenever a Great Person [ICON_GreatPerson] is recruited, gain a bonus to your Food [ICON_Food] in this city."
+	('en_US',	'LOC_DISTRICT_PRINCESS_CONNECT_REDIVE_UI1_NAME',	'Guild Clan'		),
+	('en_US',	'LOC_DISTRICT_PRINCESS_CONNECT_REDIVE_UI1_DESCRIPTION',
+		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, 2 [ICON_Amenities] Amenities, and 2 [ICON_Production] Production.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Extra Great Merchant points and Great Gneral Points at completion.'
 	),
 
 	-- Unique Unit
-	("en_US",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_NAME",		"Pricess Knight"	),
-	("en_US",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_DESCRIPTION",
-		"Stronger than the Warrior it replaces, this unit receives additional +5 Combat Strength [ICON_Strength] on Snow Terrain and +25% experience from combat."
+	('en_US',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_NAME',		'Pricess Knight'	),
+	('en_US',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU1_DESCRIPTION',
+		'Unique Medieval era melee unit.[NEWLINE]Does not suffer combat penalties when damaged.'
 	),
 
-	("en_US",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_NAME",		"Pricess Archer"	),
-	("en_US",	"LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_DESCRIPTION",
-		"Stronger than the Warrior it replaces, this unit receives additional +5 Combat Strength [ICON_Strength] on Snow Terrain and +25% experience from combat."
+	('en_US',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_NAME',		'Pricess Archer'	),
+	('en_US',	'LOC_UNIT_PRINCESS_CONNECT_REDIVE_UU2_DESCRIPTION',
+		'Unique Medieval era ranged unit that replaces the Crossbowman.[NEWLINE]Does not suffer combat penalties when damaged.'
 	);
