@@ -4,16 +4,16 @@
 <GameData>
 	<IconTextureAtlases>
 		<!-- Civilization Icon -->
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_256.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_80.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_64.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_50.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_48.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_45.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_44.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_36.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_30.dds"/>
-		<Row Name="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Princess_Connect_ReDive_22.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_256.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_80.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_64.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_50.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_48.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_45.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_44.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_36.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_30.dds"/>
+		<Row Name="ICON_ATLAS_PrincessConnectRedive" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PrincessConnectRedive_22.dds"/>
 		
 		<!-- Leader Icon -->
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_256.dds"/>
@@ -34,8 +34,8 @@
 	</IconTextureAtlases>
 
 	<IconDefinitions>
-		<Row Name="ICON_CIVILIZATION_PRINCESS_CONNECT_REDIVE" Atlas="ICON_ATLAS_PRINCESS_CONNECT_REDIVE" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_PrincessConnectRedive" Atlas="ICON_ATLAS_PrincessConnectRedive" Index="0"/>
 		<Row Name="ICON_LEADER_PCR_KYARU" Atlas="ICON_ATLAS_PCR_KYARU" Index="0"/>
-		<Row Name="ICON_DISTRICT_PCR_GUILD" Atlas="ICON_ATLAS_DISTRICT_PCR_GUILD" Index="0"/>
+		<Row Name="ICON_DISTRICT_GUILD_CLAN" Atlas="ICON_ATLAS_DISTRICT_PCR_GUILD" Index="0"/>
 	</IconDefinitions>
 </GameData>

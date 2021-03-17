@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::GameArtSpecification>
+<AssetObjects..GameArtSpecification>
 	<id>
 		<name text="Princess Connect! Re：Dive"/>
 		<id text="f7e7e896-7341-4b2c-8e10-61e5d66768f3"/>
@@ -140,6 +140,8 @@
 		</Element>
 		<Element>
 			<consumerName text="UI"/>
+			<relativeArtDefPaths>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="UITexture"/>
 			</libraryDependencies>
@@ -251,6 +253,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="Civilization.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -283,6 +286,7 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="District.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -291,6 +295,7 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="District.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -299,6 +304,8 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
+				<Element text="District.artdef"/>
+				<Element text="Civilization.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -599,4 +606,4 @@
 			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
 		</Element>
 	</requiredGameArtIDs>
-</AssetObjects::GameArtSpecification>
+</AssetObjects..GameArtSpecification>

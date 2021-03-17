@@ -21,8 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Pricess Connect ReDive</AssemblyName>
     <RootNamespace>Pricess Connect ReDive</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Localization/en_US/Menu.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Core/Leader_Kyaru.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PCR_MOD_FRONT_END"><File>Core/Civilization_FrontEnd.sql</File></UpdateDatabase><UpdateText id="PCR_MOD_FRONT_END"><File>Localization/en_US/Menu.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File></UpdateText><UpdateColors id="PCR_MOD_FRONT_END"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="PCR_MOD_FRONT_END"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="PCR_MOD_FRONT_END"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PCR_MOD_INGAME"><File>Core/Civilization_Config.sql</File><File>Core/Leader_Kyaru.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File></UpdateDatabase><UpdateText id="PCR_MOD_INGAME"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File><File>Localization/en_US/Civilopedia.sql</File><File>Localization/zh_Hans_CN/Civilopedia.sql</File></UpdateText><UpdateColors id="PCR_MOD_INGAME"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="PCR_MOD_INGAME"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="PCR_MOD_INGAME"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateAudio id="PCR_MOD_INGAME" /></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -40,10 +40,19 @@
     <ArtDef Include="ArtDefs\LeaderFallback.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <Content Include="Core\Icon.xml">
+    <ArtDef Include="ArtDefs\District.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Civilization.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Core\Civilization_UA.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Image.sql">
+    <Content Include="Core\Civilization_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Icon.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Civilization_Config.sql">
@@ -52,7 +61,7 @@
     <Content Include="Core\Colour_Config.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Leader_Config.sql">
+    <Content Include="Core\Civilization_FrontEnd.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Leader_Kyaru.sql">
@@ -61,10 +70,16 @@
     <Content Include="Localization\en_US\Civilization.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Localization\en_US\Civilopedia.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Localization\en_US\Menu.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\zh_Hans_CN\Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\zh_Hans_CN\Civilopedia.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\zh_Hans_CN\Menu.sql">
