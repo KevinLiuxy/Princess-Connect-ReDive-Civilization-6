@@ -22,18 +22,18 @@ VALUES
 	),
 
 	-- Unique Infrastructure
-	('en_US',	'LOC_DISTRICT_PrincessConnectRedive_UI_NAME',	'Guild Clan'		),
-	('en_US',	'LOC_DISTRICT_PrincessConnectRedive_UI_DESCRIPTION',
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_NAME',		'Guild Clan'		),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
 		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, 2 [ICON_Amenities] Amenities, and 2 [ICON_Production] Production.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Extra Great Merchant points and Great Gneral Points at completion.'
 	),
 
 	-- Unique Unit
-	('en_US',	'LOC_UNIT_PrincessConnectRedive_UU1_NAME',		'Pricess Knight'	),
-	('en_US',	'LOC_UNIT_PrincessConnectRedive_UU1_DESCRIPTION',
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'Pricess Knight'	),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 		'Unique Medieval era melee unit.[NEWLINE]Does not suffer combat penalties when damaged.'
 	),
 
-	('en_US',	'LOC_UNIT_PrincessConnectRedive_UU2_NAME',		'Pricess Archer'	),
-	('en_US',	'LOC_UNIT_PrincessConnectRedive_UU2_DESCRIPTION',
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'Pricess Archer'	),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 		'Unique Medieval era ranged unit that replaces the Crossbowman.[NEWLINE]Does not suffer combat penalties when damaged.'
 	);

@@ -31,11 +31,23 @@
 		<Row Name="ICON_ATLAS_DISTRICT_PCR_GUILD" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Building_PCR_Guild_50.dds"/>
 		<Row Name="ICON_ATLAS_DISTRICT_PCR_GUILD" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Building_PCR_Guild_38.dds"/>
 		<Row Name="ICON_ATLAS_DISTRICT_PCR_GUILD" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Building_PCR_Guild_32.dds"/>
+
+		<!-- Unit Icon -->
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_PRINCESS_ARCHER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Unit_Princess_Archer_22.dds"/>
 	</IconTextureAtlases>
 
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_PrincessConnectRedive" Atlas="ICON_ATLAS_PrincessConnectRedive" Index="0"/>
 		<Row Name="ICON_LEADER_PCR_KYARU" Atlas="ICON_ATLAS_PCR_KYARU" Index="0"/>
 		<Row Name="ICON_DISTRICT_GUILD_CLAN" Atlas="ICON_ATLAS_DISTRICT_PCR_GUILD" Index="0"/>
+		<Row Name="ICON_UNIT_PRINCESS_KNIGHT" Atlas="ICON_ATLAS_UNITS" Index="43"/>
+		<Row Name="ICON_UNIT_PRINCESS_ARCHER" Atlas="ICON_ATLAS_UNIT_PRINCESS_ARCHER" Index="0"/>
+		<Row Name="ICON_UNIT_PRINCESS_KNIGHT_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="32"/>
+		<Row Name="ICON_UNIT_PRINCESS_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="27"/>
 	</IconDefinitions>
 </GameData>

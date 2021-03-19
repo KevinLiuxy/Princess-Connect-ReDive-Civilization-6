@@ -15,7 +15,7 @@ VALUES ('CIVILIZATION_PrincessConnectRedive', 'TRAIT_CIVILIZATION_PrincessConnec
 INSERT INTO	TraitModifiers (TraitType, ModifierId)
 VALUES 	('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_COMBAT'			),
 		('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_GOLD_KILLS'		),
-		('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_CULTURE_KILLS'	);
+		('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_CULTURE_KILLS'		);
 
 INSERT INTO	Modifiers(
 	ModifierId,

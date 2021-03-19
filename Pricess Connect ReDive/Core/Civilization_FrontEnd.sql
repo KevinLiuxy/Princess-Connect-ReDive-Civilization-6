@@ -49,27 +49,27 @@ INSERT INTO PlayerItems(
 	/* Domain     */ 'Players:Expansion2_Players',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
-	/* Type		  */ 'UNIT_PrincessConnectRedive_UU1',
+	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
 	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
-	/* Name		  */ 'LOC_UNIT_PrincessConnectRedive_UU1_NAME',
-	/* Desc		  */ 'LOC_UNIT_PrincessConnectRedive_UU1_DESCRIPTION',
+	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
+	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
 ),(
 	/* Domain     */ 'Players:Expansion2_Players',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
-	/* Type		  */ 'UNIT_PrincessConnectRedive_UU2',
+	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
 	/* Icon		  */ 'ICON_UNIT_ARCHER',
-	/* Name		  */ 'LOC_UNIT_PrincessConnectRedive_UU2_NAME',
-	/* Desc		  */ 'LOC_UNIT_PrincessConnectRedive_UU2_DESCRIPTION',
+	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
+	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
 ),(
 	/* Domain     */ 'Players:Expansion2_Players',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
-	/* Type		  */ 'DISTRICT_PrincessConnectRedive_UI',
+	/* Type		  */ 'TRAIT_PrincessConnectRedive_UI',
 	/* Icon		  */ 'ICON_DISTRICT_GUILD_CLAN',
-	/* Name		  */ 'LOC_DISTRICT_PrincessConnectRedive_UI_NAME',
-	/* Desc		  */ 'LOC_DISTRICT_PrincessConnectRedive_UI_DESCRIPTION',
+	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UI_NAME',
+	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
 	/* SortIndex  */ 30
 );

@@ -8,6 +8,7 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
+				<Element text="Unit.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>

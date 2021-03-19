@@ -117,6 +117,42 @@
 			<m_EntryID text="Building_PCR_Guild_80"/>
 			<m_ObjectName text="Building_PCR_Guild_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_22"/>
+			<m_ObjectName text="Unit_Princess_Archer_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_32"/>
+			<m_ObjectName text="Unit_Princess_Archer_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_38"/>
+			<m_ObjectName text="Unit_Princess_Archer_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_50"/>
+			<m_ObjectName text="Unit_Princess_Archer_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_80"/>
+			<m_ObjectName text="Unit_Princess_Archer_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_256"/>
+			<m_ObjectName text="Unit_Princess_Archer_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Guild_Clan"/>
+			<m_ObjectName text="Moment_Guild_Clan"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Princess_Knight"/>
+			<m_ObjectName text="Moment_Princess_Knight"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Princess_Archer"/>
+			<m_ObjectName text="Moment_Princess_Archer"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

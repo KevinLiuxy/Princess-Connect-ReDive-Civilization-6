@@ -2,15 +2,15 @@
 -- Author: liuxi
 --------------------------------------------------------------
 INSERT INTO	Types (Type, Kind)
-VALUES	('DISTRICT_PrincessConnectRedive_UI',	'KIND_TRAIT'	),
-		('DISTRICT_GUILD_CLAN',					'KIND_DISTRICT'	);
+VALUES	('TRAIT_PrincessConnectRedive_UI',	'KIND_TRAIT'	),
+		('DISTRICT_GUILD_CLAN',				'KIND_DISTRICT'	);
 
 INSERT INTO	Traits (TraitType, Name, Description)
-VALUES ('DISTRICT_PrincessConnectRedive_UI', 'LOC_DISTRICT_PrincessConnectRedive_UI_NAME',
-			'LOC_DISTRICT_PrincessConnectRedive_UI_DESCRIPTION');
+VALUES ('TRAIT_PrincessConnectRedive_UI', 'LOC_TRAIT_PrincessConnectRedive_UI_NAME',
+			'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION');
 
 INSERT INTO	CivilizationTraits (CivilizationType, TraitType)
-VALUES ('CIVILIZATION_PrincessConnectRedive', 'DISTRICT_PrincessConnectRedive_UI');
+VALUES ('CIVILIZATION_PrincessConnectRedive', 'TRAIT_PrincessConnectRedive_UI');
 
 --------------------------------------------------------------
 INSERT INTO Districts(
@@ -41,13 +41,13 @@ INSERT INTO Districts(
 	TraitType
 ) VALUES (
 	/* DistrictType  */ 'DISTRICT_GUILD_CLAN',
-	/* Name          */ 'LOC_DISTRICT_PrincessConnectRedive_UI_NAME',
-	/* Description   */ 'LOC_DISTRICT_PrincessConnectRedive_UI_DESCRIPTION',
+	/* Name          */ 'LOC_TRAIT_PrincessConnectRedive_UI_NAME',
+	/* Description   */ 'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
 	/* PrereqTech    */ 'TECH_CURRENCY',
 	/* PlunderType   */ 'PLUNDER_GOLD',
 	/* PlunderAmount */ 75,
 	/* AdvisorType   */ 'ADVISOR_GENERIC',
-	/* Cost          */ 1,
+	/* Cost          */ 1,--27,
 	/* CostProgModel */ 'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',
 	/* CostProgParam */ 40,
 	/* ReqPlacement  */ 1,
@@ -64,7 +64,7 @@ INSERT INTO Districts(
 	/* Entertainment */ 2,
 	/* TravelTime    */ 3,
 	/* CityStrModify */ 4,
-	/* TraitType     */ 'DISTRICT_PrincessConnectRedive_UI'
+	/* TraitType     */ 'TRAIT_PrincessConnectRedive_UI'
 );
 
 INSERT INTO DistrictReplaces (CivUniqueDistrictType, ReplacesDistrictType)
