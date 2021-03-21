@@ -10,8 +10,8 @@ VALUES
 
 	-- Leader
 	('zh_Hans_CN',	'LOC_LEADER_PCR_KYARU_NAME',			'凯露'			),
-	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME',	'猫耳的魔法使'	),
-	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION',
+	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_NAME',		'猫耳的魔法使'	),
+	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION',
 		'市中心魅力为迷人的城市 +10% [ICON_Science] 科技值，+10% [ICON_Culture] 文化值，+1 [ICON_Amenities] 宜居度；魅力为惊艳的城市获得的加成将翻倍。[NEWLINE]解锁“公会”后免费获得1个间谍（并且增加1个间谍容量）。'
 	),
 

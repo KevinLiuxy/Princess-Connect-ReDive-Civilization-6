@@ -86,7 +86,7 @@ INSERT INTO Units(
 	/* AdvisorType   */ 'ADVISOR_CONQUEST',
 	/* PurchaseYield */ 'YIELD_GOLD',
 	/* PrereqTech    */ NULL,
-	/* PrereqCivic   */ 'CIVIC_GUILDS',
+	/* PrereqCivic   */ 'CIVIC_FEUDALISM',
 	/* ObsoleteTech  */ 'TECH_REPLACEABLE_PARTS',
 	/* TraitType     */ 'TRAIT_PrincessConnectRedive_UU1'
 ),(
@@ -100,7 +100,7 @@ INSERT INTO Units(
 	/* ZoneOfControl */ 0,
 	/* Domain        */ 'DOMAIN_LAND',
 	/* Combat        */ 35,
-	/* RangedCombat	 */ 48,
+	/* RangedCombat	 */ 50,
 	/* Range         */ 2,
 	/* StratResource */ NULL,
 	/* FormationClss */ 'FORMATION_CLASS_LAND_COMBAT',

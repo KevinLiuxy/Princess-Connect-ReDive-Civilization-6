@@ -3,7 +3,8 @@
 --------------------------------------------------------------
 INSERT INTO	Types (Type, Kind)
 VALUES	('TRAIT_PrincessConnectRedive_UI',	'KIND_TRAIT'	),
-		('DISTRICT_GUILD_CLAN',				'KIND_DISTRICT'	);
+		('DISTRICT_GUILD_CLAN',				'KIND_DISTRICT'	),
+		('PROJECT_CLAN_BATTLE',				'KIND_PROJECT'	);
 
 INSERT INTO	Traits (TraitType, Name, Description)
 VALUES ('TRAIT_PrincessConnectRedive_UI', 'LOC_TRAIT_PrincessConnectRedive_UI_NAME',
@@ -56,14 +57,14 @@ INSERT INTO Districts(
 	/* NoAdjCity     */ 0,
 	/* InternalOnly  */ 0,
 	/* ZoneOfControl */ 0,
-	/* HitPoints     */ 100,
+	/* HitPoints     */ 50,
 	/* CaptRMBuildin */ 0,
 	/* CaptRMCityDef */ 0,
 	/* MilitaryDmain */ 'NO_DOMAIN',
 	/* Housing       */ 3,
 	/* Entertainment */ 2,
 	/* TravelTime    */ 3,
-	/* CityStrModify */ 4,
+	/* CityStrModify */ 2,
 	/* TraitType     */ 'TRAIT_PrincessConnectRedive_UI'
 );
 
@@ -71,22 +72,6 @@ INSERT INTO DistrictReplaces (CivUniqueDistrictType, ReplacesDistrictType)
 VALUES	('DISTRICT_GUILD_CLAN', 'DISTRICT_COMMERCIAL_HUB');
 
 --------------------------------------------------------------
-INSERT INTO District_GreatPersonPoints (DistrictType, GreatPersonClassType, PointsPerTurn)
-VALUES ('DISTRICT_GUILD_CLAN', 'GREAT_PERSON_CLASS_MERCHANT', 1);
-
-INSERT INTO District_TradeRouteYields(
-	DistrictType,
-	YieldType,
-	YieldChangeAsOrigin,
-	YieldChangeAsDomesticDestination,
-	YieldChangeAsInternationalDestination
-) VALUES
-		('DISTRICT_GUILD_CLAN',		'YIELD_PRODUCTION',		0,	1,	0),
-		('DISTRICT_GUILD_CLAN',		'YIELD_GOLD',			0,	0,	3);
-
-INSERT INTO District_CitizenYieldChanges (DistrictType, YieldType, YieldChange)
-VALUES	('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
-
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 VALUES	('DISTRICT_GUILD_CLAN',		'District_Gold'							),
 		('DISTRICT_GUILD_CLAN',		'River_Gold'							),
@@ -112,6 +97,58 @@ INSERT INTO Adjacency_YieldChanges(
 	'YIELD_PRODUCTION', 3,
 	'DISTRICT_NEIGHBORHOOD', 1
 );
+
+INSERT INTO District_GreatPersonPoints (DistrictType, GreatPersonClassType, PointsPerTurn)
+VALUES ('DISTRICT_GUILD_CLAN', 'GREAT_PERSON_CLASS_MERCHANT', 1);
+
+INSERT INTO District_TradeRouteYields(
+	DistrictType,
+	YieldType,
+	YieldChangeAsOrigin,
+	YieldChangeAsDomesticDestination,
+	YieldChangeAsInternationalDestination
+) VALUES
+		('DISTRICT_GUILD_CLAN',		'YIELD_PRODUCTION',		0,	1,	0),
+		('DISTRICT_GUILD_CLAN',		'YIELD_GOLD',			0,	0,	3);
+
+INSERT INTO District_CitizenYieldChanges (DistrictType, YieldType, YieldChange)
+VALUES ('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
+
+--------------------------------------------------------------
+INSERT INTO Projects(
+	ProjectType,
+	Name,
+	ShortName,
+	Description,
+	PrereqDistrict,
+	Cost,
+	AdvisorType,
+	CostProgressionModel,
+	CostProgressionParam1
+) VALUES (
+	/* ProjectType */ 'PROJECT_CLAN_BATTLE',
+	/* Name        */ 'LOC_PROJECT_CLAN_BATTLE_NAME',
+	/* ShortName   */ 'LOC_PROJECT_CLAN_BATTLE_SHORT_NAME',
+	/* Description */ 'LOC_PROJECT_CLAN_BATTLE_DESCRIPTION',
+	/* PrerqDstrct */ 'DISTRICT_GUILD_CLAN',
+	/* Cost        */ 25,
+	/* AdvisorType */ 'ADVISOR_GENERIC',
+	/* ProgreModel */ 'COST_PROGRESSION_GAME_PROGRESS',
+	/* ProgreParam */ 1500
+);
+
+INSERT INTO Project_GreatPersonPoints(
+	ProjectType,
+	GreatPersonClassType,
+	Points,
+	PointProgressionModel,
+	PointProgressionParam1
+) VALUES
+		('PROJECT_CLAN_BATTLE',	'GREAT_PERSON_CLASS_MERCHANT',	15,	'COST_PROGRESSION_GAME_PROGRESS',	800),
+		('PROJECT_CLAN_BATTLE',	'GREAT_PERSON_CLASS_GENERAL',	15,	'COST_PROGRESSION_GAME_PROGRESS',	800);
+
+INSERT INTO Project_YieldConversions (ProjectType, YieldType, PercentOfProductionRate)
+VALUES ('PROJECT_CLAN_BATTLE', 'YIELD_GOLD', 30);
 
 --------------------------------------------------------------
 INSERT INTO Requirements (RequirementId, RequirementType, Inverse)

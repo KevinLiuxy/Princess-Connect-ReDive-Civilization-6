@@ -10,8 +10,8 @@ VALUES
 
 	-- Leader
 	('en_US',	'LOC_LEADER_PCR_KYARU_NAME',			'Kyaru'					),
-	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_NAME',	'The Catty Sorceress'	),
-	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_UA_DESCRIPTION',
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_NAME',		'The Catty Sorceress'	),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION',
 		'City Center with Charming Appeal receives +10% [ICON_Science] Science, +10% [ICON_Culture] Culture, +1 [ICON_Amenities] Amenities in the city. City Center with Breathtaking Appeal double all these amounts.[NEWLINE]Receives a free Spy (and extra spy capacity) with the Guild civic.'
 	),
 

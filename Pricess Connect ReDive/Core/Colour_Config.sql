@@ -9,7 +9,7 @@ VALUES	('COLOR_PrincessConnectRedive_A_PRIMARY'  , '245,82,145,255'	),
 		('COLOR_PrincessConnectRedive_C_PRIMARY'  , '75,160,225,255'	),
 		('COLOR_PrincessConnectRedive_C_SECONDARY', '255,255,255,255'	),
 		('COLOR_PrincessConnectRedive_D_PRIMARY'  , '98,232,164,255'	),
-		('COLOR_PrincessConnectRedive_D_SECONDARY', '24,30,30,255'	);
+		('COLOR_PrincessConnectRedive_D_SECONDARY', '24,30,30,255'		);
 
 --------------------------------------------------------------
 INSERT INTO	PlayerColors(
