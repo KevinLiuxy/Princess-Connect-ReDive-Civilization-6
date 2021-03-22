@@ -153,6 +153,82 @@
 			<m_EntryID text="Moment_Princess_Archer"/>
 			<m_ObjectName text="Moment_Princess_Archer"/>
 		</Element>
+		<Element>
+			<m_EntryID text="PCR_Kokkoro_Loading"/>
+			<m_ObjectName text="PCR_Kokkoro_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Kokkoro_Menu"/>
+			<m_ObjectName text="PCR_Kokkoro_Menu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Pecorine_Loading"/>
+			<m_ObjectName text="PCR_Pecorine_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Pecorine_Menu"/>
+			<m_ObjectName text="PCR_Pecorine_Menu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_256"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_32"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_45"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_50"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_55"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_64"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_80"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_256"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_32"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_45"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_50"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_55"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_64"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_80"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Menu_Background"/>
+			<m_ObjectName text="PCR_Menu_Background"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

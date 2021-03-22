@@ -128,7 +128,7 @@ INSERT INTO Projects(
 ) VALUES (
 	/* ProjectType */ 'PROJECT_CLAN_BATTLE',
 	/* Name        */ 'LOC_PROJECT_CLAN_BATTLE_NAME',
-	/* ShortName   */ 'LOC_PROJECT_CLAN_BATTLE_SHORT_NAME',
+	/* ShortName   */ 'LOC_PROJECT_CLAN_BATTLE_NAME',
 	/* Description */ 'LOC_PROJECT_CLAN_BATTLE_DESCRIPTION',
 	/* PrerqDstrct */ 'DISTRICT_GUILD_CLAN',
 	/* Cost        */ 25,

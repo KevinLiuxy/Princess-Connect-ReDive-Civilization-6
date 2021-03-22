@@ -13,6 +13,14 @@
 			<m_EntryID text="PCR_Kyaru_InGame"/>
 			<m_ObjectName text="PCR_Kyaru_InGame"/>
 		</Element>
+		<Element>
+			<m_EntryID text="PCR_Kokkoro_InGame"/>
+			<m_ObjectName text="PCR_Kokkoro_InGame"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Pecorine_InGame"/>
+			<m_ObjectName text="PCR_Pecorine_InGame"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

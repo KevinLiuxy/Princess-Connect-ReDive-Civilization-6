@@ -8,32 +8,52 @@ VALUES
 	('en_US',	'LOC_CIVILIZATION_PrincessConnectRedive_DESCRIPTION',	'Gourmet Edifice'	),
 	('en_US',	'LOC_CIVILIZATION_PrincessConnectRedive_ADJECTIVE',  	'Princess Connect'	),
 
-	-- Leader
-	('en_US',	'LOC_LEADER_PCR_KYARU_NAME',			'Kyaru'					),
-	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_NAME',		'The Catty Sorceress'	),
-	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION',
-		'City Center with Charming Appeal receives +10% [ICON_Science] Science, +10% [ICON_Culture] Culture, +1 [ICON_Amenities] Amenities in the city. City Center with Breathtaking Appeal double all these amounts.[NEWLINE]Receives a free Spy (and extra spy capacity) with the Guild civic.'
-	),
-
 	-- Unique Ability
 	('en_US',	'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',	'Adventure Quests'	),
 	('en_US',	'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
-		'+5 [ICON_Strength] Combat Strength against [ICON_Barbarian] Monsters (Barbarian and Free-City units).[NEWLINE]Combat victories against [ICON_Barbarian] Monsters provide [ICON_Gold] Gold and [ICON_Culture] Culture equal to 100% and 50% of the [ICON_Strength] Combat Strength of the defeated unit.'
+		'+5 [ICON_Strength] Combat Strength against [ICON_Barbarian] Monsters (Barbarians) and City-states. Combat victories against [ICON_Barbarian] Monsters and City-states provide [ICON_Gold] Gold and [ICON_Culture] Culture equal to 100% and 50% of the [ICON_Strength] Combat Strength of the defeated unit.'
+	),
+
+	-- Leader Kyaru
+	('en_US',	'LOC_LEADER_PCR_KYARU_NAME',			'Kyaru'						),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_NAME',		'The Catty Sorceress'		),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION',
+		'City Center with Charming Appeal receives +7% [ICON_Science] Science, +7% [ICON_Culture] Culture, +1 [ICON_Amenities] Amenities, and +3 Loyalty in the city. City Center with Breathtaking Appeal double all these amounts.[NEWLINE]City Center with Uninviting Appeal receives -1 [ICON_Amenities] Amenities, and -3 Loyalty in the city. City Center with Disgusting Appeal double all these penalties.[NEWLINE][NEWLINE]Receives a free Spy (and extra spy capacity) with the Guilds civic.'
+	),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION_VANILLA',
+		'City Center with Charming Appeal receives +7% [ICON_Science] Science, +7% [ICON_Culture] Culture, and +1 [ICON_Amenities] Amenities in the city. City Center with Breathtaking Appeal double all these amounts.[NEWLINE]City Center with Uninviting Appeal receives -1 [ICON_Amenities] Amenities in the city. City Center with Disgusting Appeal double all these penalties.[NEWLINE][NEWLINE]Receives a free Spy (and extra spy capacity) with the Guilds civic.'
+	),
+
+	-- Leader Pecorine
+	('en_US',	'LOC_LEADER_PCR_PECORINE_NAME',			'Pecorine'					),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'the Princess of Peckish'	),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
+		'Farms +1 [ICON_Food] Food +1 [ICON_Gold] Gold;[NEWLINE]Pastures +1 [ICON_Food] Food +1 [ICON_Culture] Culture;[NEWLINE]Plantations +1 [ICON_Food] Food +1 [ICON_Science] Science;[NEWLINE]Camps +1 [ICON_Food] Food +1 [ICON_Faith] Faith;[NEWLINE]Fishing Boats +1 [ICON_Food] Food +1 [ICON_Production] Production.[NEWLINE]Every one of these Tile Improvements produces +3% Growth in the City.[NEWLINE][NEWLINE]City with insufficient [ICON_Food] Food suffers -50% in all non-food Yields.'
+	),
+
+	-- Leader Kokkoro
+	('en_US',	'LOC_LEADER_PCR_KOKKORO_NAME',			'Kokkoro'					),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',	'The Faithful Guide'		),
+	('en_US',	'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
+		'Forest tiles adjacent to a Shrine +2 [ICON_Faith] Faith, +1 [ICON_Food] Food.[NEWLINE]Combat Units in Forests recieve +15 Heal; Religious Units in Forests +10 [ICON_RELIGION] Theological Combat Strength.[NEWLINE][NEWLINE]Receives an extra Wildcard policy slot from the "Mysticism" Civic.'
 	),
 
 	-- Unique Infrastructure
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_NAME',		'Guild Clan'		),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
-		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, 2 [ICON_Amenities] Amenities, and 2 [ICON_Production] Production.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Extra Great Merchant points and Great Gneral Points at completion.'
+		'Replaces Commercial Hub district, cheaper to build and has minor Regional Defese. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +3 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Grant Great Merchant points and Great Gneral points at completion.'
+	),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION_VANILLA',
+		'Replaces Commercial Hub district, cheaper to build and has minor Regional Defese. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +3 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold in the city while ongoing. Grant Great Merchant points and Great Gneral points at completion.'
 	),
 
 	-- Unique Unit
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'Pricess Knight'	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
-		'Unique Medieval era melee unit.[NEWLINE]Does not suffer combat penalties when damaged.'
+		'Unique Medieval era melee unit that replaces the Musketman, unlocked by the Feudalism civic. Does not suffer combat penalties when damaged.'
 	),
 
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'Pricess Archer'	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
-		'Unique Medieval era ranged unit that replaces the Crossbowman.[NEWLINE]Does not suffer combat penalties when damaged.'
+		'Unique Medieval era ranged unit that replaces the Crossbowman, unlocked by the Guilds civic. Does not suffer combat penalties when damaged.'
 	);

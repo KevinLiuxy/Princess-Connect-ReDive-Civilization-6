@@ -38,7 +38,6 @@ VALUES
 	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_32',  'Hveen'),
 --------------------------------------------------------------
 	-- Citizen Names
-	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_MALE_1',		'Nijimura Yuki'			),
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1',	'Izumo Miyako'			),
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_2',	'Hikawa Kyouka'			),
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3',	'Joubert Ninon'			),
@@ -64,5 +63,32 @@ VALUES
 	-- Civilization Info
 	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_LOCATION',		'Astraea'			),
 	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_SIZE',			'120,000 km²'		),
-	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'c. 15 million'		),
-	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_CAPITAL',		'Landsol'			);
+	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'15 million (2030)'	),
+	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_CAPITAL',		'Landsol'			),
+
+--------------------------------------------------------------
+	-- Geological Features
+	('en_US',	'LOC_NAMED_DESSERT_PCR1',	'Genua Desert'		),
+	('en_US',	'LOC_NAMED_DESSERT_PCR2',	'Bononia Dunes'		),
+	('en_US',	'LOC_NAMED_LAKE_PCR1',		'Lake Flora'		),
+	('en_US',	'LOC_NAMED_LAKE_PCR2',		'Lake Landsol'		),
+	('en_US',	'LOC_NAMED_LAKE_PCR3',		'Genua Oasis'		),
+	('en_US',	'LOC_NAMED_LAKE_PCR4',		'Ceres Lake'		),
+	('en_US',	'LOC_NAMED_LAKE_PCR5',		'Lake Astrum'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR1',	'Pallas Plateau'	),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR2',	'Frigga Highlands'	),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR3',	'Themis Peak'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR4',	'Matildo Peak'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR5',	'Redius Peak'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PCR6',	'Futera Cliff'		),
+	('en_US',	'LOC_NAMED_OCEAN_PCR1',		'Astraea Ocean'		),
+	('en_US',	'LOC_NAMED_RIVER_PCR1',		'Vesta Creek'		),
+	('en_US',	'LOC_NAMED_RIVER_PCR2',		'Metis River'		),
+	('en_US',	'LOC_NAMED_RIVER_PCR3',		'Dystal River'		),
+	('en_US',	'LOC_NAMED_RIVER_PCR4',		'Juno River'		),
+	('en_US',	'LOC_NAMED_RIVER_PCR5',		'Iris Stream'		),
+	('en_US',	'LOC_NAMED_SEA_PCR1',		'Loretta Bay'		),
+	('en_US',	'LOC_NAMED_SEA_PCR2',		'Margem Sea'		),
+	('en_US',	'LOC_NAMED_SEA_PCR3',		'Metis Gulf'		),
+	('en_US',	'LOC_NAMED_VOLCANO_PCR1',	'Mount Eugenia'		),
+	('en_US',	'LOC_NAMED_VOLCANO_PCR2',	'Mount Taria'		);

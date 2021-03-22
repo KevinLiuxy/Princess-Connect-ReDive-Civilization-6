@@ -21,12 +21,12 @@ VALUES
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_15',	'伊丽丝'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_16',	'弗丽嘉'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_17',	'洛蕾塔'),
-	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_18',	'热亚那'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_18',	'热那亚'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_19',	'博洛尼亚'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_20',	'多萝西亚'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_21',	'尤金妮亚'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_22',	'塔利亚'),
-	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_23',	'赛梅斯'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_23',	'忒密斯'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_24',	'菲德斯'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_25',	'法埃顿'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_26',	'马提尔德'),
@@ -38,7 +38,6 @@ VALUES
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_32',	'维娜'),
 --------------------------------------------------------------
 	-- Citizen Names
-	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_MALE_1',		'虹村雪'			),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1',	'出云宫子'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_2',	'冰川镜华'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3',	'妮侬·朱贝尔'	),
@@ -64,5 +63,32 @@ VALUES
 	-- Civilization Info
 	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_LOCATION',		'阿斯特莱亚'		),
 	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_SIZE',			'120,000 km²'	),
-	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'c. 1500 万'		),
-	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_CAPITAL',		'兰德索尔'		);
+	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'1500 万 (2030)'	),
+	('zh_Hans_CN',	'LOC_CIVINFO_PrincessConnectRedive_CAPITAL',		'兰德索尔'		),
+
+--------------------------------------------------------------
+	-- Geological Features
+	('zh_Hans_CN',	'LOC_NAMED_DESSERT_PCR1',	'热那亚沙漠'		),
+	('zh_Hans_CN',	'LOC_NAMED_DESSERT_PCR2',	'博洛尼亚沙丘'	),
+	('zh_Hans_CN',	'LOC_NAMED_LAKE_PCR1',		'弗洛拉湖'		),
+	('zh_Hans_CN',	'LOC_NAMED_LAKE_PCR2',		'兰德索尔湖'		),
+	('zh_Hans_CN',	'LOC_NAMED_LAKE_PCR3',		'热那亚绿洲'		),
+	('zh_Hans_CN',	'LOC_NAMED_LAKE_PCR4',		'克瑞斯湖'		),
+	('zh_Hans_CN',	'LOC_NAMED_LAKE_PCR5',		'阿斯特朗湖'		),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR1',	'帕拉斯高原'		),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR2',	'弗丽嘉高原'		),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR3',	'忒密斯雪山'		),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR4',	'马提尔德岩峰'	),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR5',	'雷蒂乌斯群峰'	),
+	('zh_Hans_CN',	'LOC_NAMED_MOUNTAIN_PCR6',	'弗泰拉断崖'		),
+	('zh_Hans_CN',	'LOC_NAMED_OCEAN_PCR1',		'阿斯特莱亚洋'	),
+	('zh_Hans_CN',	'LOC_NAMED_RIVER_PCR1',		'维斯塔河'		),
+	('zh_Hans_CN',	'LOC_NAMED_RIVER_PCR2',		'墨提斯河'		),
+	('zh_Hans_CN',	'LOC_NAMED_RIVER_PCR3',		'迪兹塔尔河'		),
+	('zh_Hans_CN',	'LOC_NAMED_RIVER_PCR4',		'朱诺江'			),
+	('zh_Hans_CN',	'LOC_NAMED_RIVER_PCR5',		'伊丽丝河'		),
+	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR1',		'洛蕾塔海'		),
+	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR2',		'马耳冈海'		),
+	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR3',		'墨提斯湾'		),
+	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR1',	'尤金妮亚火山'	),
+	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR2',	'塔利亚火山'		);

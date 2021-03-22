@@ -23,7 +23,7 @@ INSERT INTO	Civilizations(
 );
 
 INSERT INTO	StartBiasTerrains (CivilizationType, TerrainType, Tier)
-VALUES ('CIVILIZATION_PrincessConnectRedive', 'TERRAIN_PLAINS', 2);
+VALUES ('CIVILIZATION_PrincessConnectRedive', 'TERRAIN_PLAINS', 3);
 /*
 INSERT INTO	StartBiasFeatures (CivilizationType, FeatureType, Tier)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'FEATURE_FOREST', 5);*/
@@ -65,8 +65,7 @@ VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedi
 
 --------------------------------------------------------------
 INSERT INTO	CivilizationCitizenNames (CivilizationType, CitizenName, Female)
-VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_MALE_1'  , 0),
-		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1', 1),
+VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_2', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_4', 1),

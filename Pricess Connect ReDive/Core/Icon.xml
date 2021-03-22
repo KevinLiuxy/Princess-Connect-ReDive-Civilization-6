@@ -24,6 +24,22 @@
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_45.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_32.dds"/>
 
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_256.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_80.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_64.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_55.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_45.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_32.dds"/>
+
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_256.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_80.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_64.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_55.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_45.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_32.dds"/>
+
 		<!-- District Icon -->
 		<Row Name="ICON_ATLAS_DISTRICT_PCR_GUILD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Building_PCR_Guild_256.dds"/>
 		<Row Name="ICON_ATLAS_DISTRICT_PCR_GUILD" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Building_PCR_Guild_128.dds"/>
@@ -44,6 +60,8 @@
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_PrincessConnectRedive" Atlas="ICON_ATLAS_PrincessConnectRedive" Index="0"/>
 		<Row Name="ICON_LEADER_PCR_KYARU" Atlas="ICON_ATLAS_PCR_KYARU" Index="0"/>
+		<Row Name="ICON_LEADER_PCR_KOKKORO" Atlas="ICON_ATLAS_PCR_KOKKORO" Index="0"/>
+		<Row Name="ICON_LEADER_PCR_PECORINE" Atlas="ICON_ATLAS_PCR_PECORINE" Index="0"/>
 		<Row Name="ICON_DISTRICT_GUILD_CLAN" Atlas="ICON_ATLAS_DISTRICT_PCR_GUILD" Index="0"/>
 		<Row Name="ICON_PROJECT_CLAN_BATTLE" Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
 		<Row Name="ICON_UNIT_PRINCESS_KNIGHT" Atlas="ICON_ATLAS_UNITS" Index="43"/>

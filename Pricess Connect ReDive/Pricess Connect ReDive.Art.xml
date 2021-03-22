@@ -254,7 +254,6 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
-				<Element text="Civilization.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -306,7 +305,6 @@
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
 				<Element text="District.artdef"/>
-				<Element text="Civilization.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
