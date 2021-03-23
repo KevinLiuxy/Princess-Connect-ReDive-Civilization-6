@@ -106,6 +106,6 @@ INSERT INTO NamedVolcanoes (NamedVolcanoType, Name)
 VALUES	('NAMED_VOLCANO_PCR1',	'LOC_NAMED_VOLCANO_PCR1'),
 		('NAMED_VOLCANO_PCR2',	'LOC_NAMED_VOLCANO_PCR2');
 
-INSERT INTO NamedVolcanoeCivilizations (NamedVolcanoType, CivilizationType)
+INSERT INTO NamedVolcanoCivilizations (NamedVolcanoType, CivilizationType)
 VALUES	('NAMED_VOLCANO_PCR1',	'CIVILIZATION_PrincessConnectRedive'),
 		('NAMED_VOLCANO_PCR2',	'CIVILIZATION_PrincessConnectRedive');

@@ -1,7 +1,7 @@
 -- Civilization
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
+INSERT INTO LocalizedText (Language, Tag, Text)
 VALUES
 	-- City Names
 	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_1',   'Landsol'),

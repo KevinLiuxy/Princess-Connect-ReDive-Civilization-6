@@ -23,7 +23,7 @@ INSERT INTO	Civilizations(
 );
 
 INSERT INTO	StartBiasTerrains (CivilizationType, TerrainType, Tier)
-VALUES ('CIVILIZATION_PrincessConnectRedive', 'TERRAIN_PLAINS', 3);
+VALUES ('CIVILIZATION_PrincessConnectRedive', 'TERRAIN_PLAINS', 2);
 /*
 INSERT INTO	StartBiasFeatures (CivilizationType, FeatureType, Tier)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'FEATURE_FOREST', 5);*/

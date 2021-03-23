@@ -55,7 +55,7 @@ VALUES	('PCRCivics'), ('PCRTechs'), ('PCRWonders');
 
 INSERT INTO AiFavoredItems (ListType, Item, Favored)
 VALUES	('PCRWonders',	'BUILDING_HANGING_GARDENS',		1),
-		('PCRWonders',	'BUILDING_GREAT_LIGHTHOUSE',	1),
+		('PCRWonders',	'BUILDING_ORACLE',				1),
 		('PCRWonders',	'BUILDING_POTALA_PALACE',		1),
 		('PCRWonders',	'BUILDING_COLOSSEUM',			1),
 		('PCRWonders',	'BUILDING_GREAT_LIBRARY',		1),

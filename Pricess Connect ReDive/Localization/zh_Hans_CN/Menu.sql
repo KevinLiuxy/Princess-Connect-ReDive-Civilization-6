@@ -1,7 +1,7 @@
 -- Menu
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
+INSERT INTO LocalizedText (Language, Tag, Text)
 VALUES
 	-- Civilization General
 	('zh_Hans_CN',	'LOC_CIVILIZATION_PrincessConnectRedive_NAME',			'公主连结'	),
@@ -28,14 +28,14 @@ VALUES
 	('zh_Hans_CN',	'LOC_LEADER_PCR_PECORINE_NAME',			'佩可莉姆'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'贪吃的公主'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
-		'农场 +1 [ICON_Food] 食物 +1 [ICON_Gold] 金币；[NEWLINE]牧场 +1 [ICON_Food] 食物 +1 [ICON_Culture] 文化值；[NEWLINE]种植园 +1 [ICON_Food] 食物 +1 [ICON_Science] 科技值；[NEWLINE]营地 +1 [ICON_Food] 食物 +1 [ICON_Faith] 信仰；[NEWLINE]渔船 +1 [ICON_Food] 食物 +1 [ICON_Production] 生产力。[NEWLINE]以上每种改良设施为城市增加 3% 增长速度。[NEWLINE][ICON_Food] 食物不足的城市全产出 -50%。'
+		'农场 +1 [ICON_Food] 食物 +1 [ICON_Gold] 金币；[NEWLINE]牧场 +1 [ICON_Food] 食物 +1 [ICON_Culture] 文化值；[NEWLINE]种植园 +1 [ICON_Food] 食物 +1 [ICON_Science] 科技值；[NEWLINE]营地 +1 [ICON_Food] 食物 +1 [ICON_Faith] 信仰；[NEWLINE]渔船 +1 [ICON_Food] 食物 +1 [ICON_Production] 生产力。[NEWLINE]加成资源如同奢侈品资源一样，每种类型资源提供 2 [ICON_Amenities] 宜居度。'
 	),
 
 	-- Leader Kokkoro
 	('zh_Hans_CN',	'LOC_LEADER_PCR_KOKKORO_NAME',			'可可萝'			),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',	'小小的向导'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
-		'神社为相邻未改良的森林 +2 信仰 [ICON_Faith] +1 食物 [ICON_Food]。军事单位在森林单元格中 +15 回复，宗教单位在森林单元格中 +10 [ICON_RELIGION] 战力。[NEWLINE]解锁神秘主义后额外获得一个通用槽位。'
+		'神社为相邻未改良的森林 +3 [ICON_Faith] 信仰 +1 [ICON_Food] 食物。所有单位在森林单元格中 +15 回复，宗教单位在森林单元格中 +10 [ICON_RELIGION] 宗教战斗力。[NEWLINE]解锁“神秘主义”后额外获得一个通配符政策槽位。'
 	),
 
 	-- Unique Infrastructure

@@ -71,6 +71,38 @@ INSERT INTO Players(
 --------------------------------------------------------------
 ),(	-- Leader Pecorine
 
+	/* Domain		    */ 'StandardPlayers',
+	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
+	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
+	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* CivAbilityName   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',
+	/* CivAbilityDesc   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
+	/* CivAbilityIcon	*/ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* LeaderType		 */ 'LEADER_PCR_PECORINE',
+	/* LeaderName		 */ 'LOC_LEADER_PCR_PECORINE_NAME',
+	/* LeaderIcon		 */ 'ICON_LEADER_PCR_PECORINE',
+	/* LeaderAbilityName */ 'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',
+	/* LeaderAbilityDesc */ 'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
+	/* LeaderAbilityIcon */ 'ICON_LEADER_PCR_PECORINE',
+	/* Portrait			 */ 'PCR_Pecorine_Menu',
+	/* PortraitBackgrond */ 'PCR_Menu_Background'
+),(
+	/* Domain		    */ 'Players:Expansion1_Players',
+	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
+	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
+	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* CivAbilityName   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',
+	/* CivAbilityDesc   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
+	/* CivAbilityIcon	*/ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* LeaderType		 */ 'LEADER_PCR_PECORINE',
+	/* LeaderName		 */ 'LOC_LEADER_PCR_PECORINE_NAME',
+	/* LeaderIcon		 */ 'ICON_LEADER_PCR_PECORINE',
+	/* LeaderAbilityName */ 'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',
+	/* LeaderAbilityDesc */ 'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
+	/* LeaderAbilityIcon */ 'ICON_LEADER_PCR_PECORINE',
+	/* Portrait			 */ 'PCR_Pecorine_Menu',
+	/* PortraitBackgrond */ 'PCR_Menu_Background'
+),(
 	/* Domain		    */ 'Players:Expansion2_Players',
 	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
 	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
@@ -90,6 +122,38 @@ INSERT INTO Players(
 --------------------------------------------------------------
 ),(	-- Leader Kokkoro
 
+	/* Domain		    */ 'StandardPlayers',
+	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
+	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
+	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* CivAbilityName   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',
+	/* CivAbilityDesc   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
+	/* CivAbilityIcon	*/ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* LeaderType		 */ 'LEADER_PCR_KOKKORO',
+	/* LeaderName		 */ 'LOC_LEADER_PCR_KOKKORO_NAME',
+	/* LeaderIcon		 */ 'ICON_LEADER_PCR_KOKKORO',
+	/* LeaderAbilityName */ 'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',
+	/* LeaderAbilityDesc */ 'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
+	/* LeaderAbilityIcon */ 'ICON_LEADER_PCR_KOKKORO',
+	/* Portrait			 */ 'PCR_Kokkoro_Menu',
+	/* PortraitBackgrond */ 'PCR_Menu_Background'
+),(
+	/* Domain		    */ 'Players:Expansion1_Players',
+	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
+	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
+	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* CivAbilityName   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',
+	/* CivAbilityDesc   */ 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
+	/* CivAbilityIcon	*/ 'ICON_CIVILIZATION_PrincessConnectRedive',
+	/* LeaderType		 */ 'LEADER_PCR_KOKKORO',
+	/* LeaderName		 */ 'LOC_LEADER_PCR_KOKKORO_NAME',
+	/* LeaderIcon		 */ 'ICON_LEADER_PCR_KOKKORO',
+	/* LeaderAbilityName */ 'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',
+	/* LeaderAbilityDesc */ 'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
+	/* LeaderAbilityIcon */ 'ICON_LEADER_PCR_KOKKORO',
+	/* Portrait			 */ 'PCR_Kokkoro_Menu',
+	/* PortraitBackgrond */ 'PCR_Menu_Background'
+),(
 	/* Domain		    */ 'Players:Expansion2_Players',
 	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
 	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
@@ -124,7 +188,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -133,7 +197,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -142,7 +206,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -151,7 +215,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -160,7 +224,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -169,7 +233,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -208,7 +272,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -217,7 +281,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -226,7 +290,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -235,7 +299,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -244,7 +308,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -253,7 +317,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -292,7 +356,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -301,7 +365,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -310,7 +374,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU1',
-	/* Icon		  */ 'ICON_UNIT_SWORDSMAN',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_KNIGHT',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
@@ -319,7 +383,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -328,7 +392,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
@@ -337,7 +401,7 @@ INSERT INTO PlayerItems(
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type		  */ 'TRAIT_PrincessConnectRedive_UU2',
-	/* Icon		  */ 'ICON_UNIT_ARCHER',
+	/* Icon		  */ 'ICON_UNIT_PRINCESS_ARCHER',
 	/* Name		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Desc		  */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20

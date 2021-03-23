@@ -48,7 +48,7 @@ INSERT INTO Districts(
 	/* PlunderType   */ 'PLUNDER_GOLD',
 	/* PlunderAmount */ 75,
 	/* AdvisorType   */ 'ADVISOR_GENERIC',
-	/* Cost          */ 1,--27,
+	/* Cost          */ 27,
 	/* CostProgModel */ 'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',
 	/* CostProgParam */ 40,
 	/* ReqPlacement  */ 1,
