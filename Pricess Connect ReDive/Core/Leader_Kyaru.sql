@@ -156,7 +156,10 @@ INSERT INTO HistoricalAgendas (LeaderType, AgendaType)
 VALUES ('LEADER_PCR_KYARU',	'AGENDA_PCR_KYARU');
 
 INSERT INTO AgendaPreferredLeaders (AgendaType, LeaderType, PercentageChance)
-VALUES ('AGENDA_NUKE_LOVER', 'LEADER_PCR_KYARU', 40);
+VALUES ('AGENDA_NUKE_LOVER', 'LEADER_PCR_KYARU', 33);
+
+INSERT INTO ExclusiveAgendas (AgendaOne, AgendaTwo)
+VALUES ('AGENDA_PCR_KYARU', 'AGENDA_FUN_LOVING');
 
 INSERT INTO AgendaTraits (AgendaType, TraitType)
 VALUES ('AGENDA_PCR_KYARU', 'TRAIT_AGENDA_PCR_KYARU');
@@ -177,16 +180,16 @@ VALUES (
 );
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES	('AGENDA_KYARU_SATISFIED',		'InitialValue',					1											),
-		('AGENDA_KYARU_SATISFIED',		'IncrementValue',				1											),
-		('AGENDA_KYARU_SATISFIED',		'IncrementTurns',				3											),
-		('AGENDA_KYARU_SATISFIED',		'MessageThrottle',				5											),
-		('AGENDA_KYARU_SATISFIED',		'MaxValue',						12											),
-		('AGENDA_KYARU_SATISFIED',		'StatementKey',					'LOC_DIPLO_KUDO_LEADER_KYARU_REASON_ANY'	),
-		('AGENDA_KYARU_SATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_KYARU_SATISFIED'		),
-		('AGENDA_KYARU_UNSATISFIED',	'InitialValue',					-10											),
-		('AGENDA_KYARU_UNSATISFIED',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_KYARU_REASON_ANY'	),
-		('AGENDA_KYARU_UNSATISFIED',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_KYARU_UNSATISFIED'		);
+VALUES	('AGENDA_KYARU_SATISFIED',		'InitialValue',					1															),
+		('AGENDA_KYARU_SATISFIED',		'IncrementValue',				1															),
+		('AGENDA_KYARU_SATISFIED',		'IncrementTurns',				3															),
+		('AGENDA_KYARU_SATISFIED',		'MessageThrottle',				5															),
+		('AGENDA_KYARU_SATISFIED',		'MaxValue',						12															),
+		('AGENDA_KYARU_SATISFIED',		'StatementKey',					'LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_HAPPINESS'	),
+		('AGENDA_KYARU_SATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS'				),
+		('AGENDA_KYARU_UNSATISFIED',	'InitialValue',					-10															),
+		('AGENDA_KYARU_UNSATISFIED',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_HAPPINESS'	),
+		('AGENDA_KYARU_UNSATISFIED',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS'				);
 
 INSERT INTO ModifierStrings (ModifierId, Context, Text)
 VALUES	('AGENDA_KYARU_SATISFIED',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'),

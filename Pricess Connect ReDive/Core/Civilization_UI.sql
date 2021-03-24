@@ -57,7 +57,7 @@ INSERT INTO Districts(
 	/* NoAdjCity     */ 0,
 	/* InternalOnly  */ 0,
 	/* ZoneOfControl */ 0,
-	/* HitPoints     */ 50,
+	/* HitPoints     */ 25,
 	/* CaptRMBuildin */ 0,
 	/* CaptRMCityDef */ 0,
 	/* MilitaryDmain */ 'NO_DOMAIN',

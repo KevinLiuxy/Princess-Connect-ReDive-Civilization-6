@@ -11,7 +11,7 @@ VALUES
 	-- Unique Ability
 	('zh_Hans_CN',	'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',	'讨伐魔物'	),
 	('zh_Hans_CN',	'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION',
-		'与 [ICON_Barbarian] 魔物（蛮族）和城邦作战时 +5 [ICON_Strength] 战斗力。击败 [ICON_Barbarian] 魔物与城邦单位后获得等同于其 [ICON_Strength] 战斗力的 [ICON_Gold] 金币和等同于其 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值。'
+		'与 [ICON_Barbarian] 魔物（蛮族）和城邦作战时 +5 [ICON_Strength] 战斗力。击败 [ICON_Barbarian] 魔物与城邦单位后获得等同于其 [ICON_Strength] 战斗力的 [ICON_Gold] 金币和等同于其 [ICON_Strength] 战斗力 50% 的 [ICON_Culture] 文化值。'
 	),
 
 	-- Leader Kyaru
@@ -26,7 +26,7 @@ VALUES
 
 	-- Leader Pecorine
 	('zh_Hans_CN',	'LOC_LEADER_PCR_PECORINE_NAME',			'佩可莉姆'		),
-	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'贪吃的公主'		),
+	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'爱吃的公主'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
 		'农场 +1 [ICON_Food] 食物 +1 [ICON_Gold] 金币；[NEWLINE]牧场 +1 [ICON_Food] 食物 +1 [ICON_Culture] 文化值；[NEWLINE]种植园 +1 [ICON_Food] 食物 +1 [ICON_Science] 科技值；[NEWLINE]营地 +1 [ICON_Food] 食物 +1 [ICON_Faith] 信仰；[NEWLINE]渔船 +1 [ICON_Food] 食物 +1 [ICON_Production] 生产力。[NEWLINE]加成资源如同奢侈品资源一样，每种类型资源提供 2 [ICON_Amenities] 宜居度。'
 	),

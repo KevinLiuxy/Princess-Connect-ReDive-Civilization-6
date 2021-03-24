@@ -10,32 +10,32 @@
 	<m_PackageName text="Civilization_Art"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_256"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_256"/>
+			<m_EntryID text="Background_Diplomacy"/>
+			<m_ObjectName text="Background_Diplomacy"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_32"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_32"/>
+			<m_EntryID text="Background_Loading"/>
+			<m_ObjectName text="Background_Loading"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_45"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_45"/>
+			<m_EntryID text="Moment_Guild_Clan"/>
+			<m_ObjectName text="Moment_Guild_Clan"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_50"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_50"/>
+			<m_EntryID text="Moment_Princess_Archer"/>
+			<m_ObjectName text="Moment_Princess_Archer"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_55"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_55"/>
+			<m_EntryID text="Moment_Princess_Knight"/>
+			<m_ObjectName text="Moment_Princess_Knight"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_64"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_64"/>
+			<m_EntryID text="PCR_Kokkoro_Loading"/>
+			<m_ObjectName text="PCR_Kokkoro_Loading"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Leader_PCR_Kyaru_80"/>
-			<m_ObjectName text="Leader_PCR_Kyaru_80"/>
+			<m_EntryID text="PCR_Kokkoro_Menu"/>
+			<m_ObjectName text="PCR_Kokkoro_Menu"/>
 		</Element>
 		<Element>
 			<m_EntryID text="PCR_Kyaru_Loading"/>
@@ -44,6 +44,18 @@
 		<Element>
 			<m_EntryID text="PCR_Kyaru_Menu"/>
 			<m_ObjectName text="PCR_Kyaru_Menu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Menu_Background"/>
+			<m_ObjectName text="PCR_Menu_Background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Pecorine_Loading"/>
+			<m_ObjectName text="PCR_Pecorine_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_Pecorine_Menu"/>
+			<m_ObjectName text="PCR_Pecorine_Menu"/>
 		</Element>
 		<Element>
 			<m_EntryID text="PrincessConnectRedive_22"/>
@@ -86,12 +98,28 @@
 			<m_ObjectName text="PrincessConnectRedive_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Background_Diplomacy"/>
-			<m_ObjectName text="Background_Diplomacy"/>
+			<m_EntryID text="Unit_Princess_Archer_22"/>
+			<m_ObjectName text="Unit_Princess_Archer_22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Background_Loading"/>
-			<m_ObjectName text="Background_Loading"/>
+			<m_EntryID text="Unit_Princess_Archer_256"/>
+			<m_ObjectName text="Unit_Princess_Archer_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_32"/>
+			<m_ObjectName text="Unit_Princess_Archer_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_38"/>
+			<m_ObjectName text="Unit_Princess_Archer_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_50"/>
+			<m_ObjectName text="Unit_Princess_Archer_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Unit_Princess_Archer_80"/>
+			<m_ObjectName text="Unit_Princess_Archer_80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Building_PCR_Guild_128"/>
@@ -116,58 +144,6 @@
 		<Element>
 			<m_EntryID text="Building_PCR_Guild_80"/>
 			<m_ObjectName text="Building_PCR_Guild_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_22"/>
-			<m_ObjectName text="Unit_Princess_Archer_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_32"/>
-			<m_ObjectName text="Unit_Princess_Archer_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_38"/>
-			<m_ObjectName text="Unit_Princess_Archer_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_50"/>
-			<m_ObjectName text="Unit_Princess_Archer_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_80"/>
-			<m_ObjectName text="Unit_Princess_Archer_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Unit_Princess_Archer_256"/>
-			<m_ObjectName text="Unit_Princess_Archer_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Moment_Guild_Clan"/>
-			<m_ObjectName text="Moment_Guild_Clan"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Moment_Princess_Knight"/>
-			<m_ObjectName text="Moment_Princess_Knight"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Moment_Princess_Archer"/>
-			<m_ObjectName text="Moment_Princess_Archer"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PCR_Kokkoro_Loading"/>
-			<m_ObjectName text="PCR_Kokkoro_Loading"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PCR_Kokkoro_Menu"/>
-			<m_ObjectName text="PCR_Kokkoro_Menu"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PCR_Pecorine_Loading"/>
-			<m_ObjectName text="PCR_Pecorine_Loading"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PCR_Pecorine_Menu"/>
-			<m_ObjectName text="PCR_Pecorine_Menu"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Leader_PCR_Kokkoro_256"/>
@@ -198,6 +174,34 @@
 			<m_ObjectName text="Leader_PCR_Kokkoro_80"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_256"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_32"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_45"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_50"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_55"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_64"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_80"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_80"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Leader_PCR_Pecorine_256"/>
 			<m_ObjectName text="Leader_PCR_Pecorine_256"/>
 		</Element>
@@ -224,10 +228,6 @@
 		<Element>
 			<m_EntryID text="Leader_PCR_Pecorine_80"/>
 			<m_ObjectName text="Leader_PCR_Pecorine_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PCR_Menu_Background"/>
-			<m_ObjectName text="PCR_Menu_Background"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

@@ -91,4 +91,10 @@ VALUES
 	('en_US',	'LOC_NAMED_SEA_PCR2',		'Margem Sea'		),
 	('en_US',	'LOC_NAMED_SEA_PCR3',		'Metis Gulf'		),
 	('en_US',	'LOC_NAMED_VOLCANO_PCR1',	'Mount Eugenia'		),
-	('en_US',	'LOC_NAMED_VOLCANO_PCR2',	'Mount Taria'		);
+	('en_US',	'LOC_NAMED_VOLCANO_PCR2',	'Mount Taria'		),
+
+--------------------------------------------------------------
+	-- InGame Modifiers
+	('en_US',	'LOC_COMBAT_PREVIEW_TRAIT_CIVILIZATION_PrincessConnectRedive_UA',
+		'+5 [ICON_Strength] Combat Strength when fighting Monsters and Minor Civs.'
+	);

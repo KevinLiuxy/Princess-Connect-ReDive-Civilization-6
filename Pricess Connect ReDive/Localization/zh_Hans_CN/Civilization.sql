@@ -91,4 +91,10 @@ VALUES
 	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR2',		'马耳冈海'		),
 	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR3',		'墨提斯湾'		),
 	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR1',	'尤金妮亚火山'	),
-	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR2',	'塔利亚火山'		);
+	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR2',	'塔利亚火山'		),
+
+--------------------------------------------------------------
+	-- InGame Modifiers
+	('zh_Hans_CN',	'LOC_COMBAT_PREVIEW_TRAIT_CIVILIZATION_PrincessConnectRedive_UA',
+		'与魔物和城邦作战时 +5 [ICON_Strength] 战斗力'
+	);
