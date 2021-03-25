@@ -22,9 +22,10 @@ INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_KOKKORO', 'Background_Diplomacy');
 
 INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_KOKKORO',	'PCRCivics',	'Civics'		),
-		('TRAIT_LEADER_PCR_KOKKORO',	'PCRTechs',		'Technologies'	),
-		('TRAIT_LEADER_PCR_KOKKORO',	'PCRWonders',	'Buildings'		);
+VALUES	('TRAIT_LEADER_PCR_KOKKORO',	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_KOKKORO',	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_KOKKORO',	'PCRWonders',								'Buildings'		),
+		('TRAIT_AGENDA_PCR_KOKKORO',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)
@@ -112,3 +113,29 @@ VALUES	('REQUIRES_PLAYER_HAS_MYSTICISM_PCR',		'CivicType',		'CIVIC_MYSTICISM'	),
 		('REQUIRES_UNIT_IS_RELIGIOUS_PCR',			'Tag',				'CLASS_RELIGIOUS'	);
 
 --------------------------------------------------------------
+INSERT INTO Agendas (AgendaType, Name, Description)
+VALUES ('AGENDA_PCR_KOKKORO', 'LOC_AGENDA_PCR_KOKKORO_NAME', 'LOC_AGENDA_PCR_KOKKORO_DESCRIPTION');
+
+INSERT INTO HistoricalAgendas (LeaderType, AgendaType)
+VALUES ('LEADER_PCR_KOKKORO', 'AGENDA_PCR_KOKKORO');
+
+INSERT INTO ExclusiveAgendas (AgendaOne, AgendaTwo)
+VALUES	('AGENDA_PCR_KOKKORO', 'AGENDA_DEVOUT'			),
+		('AGENDA_PCR_KOKKORO', 'AGENDA_ENVIRONMENTALIST');
+
+INSERT INTO AgendaTraits (AgendaType, TraitType)
+VALUES ('AGENDA_PCR_KOKKORO', 'TRAIT_AGENDA_PCR_KOKKORO');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES ('TRAIT_AGENDA_PCR_KOKKORO', 'AGENDA_KOKKORO');
+
+INSERT INTO	Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+VALUES (
+	'AGENDA_KOKKORO',
+	'MODIFIER_PLAYER_DIPLOMACY_AGENDA_AYYUBID_DYNASTY',
+	'ON_TURN_STARTED',
+	'PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS'
+);
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text)
+VALUES ('AGENDA_KOKKORO',	'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL');

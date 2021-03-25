@@ -7,7 +7,13 @@ VALUES
 		'Tsundere Neko'
 	),
 	('en_US',	'LOC_AGENDA_PCR_KYARU_DESCRIPTION',
-		'Likes Happy civilizations, dislike civilization with Low Amenities'
+		'Likes Happy civilizations, dislike civilization with Low Amenities.'
+	),
+	('en_US',	'LOC_DIPLO_MODIFIER_KYARU_HIGH_HAPPINESS',
+		'Kyaru likes civilizations with high happiness'
+	),
+	('en_US',	'LOC_DIPLO_MODIFIER_KYARU_LOW_HAPPINESS',
+		'Kyaru dislikes civilizations with low happiness'
 	),
 	('en_US',	'LOC_DIPLO_KUDO_EXIT_LEADER_PCR_KYARU_ANY',
 		"Huh? Why am I staring at you guild? It's not like I'm interested in your activities... And I don't like you at all, okay?"
@@ -113,4 +119,7 @@ VALUES
 	),/* Kyaru Scene 1 */
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_PCR_KYARU_ANY',
 		"Don't screw with me! Do you want me to kill you!?"
+	),/* Kyaru Scene 1 */
+	('en_US',	'LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_PCR_KYARU_ANY',
+		"No, no, what are you talking about? I haven't been spying on you! Aren't you just being too self-conscious?"
 	);

@@ -22,9 +22,10 @@ INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_KYARU', 'Background_Diplomacy');
 
 INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_KYARU',	'PCRCivics',	'Civics'		),
-		('TRAIT_LEADER_PCR_KYARU',	'PCRTechs',		'Technologies'	),
-		('TRAIT_LEADER_PCR_KYARU',	'PCRWonders',	'Buildings'		);
+VALUES	('TRAIT_LEADER_PCR_KYARU',	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_KYARU',	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_KYARU',	'PCRWonders',								'Buildings'		),
+		('TRAIT_AGENDA_PCR_KYARU',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)
@@ -150,19 +151,20 @@ VALUES	('REQUIRES_PLOT_HAS_CITY_CENTER_PCR',		'DistrictType',		'DISTRICT_CITY_CE
 
 --------------------------------------------------------------
 INSERT INTO Agendas (AgendaType, Name, Description)
-VALUES ('AGENDA_PCR_KYARU', 'LOC_AGENDA_PCR_KYARU_NAME', 'LOC_AGENDA_PCR_KYARU_DESCRIPTION'	);
+VALUES ('AGENDA_PCR_KYARU', 'LOC_AGENDA_PCR_KYARU_NAME', 'LOC_AGENDA_PCR_KYARU_DESCRIPTION');
 
 INSERT INTO HistoricalAgendas (LeaderType, AgendaType)
-VALUES ('LEADER_PCR_KYARU',	'AGENDA_PCR_KYARU');
+VALUES ('LEADER_PCR_KYARU', 'AGENDA_PCR_KYARU');
 
 INSERT INTO AgendaPreferredLeaders (AgendaType, LeaderType, PercentageChance)
 VALUES ('AGENDA_NUKE_LOVER', 'LEADER_PCR_KYARU', 33);
 
 INSERT INTO ExclusiveAgendas (AgendaOne, AgendaTwo)
-VALUES ('AGENDA_PCR_KYARU', 'AGENDA_FUN_LOVING');
+VALUES	('AGENDA_PCR_KYARU', 'AGENDA_FUN_LOVING'		),
+		('AGENDA_PCR_KYARU', 'AGENDA_ENVIRONMENTALIST'	);
 
 INSERT INTO AgendaTraits (AgendaType, TraitType)
-VALUES ('AGENDA_PCR_KYARU', 'TRAIT_AGENDA_PCR_KYARU');
+VALUES	('AGENDA_PCR_KYARU', 'TRAIT_AGENDA_PCR_KYARU');
 
 INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_AGENDA_PCR_KYARU',	'AGENDA_KYARU_SATISFIED'	),
@@ -180,16 +182,15 @@ VALUES (
 );
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value)
-VALUES	('AGENDA_KYARU_SATISFIED',		'InitialValue',					1															),
-		('AGENDA_KYARU_SATISFIED',		'IncrementValue',				1															),
-		('AGENDA_KYARU_SATISFIED',		'IncrementTurns',				3															),
-		('AGENDA_KYARU_SATISFIED',		'MessageThrottle',				5															),
-		('AGENDA_KYARU_SATISFIED',		'MaxValue',						12															),
-		('AGENDA_KYARU_SATISFIED',		'StatementKey',					'LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_HAPPINESS'	),
-		('AGENDA_KYARU_SATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS'				),
-		('AGENDA_KYARU_UNSATISFIED',	'InitialValue',					-10															),
-		('AGENDA_KYARU_UNSATISFIED',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_HAPPINESS'	),
-		('AGENDA_KYARU_UNSATISFIED',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS'				);
+VALUES	('AGENDA_KYARU_SATISFIED',		'InitialValue',					1																),
+		('AGENDA_KYARU_SATISFIED',		'IncrementValue',				1																),
+		('AGENDA_KYARU_SATISFIED',		'IncrementTurns',				3																),
+		('AGENDA_KYARU_SATISFIED',		'MaxValue',						12																),
+		('AGENDA_KYARU_SATISFIED',		'StatementKey',					'LOC_DIPLO_KUDO_LEADER_PCR_KYARU_REASON_AGENDA_HIGH_HAPPINESS'	),
+		('AGENDA_KYARU_SATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_KYARU_HIGH_HAPPINESS'						),
+		('AGENDA_KYARU_UNSATISFIED',	'InitialValue',					-10																),
+		('AGENDA_KYARU_UNSATISFIED',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_PCR_KYARU_REASON_AGENDA_LOW_HAPPINESS'),
+		('AGENDA_KYARU_UNSATISFIED',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_KYARU_LOW_HAPPINESS'						);
 
 INSERT INTO ModifierStrings (ModifierId, Context, Text)
 VALUES	('AGENDA_KYARU_SATISFIED',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'),

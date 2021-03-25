@@ -22,9 +22,10 @@ INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_PECORINE', 'Background_Diplomacy');
 
 INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_PECORINE',	'PCRCivics',	'Civics'		),
-		('TRAIT_LEADER_PCR_PECORINE',	'PCRTechs',		'Technologies'	),
-		('TRAIT_LEADER_PCR_PECORINE',	'PCRWonders',	'Buildings'		);
+VALUES	('TRAIT_LEADER_PCR_PECORINE',	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_PECORINE',	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_PECORINE',	'PCRWonders',								'Buildings'		),
+		('TRAIT_AGENDA_PCR_PECORINE',	'ExploitationLoverExploitationPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)
@@ -103,3 +104,53 @@ VALUES	('PLOT_HAS_FOOD_REQUIREMENTS_PCR',			'REQUIRES_PLOT_HAS_FISHINGBOATS'),
 		('PLOT_HAS_PLANTATION_REQUIREMENTS_PCR',	'REQUIRES_PLOT_HAS_PLANTATION'	);
 
 --------------------------------------------------------------
+INSERT INTO Agendas (AgendaType, Name, Description)
+VALUES ('AGENDA_PCR_PECORINE', 'LOC_AGENDA_PCR_PECORINE_NAME', 'LOC_AGENDA_PCR_PECORINE_DESCRIPTION');
+
+INSERT INTO HistoricalAgendas (LeaderType, AgendaType)
+VALUES ('LEADER_PCR_PECORINE',	'AGENDA_PCR_PECORINE');
+
+INSERT INTO AgendaPreferredLeaders (AgendaType, LeaderType, PercentageChance)
+VALUES ('AGENDA_POPULOUS', 'LEADER_PCR_PECORINE', 50);
+
+INSERT INTO ExclusiveAgendas (AgendaOne, AgendaTwo)
+VALUES	('AGENDA_PCR_PECORINE', 'AGENDA_EXPLOITATIVE'	),
+		('AGENDA_PCR_PECORINE', 'AGENDA_DARWINIST'		);
+
+INSERT INTO AgendaTraits (AgendaType, TraitType)
+VALUES	('AGENDA_PCR_PECORINE', 'TRAIT_AGENDA_PCR_PECORINE');
+
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('TRAIT_AGENDA_PCR_PECORINE',	'AGENDA_PECORINE_SATISFIED'		),
+		('TRAIT_AGENDA_PCR_PECORINE',	'AGENDA_PECORINE_UNSATISFIED'	);
+
+INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+VALUES (
+	'AGENDA_PECORINE_SATISFIED',
+	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',
+	'PLAYER_DECLARED_FRIEND'
+),(
+	'AGENDA_PECORINE_UNSATISFIED',
+	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',
+	'PLAYER_FRIEND_DENOUNCED'
+);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+VALUES	('AGENDA_PECORINE_SATISFIED',		'InitialValue',					1													),
+		('AGENDA_PECORINE_SATISFIED',		'ReductionTurns',				1													),
+		('AGENDA_PECORINE_SATISFIED',		'ReductionValue',				3													),
+		('AGENDA_PECORINE_SATISFIED',		'MessageThrottle',				5													),
+		('AGENDA_PECORINE_SATISFIED',		'MaxValue',						12													),
+		('AGENDA_PECORINE_SATISFIED',		'StatementKey',					'LOC_DIPLO_KUDO_LEADER_PCR_PECORINE_REASON_ANY'		),
+		('AGENDA_PECORINE_SATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_PECORINE_DECLARED_FRIEND'		),
+		('AGENDA_PECORINE_UNSATISFIED',		'InitialValue',					-12													),
+		('AGENDA_PECORINE_UNSATISFIED',		'ReductionTurns',				10													),
+		('AGENDA_PECORINE_UNSATISFIED',		'ReductionValue',				-1													),
+		('AGENDA_PECORINE_UNSATISFIED',		'MessageThrottle',				20													),
+		('AGENDA_PECORINE_UNSATISFIED',		'MaxValue',						12													),
+		('AGENDA_PECORINE_UNSATISFIED',		'StatementKey',					'LOC_DIPLO_WARNING_LEADER_PCR_PECORINE_REASON_ANY'	),
+		('AGENDA_PECORINE_UNSATISFIED',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_PECORINE_DENOUNCED_FRIEND'		);
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text)
+VALUES	('AGENDA_PECORINE_SATISFIED',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'),
+		('AGENDA_PECORINE_UNSATISFIED',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL');
