@@ -57,11 +57,11 @@ INSERT INTO Districts(
 	/* NoAdjCity     */ 0,
 	/* InternalOnly  */ 0,
 	/* ZoneOfControl */ 0,
-	/* HitPoints     */ 50,
+	/* HitPoints     */ 0,
 	/* CaptRMBuildin */ 0,
 	/* CaptRMCityDef */ 0,
 	/* MilitaryDmain */ 'NO_DOMAIN',
-	/* Housing       */ 3,
+	/* Housing       */ 0,
 	/* Entertainment */ 2,
 	/* TravelTime    */ 3,
 	/* CityStrModify */ 2,
@@ -69,7 +69,7 @@ INSERT INTO Districts(
 );
 
 INSERT INTO DistrictReplaces (CivUniqueDistrictType, ReplacesDistrictType)
-VALUES	('DISTRICT_GUILD_CLAN', 'DISTRICT_COMMERCIAL_HUB');
+VALUES ('DISTRICT_GUILD_CLAN', 'DISTRICT_COMMERCIAL_HUB');
 
 --------------------------------------------------------------
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
@@ -89,12 +89,12 @@ INSERT INTO Adjacency_YieldChanges(
 ) VALUES (
 	'Guild_Clan_City_Production',
 	'LOC_GUILD_CLAN_CITY_PRODUCTION',
-	'YIELD_PRODUCTION', 3,
+	'YIELD_PRODUCTION', 2,
 	'DISTRICT_CITY_CENTER', 1
 ),(
 	'Guild_Clan_Neighbourhood_Production',
 	'LOC_GUILD_CLAN_NEIGHBOURHOOD_PRODUCTION',
-	'YIELD_PRODUCTION', 3,
+	'YIELD_PRODUCTION', 2,
 	'DISTRICT_NEIGHBORHOOD', 1
 );
 
@@ -113,6 +113,32 @@ INSERT INTO District_TradeRouteYields(
 
 INSERT INTO District_CitizenYieldChanges (DistrictType, YieldType, YieldChange)
 VALUES ('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
+
+--------------------------------------------------------------
+INSERT INTO DistrictModifiers (DistrictType, ModifierId)
+VALUES ('DISTRICT_GUILD_CLAN', 'GUILD_CLAN_DISTRICT_HOUSING');
+
+INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+VALUES ('GUILD_CLAN_DISTRICT_HOUSING', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 'DISTRICT_IS_GUILD_CLAN');
+
+INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+VALUES ('GUILD_CLAN_DISTRICT_HOUSING', 'Amount', 3);
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType)
+VALUES ('DISTRICT_IS_GUILD_CLAN', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+VALUES	('DISTRICT_IS_GUILD_CLAN',						'REQUIRES_GUILD_CLAN'	),
+		('HARBOR_TRADE_ROUTE_CAPACITY_REQUIREMENTS',	'REQUIRES_NO_GUILD_CLAN');
+
+INSERT INTO Requirements (RequirementId, RequirementType, Inverse)
+VALUES	('REQUIRES_GUILD_CLAN',		'REQUIREMENT_DISTRICT_TYPE_MATCHES',	0),
+		('REQUIRES_NO_GUILD_CLAN',	'REQUIREMENT_CITY_HAS_DISTRICT',		1);
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value)
+VALUES	('REQUIRES_GUILD_CLAN',		'DistrictType',			'DISTRICT_GUILD_CLAN'	),
+		('REQUIRES_NO_GUILD_CLAN',	'DistrictType',			'DISTRICT_GUILD_CLAN'	),
+		('REQUIRES_NO_GUILD_CLAN',	'MustBeFunctioning',	0						);
 
 --------------------------------------------------------------
 INSERT INTO Projects(
@@ -149,14 +175,3 @@ INSERT INTO Project_GreatPersonPoints(
 
 INSERT INTO Project_YieldConversions (ProjectType, YieldType, PercentOfProductionRate)
 VALUES ('PROJECT_CLAN_BATTLE', 'YIELD_GOLD', 30);
-
---------------------------------------------------------------
-INSERT INTO Requirements (RequirementId, RequirementType, Inverse)
-VALUES ('REQUIRES_NO_GUILD_CLAN', 'REQUIREMENT_CITY_HAS_DISTRICT', 1);
-
-INSERT INTO RequirementArguments (RequirementId, Name, Value)
-VALUES	('REQUIRES_NO_GUILD_CLAN',	'DistrictType',			'DISTRICT_GUILD_CLAN'	),
-		('REQUIRES_NO_GUILD_CLAN',	'MustBeFunctioning',	0						);
-
-INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
-VALUES ('HARBOR_TRADE_ROUTE_CAPACITY_REQUIREMENTS', 'REQUIRES_NO_GUILD_CLAN');

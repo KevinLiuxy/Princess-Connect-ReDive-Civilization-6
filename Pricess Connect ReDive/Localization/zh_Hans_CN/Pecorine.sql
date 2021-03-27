@@ -73,7 +73,7 @@ VALUES
 		'哇，你竟然敢这样！[NEWLINE]既然这样，我也要动真格了！做好觉悟吧！'
 	),
 	('zh_Hans_CN',	'LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_PCR_PECORINE_ANY',
-		'如果你妨碍我和我的好朋友们分享美食，我可是会动真格的哦！'
+		'如果你妨碍我和我的好朋友们分享美食，我可是会动真格的哦！[NEWLINE]（谴责你）'
 	),/* Prolg Scene 2 */
 	('zh_Hans_CN',	'LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_PCR_PECORINE_ANY',
 		'要是魔物大军朝这边过来了，我可不会坐视不管；我会利落的解决掉的![NEWLINE]全力全开——公主突袭！'

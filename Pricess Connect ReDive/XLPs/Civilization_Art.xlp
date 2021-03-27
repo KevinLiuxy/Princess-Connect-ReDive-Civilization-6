@@ -146,6 +146,38 @@
 			<m_ObjectName text="Building_PCR_Guild_80"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_256"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_32"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_45"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_48"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_50"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_55"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_64"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Pecorine_80"/>
+			<m_ObjectName text="Leader_PCR_Pecorine_80"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Leader_PCR_Kokkoro_256"/>
 			<m_ObjectName text="Leader_PCR_Kokkoro_256"/>
 		</Element>
@@ -156,6 +188,10 @@
 		<Element>
 			<m_EntryID text="Leader_PCR_Kokkoro_45"/>
 			<m_ObjectName text="Leader_PCR_Kokkoro_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_PCR_Kokkoro_48"/>
+			<m_ObjectName text="Leader_PCR_Kokkoro_48"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Leader_PCR_Kokkoro_50"/>
@@ -186,6 +222,10 @@
 			<m_ObjectName text="Leader_PCR_Kyaru_45"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Leader_PCR_Kyaru_48"/>
+			<m_ObjectName text="Leader_PCR_Kyaru_48"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Leader_PCR_Kyaru_50"/>
 			<m_ObjectName text="Leader_PCR_Kyaru_50"/>
 		</Element>
@@ -200,34 +240,6 @@
 		<Element>
 			<m_EntryID text="Leader_PCR_Kyaru_80"/>
 			<m_ObjectName text="Leader_PCR_Kyaru_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_256"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_32"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_45"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_50"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_55"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_64"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_PCR_Pecorine_80"/>
-			<m_ObjectName text="Leader_PCR_Pecorine_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

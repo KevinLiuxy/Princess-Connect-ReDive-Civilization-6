@@ -41,10 +41,10 @@ VALUES
 	-- Unique Infrastructure
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_NAME',		'Guild Clan'		),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
-		'Replaces Commercial Hub district, cheaper to build and has minor Regional Defense. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +3 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
+		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
 	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION_VANILLA',
-		'Replaces Commercial Hub district, cheaper to build and has minor Regional Defense. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +3 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
+		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
 	),
 
 	-- Unique Unit

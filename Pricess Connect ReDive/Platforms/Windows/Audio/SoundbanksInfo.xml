@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths/>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="136580903" Language="SFX">
+			<ShortName>Music_PCR_Industrial_Era.wav</ShortName>
+			<Path>SFX\Music_PCR_Industrial_Era_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="266161370" Language="SFX">
+			<ShortName>Music_PCR_Medieval_Era.wav</ShortName>
+			<Path>SFX\Music_PCR_Medieval_Era_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="363332397" Language="SFX">
+			<ShortName>Music_PCR_Ancient_Era.wav</ShortName>
+			<Path>SFX\Music_PCR_Ancient_Era_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="564275712" Language="SFX">
+			<ShortName>Music_PCR_Atomic_Era.wav</ShortName>
+			<Path>SFX\Music_PCR_Atomic_Era_4B8CC0C5.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="3624225216" Language="SFX">
+			<ShortName>PrincessConnectRedive_Music_Bank</ShortName>
+			<Path>PrincessConnectRedive_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3020280972" Name="Pause_Music_PrincessConnectRedive"/>
+				<Event Id="3125698280" Name="Play_Leader_Music_PrincessConnectRedive"/>
+				<Event Id="2275006598" Name="Play_Music_PrincessConnectRedive"/>
+				<Event Id="1772198717" Name="Resume_Music_PrincessConnectRedive"/>
+				<Event Id="3678149054" Name="Start_Music_PrincessConnectRedive"/>
+				<Event Id="1019428034" Name="Stop_Leader_Music_PrincessConnectRedive"/>
+				<Event Id="2577559876" Name="Stop_Music_PrincessConnectRedive"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="136580903"/>
+				<File Id="266161370"/>
+				<File Id="363332397"/>
+				<File Id="564275712"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="336163345" Language="SFX">
+					<ShortName>Transition.wav</ShortName>
+					<Path>SFX\Transition_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

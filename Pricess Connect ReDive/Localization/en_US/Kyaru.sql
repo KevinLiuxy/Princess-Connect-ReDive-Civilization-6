@@ -43,7 +43,7 @@ VALUES
 		"Sigh... How about you pick a better place to walk next time."
 	),
 	('en_US',	'LOC_DIPLO_DELEGATION_FROM_AI_LEADER_PCR_KYARU_ANY',
-		"I've sent representatives from the Nightmare bringing a handful of magical trinkets for you. You'll make some place for them in your guilds, will you?"
+		"I've sent representatives from the Nightmare bringing a handful of magical trinkets for you. You'll make some place for them in your guilds, right?"
 	),/* Kyaru Scene 8 */
 	('en_US',	'LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PCR_KYARU_ANY',
 		"Wha? Don't pat my head! W-Why are you being this kind to me?[NEWLINE]N-No, I'm happy..."

@@ -94,7 +94,13 @@ VALUES
 	('en_US',	'LOC_NAMED_VOLCANO_PCR2',	'Mount Taria'		),
 
 --------------------------------------------------------------
-	-- InGame Modifiers
+	-- InGame Text
+	('en_US',	'LOC_GUILD_CLAN_CITY_PRODUCTION',
+		'+{1_num} [ICON_Production] Production from adjacent City Center.'
+	),
+	('en_US',	'LOC_GUILD_CLAN_NEIGHBOURHOOD_PRODUCTION',
+		'+{1_num} [ICON_Production] Production from adjacent Neighbourhood.'
+	),
 	('en_US',	'LOC_COMBAT_PREVIEW_TRAIT_CIVILIZATION_PrincessConnectRedive_UA',
 		'+5 [ICON_Strength] Combat Strength when fighting Monsters and Minor Civs.'
 	);

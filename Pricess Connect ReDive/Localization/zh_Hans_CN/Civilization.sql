@@ -94,7 +94,13 @@ VALUES
 	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR2',	'塔利亚火山'		),
 
 --------------------------------------------------------------
-	-- InGame Modifiers
+	-- InGame Text
+	('zh_Hans_CN',	'LOC_GUILD_CLAN_CITY_PRODUCTION',
+		'+{1_num} [ICON_Production] 生产力来自相邻市中心。'
+	),
+	('zh_Hans_CN',	'LOC_GUILD_CLAN_NEIGHBOURHOOD_PRODUCTION',
+		'+{1_num} [ICON_Production] 生产力来自相邻社区。'
+	),
 	('zh_Hans_CN',	'LOC_COMBAT_PREVIEW_TRAIT_CIVILIZATION_PrincessConnectRedive_UA',
 		'与魔物和城邦作战时 +5 [ICON_Strength] 战斗力'
 	);

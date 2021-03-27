@@ -21,6 +21,7 @@
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_64.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_55.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_48.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_45.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KYARU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kyaru_32.dds"/>
 
@@ -29,6 +30,7 @@
 		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_64.dds"/>
 		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_55.dds"/>
 		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_48.dds"/>
 		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_45.dds"/>
 		<Row Name="ICON_ATLAS_PCR_PECORINE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Pecorine_32.dds"/>
 
@@ -37,6 +39,7 @@
 		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_64.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_55.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_50.dds"/>
+		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_48.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_45.dds"/>
 		<Row Name="ICON_ATLAS_PCR_KOKKORO" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Leader_PCR_Kokkoro_32.dds"/>
 

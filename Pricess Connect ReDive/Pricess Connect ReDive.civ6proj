@@ -20,7 +20,7 @@
     <AssemblyName>Pricess Connect ReDive</AssemblyName>
     <RootNamespace>Pricess Connect ReDive</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PCR_MOD_FRONT_END"><File>Core/Civilization_FrontEnd.sql</File></UpdateDatabase><UpdateText id="PCR_MOD_FRONT_END"><File>Localization/en_US/Menu.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File></UpdateText><UpdateColors id="PCR_MOD_FRONT_END"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="PCR_MOD_FRONT_END"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="PCR_MOD_FRONT_END"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PCR_MOD_INGAME"><File>Core/Civilization_Config.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File><File>Core/Civilization_UU.sql</File><File>Core/Leader_Kyaru.sql</File><File>Core/Leader_Pecorine.sql</File><File>Core/Leader_Kokkoro.sql</File></UpdateDatabase><UpdateText id="PCR_MOD_INGAME"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File><File>Localization/en_US/Civilopedia.sql</File><File>Localization/zh_Hans_CN/Civilopedia.sql</File><File>Localization/en_US/Kyaru.sql</File><File>Localization/zh_Hans_CN/Kyaru.sql</File><File>Localization/en_US/Pecorine.sql</File><File>Localization/zh_Hans_CN/Pecorine.sql</File><File>Localization/en_US/Kokkoro.sql</File><File>Localization/zh_Hans_CN/Kokkoro.sql</File></UpdateText><UpdateColors id="PCR_MOD_INGAME"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="PCR_MOD_INGAME"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="PCR_MOD_INGAME"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="PCR_MOD_EXP1"><Criteria>Expansion1</Criteria><File>Core/Feature_Expansion1.sql</File></UpdateDatabase><UpdateDatabase id="PCR_MOD_EXP2"><Criteria>Expansion2</Criteria><File>Core/Feature_Expansion2.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PCR_MOD_INGAME"><File>Core/Civilization_Config.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File><File>Core/Civilization_UU.sql</File><File>Core/Leader_Kyaru.sql</File><File>Core/Leader_Pecorine.sql</File><File>Core/Leader_Kokkoro.sql</File></UpdateDatabase><UpdateText id="PCR_MOD_INGAME"><File>Localization/en_US/Menu.sql</File><File>Localization/en_US/Civilization.sql</File><File>Localization/zh_Hans_CN/Menu.sql</File><File>Localization/zh_Hans_CN/Civilization.sql</File><File>Localization/en_US/Civilopedia.sql</File><File>Localization/zh_Hans_CN/Civilopedia.sql</File><File>Localization/en_US/Kyaru.sql</File><File>Localization/zh_Hans_CN/Kyaru.sql</File><File>Localization/en_US/Pecorine.sql</File><File>Localization/zh_Hans_CN/Pecorine.sql</File><File>Localization/en_US/Kokkoro.sql</File><File>Localization/zh_Hans_CN/Kokkoro.sql</File></UpdateText><UpdateColors id="PCR_MOD_INGAME"><File>Core/Colour_Config.sql</File></UpdateColors><UpdateIcons id="PCR_MOD_INGAME"><File>Core/Icon.xml</File></UpdateIcons><UpdateArt id="PCR_MOD_INGAME"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="PCR_MOD_EXP1"><Criteria>Expansion1</Criteria><File>Core/Feature_Expansion1.sql</File></UpdateDatabase><UpdateDatabase id="PCR_MOD_EXP2"><Criteria>Expansion2</Criteria><File>Core/Feature_Expansion2.sql</File></UpdateDatabase><UpdateAudio id="PCR_MOD_INGAME"><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File><File>Platforms/Windows/Audio/PrincessConnectRedive_Music_Bank.ini</File><File>Platforms/Windows/Audio/PrincessConnectRedive_Music_Bank.bnk</File></UpdateAudio></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="Expansion2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -120,7 +120,25 @@
     <Content Include="Localization\zh_Hans_CN\Pecorine.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\136580903.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\266161370.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\363332397.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\564275712.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\PrincessConnectRedive_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\PrincessConnectRedive_Music_Bank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pricess Connect ReDive.Art.xml">
