@@ -63,7 +63,7 @@ VALUES
 	-- Civilization Info
 	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_LOCATION',		'Astraea'			),
 	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_SIZE',			'120,000 km²'		),
-	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'15 million (2030)'	),
+	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_POPULATION',		'20 million (2033)'	),
 	('en_US',	'LOC_CIVINFO_PrincessConnectRedive_CAPITAL',		'Landsol'			),
 
 --------------------------------------------------------------
@@ -103,4 +103,19 @@ VALUES
 	),
 	('en_US',	'LOC_COMBAT_PREVIEW_TRAIT_CIVILIZATION_PrincessConnectRedive_UA',
 		'+5 [ICON_Strength] Combat Strength when fighting Monsters and Minor Civs.'
+	),
+
+	('en_US',	'LOC_PEDIA_LEADERS_PAGE_PCR_KYARU_QUOTE',
+		'Perfect, perfect! I just keep on improving! I really can do anything!'
+	),
+	('en_US',	'LOC_PEDIA_LEADERS_PAGE_PCR_PECORINE_QUOTE',
+		'All I want is to eat loads of delicious food with the people I care about.'
+	),
+	('en_US',	'LOC_PEDIA_LEADERS_PAGE_PCR_KOKKORO_QUOTE',
+		'I am the happiest person in the world to have the pleasure of serving you.'
+	),
+
+	('en_US',	'LOC_PROJECT_CLAN_BATTLE_NAME',		'Clan Battle'),
+	('en_US',	'LOC_PROJECT_CLAN_BATTLE_DESCRIPTION',
+		'District based project which proives [ICON_Gold] Gold and Loyalty in the city while ongoing. Grant Great Merchant points and Great Gneral points once finished.'
 	);

@@ -28,7 +28,7 @@ VALUES
 	('zh_Hans_CN',	'LOC_LEADER_PCR_PECORINE_NAME',			'佩可莉姆'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'爱吃的公主'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
-		'农场 +1 [ICON_Food] 食物 +1 [ICON_Gold] 金币；[NEWLINE]牧场 +1 [ICON_Food] 食物 +1 [ICON_Culture] 文化值；[NEWLINE]种植园 +1 [ICON_Food] 食物 +1 [ICON_Science] 科技值；[NEWLINE]营地 +1 [ICON_Food] 食物 +1 [ICON_Faith] 信仰；[NEWLINE]渔船 +1 [ICON_Food] 食物 +1 [ICON_Production] 生产力。[NEWLINE]加成资源如同奢侈品资源一样，每种类型资源提供 2 [ICON_Amenities] 宜居度。'
+		'农场 +1 [ICON_Food] 食物 +1 [ICON_Gold] 金币；[NEWLINE]牧场 +1 [ICON_Food] 食物 +1 [ICON_Culture] 文化值；[NEWLINE]种植园 +1 [ICON_Food] 食物 +1 [ICON_Science] 科技值；[NEWLINE]营地 +1 [ICON_Food] 食物 +1 [ICON_Faith] 信仰；[NEWLINE]渔船 +1 [ICON_Food] 食物 +1 [ICON_Production] 生产力。[NEWLINE]加成资源如同奢侈品资源一样，每种类型资源提供 1 [ICON_Amenities] 宜居度。'
 	),
 
 	-- Leader Kokkoro

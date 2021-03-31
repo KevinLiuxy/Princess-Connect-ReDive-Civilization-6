@@ -28,7 +28,7 @@ VALUES
 	('en_US',	'LOC_LEADER_PCR_PECORINE_NAME',			'Pecorine'					),
 	('en_US',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'the Princess of Peckish'	),
 	('en_US',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION',
-		'Farms +1 [ICON_Food] Food +1 [ICON_Gold] Gold;[NEWLINE]Pastures +1 [ICON_Food] Food +1 [ICON_Culture] Culture;[NEWLINE]Plantations +1 [ICON_Food] Food +1 [ICON_Science] Science;[NEWLINE]Camps +1 [ICON_Food] Food +1 [ICON_Faith] Faith;[NEWLINE]Fishing Boats +1 [ICON_Food] Food +1 [ICON_Production] Production.[NEWLINE][NEWLINE]All Bonus Resources behave like Luxury Resources, providing 2 [ICON_Amenities] Amenities per type.'
+		'Farms +1 [ICON_Food] Food +1 [ICON_Gold] Gold;[NEWLINE]Pastures +1 [ICON_Food] Food +1 [ICON_Culture] Culture;[NEWLINE]Plantations +1 [ICON_Food] Food +1 [ICON_Science] Science;[NEWLINE]Camps +1 [ICON_Food] Food +1 [ICON_Faith] Faith;[NEWLINE]Fishing Boats +1 [ICON_Food] Food +1 [ICON_Production] Production.[NEWLINE][NEWLINE]All Bonus Resources behave like Luxury Resources, providing 1 [ICON_Amenities] Amenities per type.'
 	),
 
 	-- Leader Kokkoro

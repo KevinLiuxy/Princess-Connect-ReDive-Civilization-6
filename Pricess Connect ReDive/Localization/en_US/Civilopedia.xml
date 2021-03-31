@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Civilopedia -->
+<!-- Author: liuxi -->
+<GameData>
+	<LocalizedText>
+		<!--Civilization-->
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_1">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_2">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_3">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_4">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_5">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_6">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_7">
+			<Text/>
+		</Row>
+
+		<!--Loading Screen-->
+		<Row Language="en_US" Tag="LOC_LOADING_INFO_LEADER_PCR_KYARU">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_LOADING_INFO_LEADER_PCR_PECORINE">
+			<Text/>
+		</Row>
+		<Row Language="en_US" Tag="LOC_LOADING_INFO_LEADER_PCR_KOKKORO">
+			<Text/>
+		</Row>
+	</LocalizedText>
+</GameData>
