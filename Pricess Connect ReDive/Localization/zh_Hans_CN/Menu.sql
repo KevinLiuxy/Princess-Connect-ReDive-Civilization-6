@@ -35,7 +35,7 @@ VALUES
 	('zh_Hans_CN',	'LOC_LEADER_PCR_KOKKORO_NAME',			'可可萝'			),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',	'小小的向导'		),
 	('zh_Hans_CN',	'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
-		'神社为相邻未改良的森林 +3 [ICON_Faith] 信仰 +1 [ICON_Food] 食物。所有单位在森林单元格中 +15 回复，宗教单位在森林单元格中 +10 [ICON_RELIGION] 宗教战斗力。[NEWLINE]解锁“神秘主义”后额外获得一个通配符政策槽位。'
+		'神社为相邻未改良的森林 +3 [ICON_Faith] 信仰 +1 [ICON_Food] 食物。所有单位在森林单元格中 +15 回复。[NEWLINE]解锁“神秘主义”后额外获得一个通配符政策槽位。[NEWLINE]您的使徒单位可以选择任何可用的升级。'
 	),
 
 	-- Unique Infrastructure

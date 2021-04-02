@@ -35,7 +35,10 @@ VALUES
 	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_29',  'Dystal'),
 	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_30',  'Futera'),
 	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_31',  'Faskia'),
-	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_32',  'Hveen'),
+	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_32',  'Dextia'),
+	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_33',  'Hveen'),
+	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_34',  'Latus'),
+	('en_US',	'LOC_CITY_NAME_PrincessConnectRedive_35',  'Scape'),
 --------------------------------------------------------------
 	-- Citizen Names
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1',	'Izumo Miyako'			),

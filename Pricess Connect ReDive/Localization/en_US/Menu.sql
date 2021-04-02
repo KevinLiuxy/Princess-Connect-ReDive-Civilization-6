@@ -35,16 +35,16 @@ VALUES
 	('en_US',	'LOC_LEADER_PCR_KOKKORO_NAME',			'Kokkoro'					),
 	('en_US',	'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',	'The Faithful Guide'		),
 	('en_US',	'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION',
-		'Unimproved Forest tiles adjacent to a Shrine +3 [ICON_Faith] Faith, +1 [ICON_Food] Food.[NEWLINE]ALL Units in Forests recieve +15 Heal; Religious Units in Forests +10 [ICON_RELIGION] Theological Combat Strength.[NEWLINE][NEWLINE]Receives an extra Wildcard policy slot from the Mysticism Civic.'
+		'Unimproved Forest tiles adjacent to a Shrine +3 [ICON_Faith] Faith, +1 [ICON_Food] Food.[NEWLINE]All Units in Forests recieve +15 Heal.[NEWLINE][NEWLINE]Receives an extra Wildcard policy slot from the Mysticism Civic.[NEWLINE]Your Apostle units can choose from any possible promotion.'
 	),
 
 	-- Unique Infrastructure
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_NAME',		'Guild Clan'		),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION',
-		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
+		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourhood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold and Loyalty in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
 	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION_VANILLA',
-		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourbood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
+		'Replaces Commercial Hub district and cheaper to build. +3 [ICON_Housing] Housing, and +2 [ICON_Amenities] Amenities. +2 [ICON_Production] Production for each adjacent City Center or Neighbourhood.[NEWLINE][NEWLINE]Unlocks special District Project [ICON_DISTRICT_CITY_CENTER] Clan Battle:[NEWLINE]Extra [ICON_Gold] Gold in the city while ongoing. Grants Great Merchant points and Great Gneral points at completion.'
 	),
 
 	-- Unique Unit

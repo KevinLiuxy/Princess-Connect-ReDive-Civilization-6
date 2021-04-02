@@ -64,7 +64,7 @@ VALUES
 		"You saw it, didn't you -- my secret magical practice. In that case, I'm bringing you along, too!"
 	),
 	('en_US',	'LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PCR_KYARU_ANY',
-		"Heh heh, beautiful, huh? I've prepared them just for you?"
+		"Heh heh, beautiful, huh? I've prepared them just for you."
 	),
 	('en_US',	'LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_PCR_KYARU_ANY',
 		"Wha!? Worms? You... You said there are worms inside them?"	
@@ -97,7 +97,7 @@ VALUES
 		"Now I could cut you or kill you as I pleased! Whatever I wanted to do, I'd be free to do it!"
 	),/* Kyaru Scene 4 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KYARU_ANY',
-		"Hah! What? Dispatching such a sizable army on my border, do you wanna fight?[NEWLINE]If you wanna fight, I'll crush you!"
+		"Hah! Dispatching such a sizable army on my border, do you wanna fight?[NEWLINE]If you wanna fight, I'll crush you!"
 	),/* Kyaru Scene 1 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_PCR_KYARU_ANY',
 		"Huh? Do I need you for something? You're saying that my troops has been following you around?[NEWLINE]No, no, I'm not coming for you! Aren't you just being too self-conscious?"

@@ -62,18 +62,49 @@
 		<!--Loading Screen-->
 		<Row Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_PCR_KYARU">
 			<Text>
-				命运的安排对您来说总是如此的坎坷，猫耳的魔法师凯露。您时刻保持着对他人动向的敏锐观察。而这份机敏，能在艰难而黑暗的时刻，帮助您发现自己身边真正的盟友。珍惜身边来之不易的羁绊，坦诚地面对自己的内心，您必将克服命运的束缚，成为万人之上的女王。
+				命运的安排对您来说总是如此的无情，善良的魔法师凯露。您时刻保持着对他人动向的敏锐观察。而这份机敏，能在艰难而黑暗的时刻，帮助您发现自己身边真正的盟友。珍惜身边来之不易的羁绊，坦诚地面对自己的内心，您必将克服命运的束缚，战胜前所未有的邪恶。
 			</Text>
 		</Row>
 		<Row Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_PCR_PECORINE">
 			<Text>
-				阿斯特莱亚的公主尤斯缇娅娜，带上您的皇家装备，开启一段属于你的修行冒险之旅吧！在寻找美食的旅途中，您会结交许多善良而忠诚的伙伴与盟友，她们将在困难之时与您并肩作战。积极进取、乐于助人、关怀百姓——您必将受到全国人民的拥护与爱戴，成为兰德索尔的女王。
+				阿斯特莱亚的公主尤斯缇娅娜，带上您的皇家装备，开启一段属于你的修行冒险之旅吧！在寻找美食的旅途中，您会结交许多善良而忠诚的伙伴与盟友，她们将在困难之时与您并肩作战。积极、乐观、关怀众生——您必将受到全国人民的拥护与爱戴，登上属于你的至高王座。
 			</Text>
 		</Row>
 		<Row Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_PCR_KOKKORO">
 			<Text>
-				虔诚的向导可可萝，您是爱梅斯神使的天选之人。森林与大自然即是您的故乡。您坚定的信念和毅力会在前进的道路上，帮助您击退未知的挑战与危机。保持内心的宁静与善良、倾听神明的教诲，用您的真诚感化他人，引导他们走向光明的圣殿吧。
+				虔诚的向导可可萝，您是爱梅斯神使的天选之人。无尽的森林与大自然是神明赐予您的恩典。坚定的信念和毅力会照亮您前进的道路，帮助您击退未知的挑战与危机。保持内心的宁静与善良、倾听神明的教诲，用您的真诚感化他人，引导他们走向光明的圣殿吧。
 			</Text>
+		</Row>
+
+		<!--Leaders-->
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_TITLE">
+			<Text>{LOC_LEADER_PCR_KYARU_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_SUBTITLE">
+			<Text>猫耳的魔法使，皇家的公主骑士，魔物的女王大人</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_KYARU}</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_TITLE">
+			<Text>{LOC_LEADER_PCR_PECORINE_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_SUBTITLE">
+			<Text>阿斯特莱亚的尤斯缇娅娜公主，饿肚子的佩可莉姆</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_PECORINE}</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_TITLE">
+			<Text>{LOC_LEADER_PCR_KOKKORO_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_SUBTITLE">
+			<Text>爱梅斯的使徒，忠诚的向导</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_KOKKORO}</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

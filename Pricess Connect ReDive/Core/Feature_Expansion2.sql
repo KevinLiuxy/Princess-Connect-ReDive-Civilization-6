@@ -7,6 +7,9 @@ VALUES ('UNIT_PRINCESS_KNIGHT', 10);
 INSERT INTO AiFavoredItems (ListType, Item, Favored)
 VALUES ('PCRWonders', 'BUILDING_GOLDEN_GATE_BRIDGE', 1);
 
+INSERT INTO AgendaPreferredLeaders (AgendaType, LeaderType, PercentageChance)
+VALUES ('AGENDA_FLAT_EARTHER', 'LEADER_PCR_KOKKORO', 40);
+
 --------------------------------------------------------------
 INSERT INTO Types (Type, Kind)
 VALUES	('NAMED_DESSERT_PCR1',	'KIND_NAMED_DESERT'	),

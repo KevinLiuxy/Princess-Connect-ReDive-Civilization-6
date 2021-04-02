@@ -35,7 +35,10 @@ VALUES
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_29',	'迪兹塔尔'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_30',	'弗泰拉'),
 	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_31',	'法斯奇亚'),
-	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_32',	'维娜'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_32',	'迪克斯提娅'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_33',	'维娜'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_34',	'拉图斯'),
+	('zh_Hans_CN',	'LOC_CITY_NAME_PrincessConnectRedive_35',	'斯卡普'),
 --------------------------------------------------------------
 	-- Citizen Names
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1',	'出云宫子'		),

@@ -16,13 +16,13 @@ VALUES
 		'Kokkoro dislikes civilizations with low faith'
 	),/* Kokro Scene 8 */
 	('en_US',	'LOC_DIPLO_KUDO_EXIT_LEADER_PCR_KOKKORO_ANY',
-		"You've already met with lady Ames before, haven't you? How does she looks? What did she tell you?[NEWLINE]I am eager to know..."
+		"You've already met with Lady Ames before, haven't you? How does she looks? What did she tell you?[NEWLINE]I am eager to know..."
 	),
 	('en_US',	'LOC_DIPLO_WARNING_EXIT_LEADER_PCR_KOKKORO_ANY',
-		"You should be faithful to lady Ames and her predictions. Only lady Ames and I could guide you through the time of darkness."
+		"You should be faithful to Lady Ames and her predictions. Only Lady Ames and I could guide you through the time of darkness."
 	),/* Prolg Scene 2 */
 	('en_US',	'LOC_DIPLO_FIRST_MEET_LEADER_PCR_KOKKORO_ANY',
-		"... Oya, we're finally met. I was sent by my lady Ames to be your guide. My name is Kokkoro."
+		"... Oya, we're finally met. I was sent by my Lady Ames to be your Guide. My name is Kokkoro."
 	),/* Kokro Scene 1 */
 	('en_US',	'LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PCR_KOKKORO_ANY',
 		"Humm... The place where I live is nearby. Let's buy some ingredients, I'll cook a meal for us."
@@ -97,16 +97,16 @@ VALUES
 		"When master is lost, I will guide you to the place you must go."
 	),/* Kokro Scene 5 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KOKKORO_ANY',
-		"This is troubling... Well, there's no helping that.[NEWLINE]I have no choice but to force you to be my master."
+		"Oya... Isn't this master coming?[NEWLINE]Was master too feeling lonely and is here to visit me?"
 	),/* Kokro Scene 3 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_PCR_KOKKORO_ANY',
 		"Sorry, if I had just told you my intentions before heading out I wouldn't have worried you so."
 	),/* Kokro Scene 5 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_PCR_KOKKORO_ANY',
-		"Oya... Isn't this master coming?[NEWLINE]Was master too feeling lonely and is here to visit me?"
+		"This is troubling... Well, there's no helping that.[NEWLINE]I have no choice but to force you to be my master."
 	),/* Kokro Scene 3 */
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_PCR_KOKKORO_ANY',
-		"Even though I am your "Guide", I'm unable to properly explain...[NEWLINE] But settling too close to me will cause the neighbours to complain."
+		"Even though I am your Guide, I'm unable to properly explain...[NEWLINE] But settling too close to me will cause the neighbours to complain."
 	),/* Kokro Scene 3 */
 	('en_US',	'LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_PCR_KOKKORO_ANY',
 		"My apologies... From now on, so that I worry master as little as possible,[NEWLINE]I'll be sure to report and explain my plans for settling ahead of time."
@@ -124,5 +124,5 @@ VALUES
 		"While it's a shame and I feel forlorn, but I can't force you to change your position on this."
 	),/* Act 1 Scene 4 */
 	('en_US',	'LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_PCR_KOKKORO_ANY',
-		"It's just as Lady Ames predicted... Master really is rather indecisive.[NEWLINE]As being sent by lady Ames herself, it is my duty to guide you through her lessons."
+		"It's just as Lady Ames predicted... Master really is rather indecisive.[NEWLINE]As being sent by Lady Ames herself, it is my duty to guide you through her lessons."
 	);
