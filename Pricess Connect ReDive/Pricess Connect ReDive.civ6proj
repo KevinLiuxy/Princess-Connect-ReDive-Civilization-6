@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>[COLOR_FLOAT_GOLD]Princess Connect! Re Dive[COLOR_FLOAT_GOLD]</Name>
     <Guid>f7e7e896-7341-4b2c-8e10-61e5d66768f3</Guid>
     <ProjectGuid>5cd6f5dd-3cd9-410a-a714-831b161adbdf</ProjectGuid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>1.1</ModVersion>
     <Teaser>Princess Connect Civilization and Leaders!</Teaser>
     <Description>--- Pirncess Connect Civilization ---[NEWLINE]New Leader: Pecorine[NEWLINE]New Leader: Kyaru[NEWLINE]New Leader: Kokkoro[NEWLINE][NEWLINE]--- 新增“公主连结”文明 ---[NEWLINE]领袖：佩可莉姆[NEWLINE]领袖：凯露[NEWLINE]领袖：可可萝[NEWLINE][NEWLINE]Supported Languages:[NEWLINE]en_US, zh_Hans_CN[NEWLINE][NEWLINE]Enjoy!</Description>
-    <Authors>theGreatestGeniusInTheWorld</Authors>
+    <Authors>Kevin Liu</Authors>
     <SpecialThanks>Hemmelfort &amp; Keniisu</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -144,9 +144,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Pricess Connect ReDive.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <XLP Include="XLPs\Civilization_Art.xlp">
