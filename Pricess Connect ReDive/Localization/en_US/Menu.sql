@@ -48,12 +48,12 @@ VALUES
 	),
 
 	-- Unique Unit
-	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'Pricess Knight'	),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'Princess Knight'	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 		'Unique Medieval era melee unit that replaces the Musketman, unlocked by the Feudalism civic. Does not suffer combat penalties when damaged.'
 	),
 
-	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'Pricess Archer'	),
+	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'Princess Archer'	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 		'Unique Medieval era ranged unit that replaces the Crossbowman, unlocked by the Guilds civic. Does not suffer combat penalties when damaged.'
 	);

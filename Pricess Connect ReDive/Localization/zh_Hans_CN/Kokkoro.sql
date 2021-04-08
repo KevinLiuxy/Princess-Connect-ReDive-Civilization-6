@@ -19,7 +19,7 @@ VALUES
 		'您之前见到爱梅斯大人了吧？她都说了些什么？[NEWLINE]唔……您说不太记得了？'
 	),
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_EXIT_LEADER_PCR_KOKKORO_ANY',
-		'请您更多地相信神灵、倾听爱梅斯大人的教诲。爱梅斯大人和我，会引导您走向光明。'
+		'请您更多地相信神灵、倾听爱梅斯大人的教诲。[NEWLINE]爱梅斯大人和我，会引导您走向光明。'
 	),/* Prolg Scene 2 */
 	('zh_Hans_CN',	'LOC_DIPLO_FIRST_MEET_LEADER_PCR_KOKKORO_ANY',
 		'哦呀？终于见到您了，我是[NEWLINE]伟大的爱梅斯大人派来的“引导者”……名为可可萝，请多指教。'
