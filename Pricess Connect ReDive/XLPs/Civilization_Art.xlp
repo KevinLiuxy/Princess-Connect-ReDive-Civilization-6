@@ -58,46 +58,6 @@
 			<m_ObjectName text="PCR_Pecorine_Menu"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PrincessConnectRedive_22"/>
-			<m_ObjectName text="PrincessConnectRedive_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_256"/>
-			<m_ObjectName text="PrincessConnectRedive_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_30"/>
-			<m_ObjectName text="PrincessConnectRedive_30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_36"/>
-			<m_ObjectName text="PrincessConnectRedive_36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_44"/>
-			<m_ObjectName text="PrincessConnectRedive_44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_45"/>
-			<m_ObjectName text="PrincessConnectRedive_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_48"/>
-			<m_ObjectName text="PrincessConnectRedive_48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_50"/>
-			<m_ObjectName text="PrincessConnectRedive_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_64"/>
-			<m_ObjectName text="PrincessConnectRedive_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PrincessConnectRedive_80"/>
-			<m_ObjectName text="PrincessConnectRedive_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="Unit_Princess_Archer_22"/>
 			<m_ObjectName text="Unit_Princess_Archer_22"/>
 		</Element>
@@ -240,6 +200,54 @@
 		<Element>
 			<m_EntryID text="Leader_PCR_Kyaru_80"/>
 			<m_ObjectName text="Leader_PCR_Kyaru_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_128"/>
+			<m_ObjectName text="PrincessConnectRedive_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_200"/>
+			<m_ObjectName text="PrincessConnectRedive_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_22"/>
+			<m_ObjectName text="PrincessConnectRedive_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_256"/>
+			<m_ObjectName text="PrincessConnectRedive_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_30"/>
+			<m_ObjectName text="PrincessConnectRedive_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_32"/>
+			<m_ObjectName text="PrincessConnectRedive_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_36"/>
+			<m_ObjectName text="PrincessConnectRedive_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_44"/>
+			<m_ObjectName text="PrincessConnectRedive_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_48"/>
+			<m_ObjectName text="PrincessConnectRedive_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_50"/>
+			<m_ObjectName text="PrincessConnectRedive_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_64"/>
+			<m_ObjectName text="PrincessConnectRedive_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PrincessConnectRedive_80"/>
+			<m_ObjectName text="PrincessConnectRedive_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

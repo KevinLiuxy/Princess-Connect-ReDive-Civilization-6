@@ -1,0 +1,18 @@
+  <LocalizedText>
+    <Text id="MOD_PRINCESS_CONNECT_REDIVE">
+      <en_US>[COLOR_FLOAT_GOLD]Princess Connect! Re:Dive[COLOR_FLOAT_GOLD]</en_US>
+      <zh_Hans_CN>[COLOR_FLOAT_GOLD]公主连结! Re:Dive[COLOR_FLOAT_GOLD]</zh_Hans_CN>
+      <zh_Hant_HK>[COLOR_FLOAT_GOLD]超異域公主連結☆ Re:Dive[COLOR_FLOAT_GOLD]</zh_Hant_HK>
+      <ja_JP>[COLOR_FLOAT_GOLD]プリンセスコネクト! Re:Dive[COLOR_FLOAT_GOLD]</ja_JP>
+    </Text>
+    <Text id="LOC_MOD_PROPERTY_GROUP_TEASER">
+      <en_US>Princess Connect Civilization and Leaders!</en_US>
+      <zh_Hans_CN>“公主连结”文明，和领袖佩可莉姆、凯露、可可萝！</zh_Hans_CN>
+      <zh_Hant_HK>“公主连结”文明，和領袖貪吃佩可、凱留、可可蘿！</zh_Hant_HK>
+      <ja_JP>“プリンセスコネクト”文明と指導者：ペコリーヌ、キャル、コッコロ</ja_JP>
+    </Text>
+    <Text id="LOC_MOD_PROPERTY_GROUP_DESCRIPTION">
+      <en_US>--- Pirncess Connect Civilization ---[NEWLINE]New Leader: Pecorine[NEWLINE]New Leader: Kyaru[NEWLINE]New Leader: Kokkoro[NEWLINE][NEWLINE]Supported Languages:[NEWLINE]en_US, zh_Hans_CN[NEWLINE][NEWLINE]Enjoy!</en_US>
+      <zh_Hans_CN>--- “公主连结”文明 ---[NEWLINE]领袖：佩可莉姆[NEWLINE]领袖：凯露[NEWLINE]领袖：可可萝[NEWLINE][NEWLINE]支持的语言：[NEWLINE]en_US, zh_Hans_CN[NEWLINE][NEWLINE]玩得开心！</zh_Hans_CN>
+    </Text>
+  </LocalizedText>

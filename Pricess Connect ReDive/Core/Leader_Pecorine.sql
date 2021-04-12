@@ -21,11 +21,11 @@ VALUES ('LEADER_PCR_PECORINE', 'PCR_Pecorine_Loading', 'Background_Loading', 1);
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_PECORINE', 'Background_Diplomacy');
 
-INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_PECORINE',	'PCRCivics',								'Civics'		),
-		('TRAIT_LEADER_PCR_PECORINE',	'PCRTechs',									'Technologies'	),
-		('TRAIT_LEADER_PCR_PECORINE',	'PCRWonders',								'Buildings'		),
-		('TRAIT_AGENDA_PCR_PECORINE',	'ExploitationLoverExploitationPreference',	'PseudoYields'	);
+INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
+VALUES	('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRWonders',								'Buildings'		),
+		(NULL,	'TRAIT_AGENDA_PCR_PECORINE',	'ExploitationLoverExploitationPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)

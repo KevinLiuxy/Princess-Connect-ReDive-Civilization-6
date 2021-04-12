@@ -22,11 +22,11 @@ VALUES ('LEADER_PCR_KOKKORO', 'PCR_Kokkoro_Loading', 'Background_Loading', 1);
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_KOKKORO', 'Background_Diplomacy');
 
-INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_KOKKORO',	'PCRCivics',								'Civics'		),
-		('TRAIT_LEADER_PCR_KOKKORO',	'PCRTechs',									'Technologies'	),
-		('TRAIT_LEADER_PCR_KOKKORO',	'PCRWonders',								'Buildings'		),
-		('TRAIT_AGENDA_PCR_KOKKORO',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
+INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
+VALUES	('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRWonders',								'Buildings'		),
+		(NULL,	'TRAIT_AGENDA_PCR_KOKKORO',		'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)

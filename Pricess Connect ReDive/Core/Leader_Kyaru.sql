@@ -21,11 +21,11 @@ VALUES ('LEADER_PCR_KYARU', 'PCR_Kyaru_Loading', 'Background_Loading', 1);
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
 VALUES ('LEADER_PCR_KYARU', 'Background_Diplomacy');
 
-INSERT INTO AiLists (LeaderType, ListType, System)
-VALUES	('TRAIT_LEADER_PCR_KYARU',	'PCRCivics',								'Civics'		),
-		('TRAIT_LEADER_PCR_KYARU',	'PCRTechs',									'Technologies'	),
-		('TRAIT_LEADER_PCR_KYARU',	'PCRWonders',								'Buildings'		),
-		('TRAIT_AGENDA_PCR_KYARU',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
+INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
+VALUES	('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRCivics',								'Civics'		),
+		('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRTechs',									'Technologies'	),
+		('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRWonders',								'Buildings'		),
+		(NULL,	'TRAIT_AGENDA_PCR_KYARU',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
 INSERT INTO	Traits (TraitType, Name, Description)

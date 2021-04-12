@@ -87,7 +87,17 @@ VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_17', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_18', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_19', 1),
-		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_20', 1);
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_20', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_21', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_22', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_23', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_24', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_25', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_26', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_27', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_28', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_29', 1),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_30', 1);
 
 --------------------------------------------------------------
 INSERT INTO	CivilizationInfo (CivilizationType, Header, Caption, SortIndex)

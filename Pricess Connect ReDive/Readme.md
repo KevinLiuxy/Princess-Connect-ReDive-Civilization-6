@@ -1,13 +1,12 @@
-Contents
-This mod brings you civilization "Princess Connect! Re:Dive" and three leaders of the Gourmet Edifice: Pecorine, Kyaru, and Kokkoro
+This mod brings you civilization "Princess Connect! Re:Dive" and three leaders of the Gourmet Edifice: Pecorine, Kyaru, and Kokkoro (ペコリーヌ, キャル, コッコロ).
 
 Unique District: Guild Clan, which replaces commercial hub and unlocks special district project "Clan Battle".
 
-Unique Unit: Princess Knight, and Princess Archer. They are melee and ranged unit from medieval era, and unlocked by specific civics.
+Unique Unit: Princess Knight and Princess Archer. They are melee and ranged units from the medieval era, and are unlocked by specific civics.
 
 Unique Ability: Adventure Quest, gives you combat bonuses against barbarians and city-states. It also provides you gold and culture every time you defeat an enemy unit.
 
-This mod also contains BGMs from Princess Connect! Re:Dive game and anime albums. There's 18 songs in total. I hope you'll enjoy them and have a good time☆
+This mod also contains BGM from Princess Connect! Re:Dive game and anime albums. There are 18 songs in total. I hope you'll enjoy them and have a good time☆
 
 Game Highlights
 Compatible with all Expansions
@@ -30,7 +29,7 @@ If you are interested in localising this mod into you own language, please let m
 
 Special Thanks
 1. Huge thanks to Hemmelfort[space.bilibili.com] and Keniisu for making Civilization modding tutorials and tools. This mod wouldn't be possible without them.
-2. Thanks to my friends including Pokeman for translation and pre-release testing.
+2. Thanks to my friends including Pokeman, Dwughjsd for translation and testing.
 3. Last but not least, Thank you for downloading and using my mod!
 Please rate it up and share it if you like my mod, and I'll be very grateful ~ やばいですね☆
 

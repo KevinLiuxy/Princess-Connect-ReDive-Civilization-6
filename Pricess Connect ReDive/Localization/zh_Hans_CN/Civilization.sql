@@ -61,6 +61,16 @@ VALUES
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_18',	'草野优衣'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_19',	'茧宫纺希'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_20',	'园上矛依未'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_21',	'风宫依里'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_22',	'风宫茜里'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_23',	'白银纯'			),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_24',	'克莉丝提娜'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_25',	'御久间智'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_26',	'北条绫音'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_27',	'栗林胡桃'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_28',	'雾原香澄'		),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_29',	'莉玛'			),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_30',	'绫濑由加莉'		),
 
 --------------------------------------------------------------
 	-- Civilization Info
@@ -95,6 +105,7 @@ VALUES
 	('zh_Hans_CN',	'LOC_NAMED_SEA_PCR3',		'墨提斯湾'		),
 	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR1',	'尤金妮亚火山'	),
 	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR2',	'塔利亚火山'		),
+	('zh_Hans_CN',	'LOC_NAMED_VOLCANO_PCR3',	'威里奥火山'		),
 
 --------------------------------------------------------------
 	-- InGame Text

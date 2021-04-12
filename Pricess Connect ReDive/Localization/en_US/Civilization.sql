@@ -61,6 +61,16 @@ VALUES
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_18',	'Kusano Yui'			),
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_19',	'Mayumiya Tsumugi'		),
 	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_20',	'Sonoue Muimi'			),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_21',	'Kazemiya Yori'			),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_22',	'Kazemiya Akari'		),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_23',	'Shirogane Jun'			),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_24',	'Morgan Christina'		),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_25',	'Mikuma Tomo'			),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_26',	'Hojo Ayane'			),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_27',	'Kuribayashi Kurumi'	),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_28',	'Kirihara Kasumi'		),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_29',	'Weisswind Monika'		),
+	('en_US',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_30',	'Ayase Yukari'			),
 
 --------------------------------------------------------------
 	-- Civilization Info
@@ -95,6 +105,7 @@ VALUES
 	('en_US',	'LOC_NAMED_SEA_PCR3',		'Metis Gulf'		),
 	('en_US',	'LOC_NAMED_VOLCANO_PCR1',	'Mount Eugenia'		),
 	('en_US',	'LOC_NAMED_VOLCANO_PCR2',	'Mount Taria'		),
+	('en_US',	'LOC_NAMED_VOLCANO_PCR3',	'Viglio Cone'		),
 
 --------------------------------------------------------------
 	-- InGame Text

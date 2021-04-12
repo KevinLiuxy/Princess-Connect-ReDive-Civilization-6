@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects..GameArtSpecification>
+<AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Princess Connect! Re Dive"/>
+		<name text="MOD_PRINCESS_CONNECT_REDIVE"/>
 		<id text="f7e7e896-7341-4b2c-8e10-61e5d66768f3"/>
 	</id>
 	<artConsumers>
@@ -9,6 +9,7 @@
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
 				<Element text="Unit.artdef"/>
+				<Element text="Culture.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -30,6 +31,8 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="Landmark.artdef"/>
+				<Element text="Culture.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -219,21 +222,13 @@
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
-			<consumerName text="ScreenWashEffects"/>
-			<relativeArtDefPaths>
-			</relativeArtDefPaths>
-			<libraryDependencies>
-				<Element text="ColorKey"/>
-			</libraryDependencies>
-			<loadsLibraries>true</loadsLibraries>
-		</Element>
-		<Element>
 			<consumerName text="Camera"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
 			<libraryDependencies>
+				<Element text="CameraAnimation"/>
 			</libraryDependencies>
-			<loadsLibraries>false</loadsLibraries>
+			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Terrains"/>
@@ -254,6 +249,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="Civilization.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -262,6 +258,7 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="Culture.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -287,6 +284,7 @@
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
 				<Element text="District.artdef"/>
+				<Element text="Culture.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -296,6 +294,7 @@
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
 				<Element text="District.artdef"/>
+				<Element text="Culture.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -601,8 +600,8 @@
 	</gameLibraries>
 	<requiredGameArtIDs>
 		<Element>
-			<name text="Shared"/>
-			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
 		</Element>
 	</requiredGameArtIDs>
-</AssetObjects..GameArtSpecification>
+</AssetObjects::GameArtSpecification>
