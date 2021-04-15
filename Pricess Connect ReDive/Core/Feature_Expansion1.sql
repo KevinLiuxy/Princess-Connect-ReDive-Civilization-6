@@ -26,6 +26,10 @@ INSERT INTO MomentIllustrations(
 INSERT INTO Projects_XP1 (ProjectType, IdentityPerCitizenChange)
 VALUES ('PROJECT_CLAN_BATTLE', 1.5);
 
+UPDATE Leaders SET Sex = 'Female' WHERE LeaderType = 'LEADER_PCR_KYARU';
+UPDATE Leaders SET Sex = 'Female' WHERE LeaderType = 'LEADER_PCR_PECORINE';
+UPDATE Leaders SET Sex = 'Female' WHERE LeaderType = 'LEADER_PCR_KOKKORO';
+
 --------------------------------------------------------------
 INSERT INTO Types (Type, Kind)
 VALUES ('MODIFIER_KYARU_CITY_ADJUST_IDENTITY_PER_TURN', 'KIND_MODIFIER');

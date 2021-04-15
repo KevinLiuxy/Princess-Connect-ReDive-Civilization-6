@@ -64,7 +64,17 @@ VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedi
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_32'),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_33'),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_34'),
-		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_35');
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_35'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_36'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_37'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_38'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_39'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_40'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_41'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_42'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_43'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_44'),
+		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_45');
 
 --------------------------------------------------------------
 INSERT INTO	CivilizationCitizenNames (CivilizationType, CitizenName, Female)

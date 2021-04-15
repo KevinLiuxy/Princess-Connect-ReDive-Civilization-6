@@ -8,7 +8,7 @@
     <Text id="LOC_MOD_PROPERTY_GROUP_TEASER">
       <en_US>Princess Connect Civilization and Leaders!</en_US>
       <zh_Hans_CN>“公主连结”文明，和领袖佩可莉姆、凯露、可可萝！</zh_Hans_CN>
-      <zh_Hant_HK>“公主连结”文明，和領袖貪吃佩可、凱留、可可蘿！</zh_Hant_HK>
+      <zh_Hant_HK>“公主連結”文明，和領袖貪吃佩可、凱留、可可蘿！</zh_Hant_HK>
       <ja_JP>“プリンセスコネクト”文明と指導者：ペコリーヌ、キャル、コッコロ</ja_JP>
     </Text>
     <Text id="LOC_MOD_PROPERTY_GROUP_DESCRIPTION">

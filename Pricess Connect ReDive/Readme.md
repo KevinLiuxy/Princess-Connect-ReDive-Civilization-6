@@ -13,7 +13,7 @@ Compatible with all Expansions
 And works with the vanilla Civ6 too... though playing with Gathering Storm will offer you the best experience.
 
 City Names that Never Run Out
-The mod includes 35 unique Princess Connect city names, from guilds names to quest names on the map... so you'll never see that "Washington" when founding your cities.
+The mod includes 45 unique Princess Connect city names, from guilds names to quest names on the map... so you'll never see that "Washington" when founding your cities.
 
 Unique Geological Names (GS)
 Names of various rivers, lakes, mountains... on continent Astraea are added into the game for you to explore. (in Gathering Storm only)
