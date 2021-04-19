@@ -1,16 +1,16 @@
 -- Civilization_UI
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES	('TRAIT_PrincessConnectRedive_UI',	'KIND_TRAIT'	),
 		('DISTRICT_GUILD_CLAN',				'KIND_DISTRICT'	),
 		('PROJECT_CLAN_BATTLE',				'KIND_PROJECT'	);
 
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES ('TRAIT_PrincessConnectRedive_UI', 'LOC_TRAIT_PrincessConnectRedive_UI_NAME',
 			'LOC_TRAIT_PrincessConnectRedive_UI_DESCRIPTION');
 
-INSERT INTO	CivilizationTraits (CivilizationType, TraitType)
+INSERT INTO CivilizationTraits (CivilizationType, TraitType)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'TRAIT_PrincessConnectRedive_UI');
 
 --------------------------------------------------------------
@@ -118,10 +118,10 @@ VALUES ('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
 INSERT INTO DistrictModifiers (DistrictType, ModifierId)
 VALUES ('DISTRICT_GUILD_CLAN', 'GUILD_CLAN_DISTRICT_HOUSING');
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES ('GUILD_CLAN_DISTRICT_HOUSING', 'MODIFIER_SINGLE_CITY_ADJUST_BUILDING_HOUSING', 'DISTRICT_IS_GUILD_CLAN');
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES ('GUILD_CLAN_DISTRICT_HOUSING', 'Amount', 3);
 
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType)

@@ -7,7 +7,7 @@ VALUES	('TRAIT_PrincessConnectRedive_UU1',	'KIND_TRAIT'	),
 		('UNIT_PRINCESS_KNIGHT',			'KIND_UNIT'		),
 		('UNIT_PRINCESS_ARCHER',			'KIND_UNIT'		);
 
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES (
 	'TRAIT_PrincessConnectRedive_UU1',
 	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
@@ -18,7 +18,7 @@ VALUES (
 	'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION'
 );
 
-INSERT INTO	CivilizationTraits (CivilizationType, TraitType)
+INSERT INTO CivilizationTraits (CivilizationType, TraitType)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'TRAIT_PrincessConnectRedive_UU1'),
 		('CIVILIZATION_PrincessConnectRedive', 'TRAIT_PrincessConnectRedive_UU2');
 
@@ -78,7 +78,7 @@ INSERT INTO Units(
 	/* ZoneOfControl */ 1,
 	/* Domain        */ 'DOMAIN_LAND',
 	/* Combat        */ 50,
-	/* RangedCombat	 */ 0,
+	/* RangedCombat  */ 0,
 	/* Range         */ 0,
 	/* StratResource */ 'RESOURCE_IRON',
 	/* FormationClss */ 'FORMATION_CLASS_LAND_COMBAT',
@@ -100,7 +100,7 @@ INSERT INTO Units(
 	/* ZoneOfControl */ 0,
 	/* Domain        */ 'DOMAIN_LAND',
 	/* Combat        */ 35,
-	/* RangedCombat	 */ 50,
+	/* RangedCombat  */ 50,
 	/* Range         */ 2,
 	/* StratResource */ NULL,
 	/* FormationClss */ 'FORMATION_CLASS_LAND_COMBAT',

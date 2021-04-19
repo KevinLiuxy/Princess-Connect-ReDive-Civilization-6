@@ -1,21 +1,21 @@
 -- Leader_Kyaru
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES	('LEADER_PCR_KYARU',		'KIND_LEADER'	),
 		('TRAIT_LEADER_PCR_KYARU',	'KIND_TRAIT'	),
 		('TRAIT_AGENDA_PCR_KYARU',	'KIND_TRAIT'	);
 
-INSERT INTO	Leaders (LeaderType, Name, InheritFrom, SceneLayers)
+INSERT INTO Leaders (LeaderType, Name, InheritFrom, SceneLayers)
 VALUES ('LEADER_PCR_KYARU', 'LOC_LEADER_PCR_KYARU_NAME', 'LEADER_DEFAULT', 4);
 
-INSERT INTO	CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
+INSERT INTO CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_KYARU', 'LOC_CITY_NAME_PrincessConnectRedive_1');
 
-INSERT INTO	LeaderQuotes (LeaderType, Quote)
+INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_KYARU', 'LOC_PEDIA_LEADERS_PAGE_PCR_KYARU_QUOTE');
 
-INSERT INTO	LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
+INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
 VALUES ('LEADER_PCR_KYARU', 'PCR_Kyaru_Loading', 'Background_Loading', 1);
 
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
@@ -28,11 +28,11 @@ VALUES	('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRCivics',								'Civics'		),
 		(NULL,	'TRAIT_AGENDA_PCR_KYARU',	'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES	('TRAIT_LEADER_PCR_KYARU',	'LOC_TRAIT_LEADER_PCR_KYARU_NAME',	'LOC_TRAIT_LEADER_PCR_KYARU_DESCRIPTION'),
 		('TRAIT_AGENDA_PCR_KYARU',	'LOC_AGENDA_PCR_KYARU_NAME',		'LOC_AGENDA_PCR_KYARU_DESCRIPTION'		);
 
-INSERT INTO	LeaderTraits (LeaderType, TraitType)
+INSERT INTO LeaderTraits (LeaderType, TraitType)
 VALUES	('LEADER_PCR_KYARU',	'TRAIT_LEADER_PCR_KYARU'				),
 		('LEADER_PCR_KYARU',	'TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE'	);
 
@@ -48,7 +48,7 @@ VALUES	('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_SCIENCE1'		),
 		('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_SPY_CAPACITY'	),
 		('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_SPY_UNIT'		);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'MODIFIER_KYARU_SCIENCE1',
 	'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER',
@@ -87,7 +87,7 @@ VALUES (
 	'PLAYER_HAS_GUILDS_CIVIC_PCR'
 );
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, RunOnce, Permanent)
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, RunOnce, Permanent)
 VALUES (
 	'MODIFIER_KYARU_SPY_UNIT',
 	'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL',
@@ -95,7 +95,7 @@ VALUES (
 	1, 1
 );
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES	('MODIFIER_KYARU_SCIENCE1',			'YieldType',		'YIELD_SCIENCE'	),
 		('MODIFIER_KYARU_SCIENCE1',			'Amount',			7				),
 		('MODIFIER_KYARU_SCIENCE2',			'YieldType',		'YIELD_SCIENCE'	),
@@ -171,7 +171,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_AGENDA_PCR_KYARU',	'AGENDA_KYARU_SATISFIED'	),
 		('TRAIT_AGENDA_PCR_KYARU',	'AGENDA_KYARU_UNSATISFIED'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'AGENDA_KYARU_SATISFIED',
 	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',

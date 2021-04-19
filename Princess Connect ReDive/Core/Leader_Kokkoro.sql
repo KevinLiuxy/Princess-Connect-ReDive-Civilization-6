@@ -1,22 +1,22 @@
 -- Leader_Kokkoro
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES	('LEADER_PCR_KOKKORO',										'KIND_LEADER'	),
 		('TRAIT_LEADER_PCR_KOKKORO',								'KIND_TRAIT'	),
 		('TRAIT_AGENDA_PCR_KOKKORO',								'KIND_TRAIT'	),
 		('MODIFIER_KOKKORO_APOSTLE_UNLIMITED_PROMOTION_CHOICES',	'KIND_MODIFIER'	);
 
-INSERT INTO	Leaders (LeaderType, Name, InheritFrom, SceneLayers)
+INSERT INTO Leaders (LeaderType, Name, InheritFrom, SceneLayers)
 VALUES ('LEADER_PCR_KOKKORO', 'LOC_LEADER_PCR_KOKKORO_NAME', 'LEADER_DEFAULT', 4);
 
-INSERT INTO	CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
+INSERT INTO CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_KOKKORO', 'LOC_CITY_NAME_PrincessConnectRedive_1');
 
-INSERT INTO	LeaderQuotes (LeaderType, Quote)
+INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_KOKKORO', 'LOC_PEDIA_LEADERS_PAGE_PCR_KOKKORO_QUOTE');
 
-INSERT INTO	LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
+INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
 VALUES ('LEADER_PCR_KOKKORO', 'PCR_Kokkoro_Loading', 'Background_Loading', 1);
 
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
@@ -29,11 +29,11 @@ VALUES	('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRCivics',								'Civics'		),
 		(NULL,	'TRAIT_AGENDA_PCR_KOKKORO',		'EnvironmentLoverEnvironmentPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES	('TRAIT_LEADER_PCR_KOKKORO',	'LOC_TRAIT_LEADER_PCR_KOKKORO_NAME',	'LOC_TRAIT_LEADER_PCR_KOKKORO_DESCRIPTION'	),
 		('TRAIT_AGENDA_PCR_KOKKORO',	'LOC_AGENDA_PCR_KOKKORO_NAME',			'LOC_AGENDA_PCR_KOKKORO_DESCRIPTION'		);
 
-INSERT INTO	LeaderTraits (LeaderType, TraitType)
+INSERT INTO LeaderTraits (LeaderType, TraitType)
 VALUES	('LEADER_PCR_KOKKORO',	'TRAIT_LEADER_PCR_KOKKORO'					),
 		('LEADER_PCR_KOKKORO',	'TRAIT_LEADER_RELIGIOUS_MAJOR_CIV'			),
 		('LEADER_PCR_KOKKORO',	'TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR');
@@ -45,7 +45,7 @@ VALUES	('TRAIT_LEADER_PCR_KOKKORO',	'MODIFIER_KOKKORO_GOVERNMENT_SLOT'		),
 		('TRAIT_LEADER_PCR_KOKKORO',	'MODIFIER_KOKKORO_FOREST_UNIT_HEALING'	),
 		('TRAIT_LEADER_PCR_KOKKORO',	'MODIFIER_KOKKORO_APOSTLE_PROMOTION'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'MODIFIER_KOKKORO_FOREST_SHRINE_FAITH',
 	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',
@@ -64,14 +64,14 @@ VALUES (
 	NULL
 );
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, OwnerRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId)
 VALUES (
 	'MODIFIER_KOKKORO_GOVERNMENT_SLOT',
 	'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER',
 	'PLAYER_HAS_MYSTICISM_CIVIC_PCR'
 );
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES	('MODIFIER_KOKKORO_GOVERNMENT_SLOT',		'GovernmentSlotType',	'SLOT_WILDCARD'	),
 		('MODIFIER_KOKKORO_FOREST_SHRINE_FAITH',	'YieldType',			'YIELD_FAITH'	),
 		('MODIFIER_KOKKORO_FOREST_SHRINE_FAITH',	'Amount',				3				),
@@ -127,7 +127,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_AGENDA_PCR_KOKKORO', 'AGENDA_KOKKORO_SATISFIED'		),
 		('TRAIT_AGENDA_PCR_KOKKORO', 'AGENDA_KOKKORO_UNSATISFIED'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'AGENDA_KOKKORO_SATISFIED',
 	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',

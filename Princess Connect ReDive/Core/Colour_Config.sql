@@ -1,7 +1,7 @@
 -- Colour_Config
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Colors (Type, Color)
+INSERT INTO Colors (Type, Color)
 VALUES	('COLOR_PrincessConnectRedive_A_PRIMARY'  ,/* PC:ReMain */ '245,82,145,255'	),
 		('COLOR_PrincessConnectRedive_A_SECONDARY',/* PC:ReMain */ '255,255,255,255'),
 		('COLOR_PrincessConnectRedive_B_PRIMARY'  ,/* PC:Re-Alt */ '255,255,255,255'),
@@ -20,7 +20,7 @@ VALUES	('COLOR_PrincessConnectRedive_A_PRIMARY'  ,/* PC:ReMain */ '245,82,145,25
 		('COLOR_PrincessConnectRedive_H_SECONDARY',/* Kokro-Alt */ '43,144,78,255'	);
 
 --------------------------------------------------------------
-INSERT INTO	PlayerColors(
+INSERT INTO PlayerColors(
 	Type,
 	Usage,
 	PrimaryColor,

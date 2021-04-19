@@ -1,23 +1,23 @@
 -- Civilization_UA
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES ('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'KIND_TRAIT');
 
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES ('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_NAME',
 			'LOC_TRAIT_CIVILIZATION_PrincessConnectRedive_UA_DESCRIPTION');
 
-INSERT INTO	CivilizationTraits (CivilizationType, TraitType)
+INSERT INTO CivilizationTraits (CivilizationType, TraitType)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'TRAIT_CIVILIZATION_PrincessConnectRedive_UA');
 
 --------------------------------------------------------------
-INSERT INTO	TraitModifiers (TraitType, ModifierId)
-VALUES 	('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_COMBAT'			),
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_COMBAT'			),
 		('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_GOLD_KILLS'		),
 		('TRAIT_CIVILIZATION_PrincessConnectRedive_UA', 'MODIFIER_MAMONO_CULTURE_KILLS'		);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'MODIFIER_MAMONO_COMBAT',
 	'MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH',
@@ -32,7 +32,7 @@ VALUES (
 	'REQUIREMENTS_OPPONENT_IS_MAMONO'
 );
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES	('MODIFIER_MAMONO_COMBAT',			'Amount',						5				),
 		('MODIFIER_MAMONO_GOLD_KILLS',		'YieldType',					'YIELD_GOLD'	),
 		('MODIFIER_MAMONO_GOLD_KILLS',		'PercentDefeatedStrength',		100				),

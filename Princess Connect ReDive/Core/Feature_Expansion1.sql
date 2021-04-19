@@ -43,7 +43,7 @@ VALUES	('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_LOYALTY1'	),
 		('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_LOYALTY3'	),
 		('TRAIT_LEADER_PCR_KYARU',	'MODIFIER_KYARU_LOYALTY4'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'MODIFIER_KYARU_LOYALTY1',
 	'MODIFIER_KYARU_CITY_ADJUST_IDENTITY_PER_TURN',
@@ -62,7 +62,7 @@ VALUES (
 	'DISTRICT_IS_DISGUSTING_CITY_CENTER'
 );
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES	('MODIFIER_KYARU_LOYALTY1',		'Amount',		3	),
 		('MODIFIER_KYARU_LOYALTY2',		'Amount',		2	),
 		('MODIFIER_KYARU_LOYALTY3',		'Amount',		-3	),

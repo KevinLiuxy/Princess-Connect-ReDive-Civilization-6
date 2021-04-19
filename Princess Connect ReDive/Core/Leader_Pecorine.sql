@@ -1,21 +1,21 @@
 -- Leader_Pecorine
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES	('LEADER_PCR_PECORINE',			'KIND_LEADER'	),
 		('TRAIT_LEADER_PCR_PECORINE',	'KIND_TRAIT'	),
 		('TRAIT_AGENDA_PCR_PECORINE',	'KIND_TRAIT'	);
 
-INSERT INTO	Leaders (LeaderType, Name, InheritFrom, SceneLayers)
+INSERT INTO Leaders (LeaderType, Name, InheritFrom, SceneLayers)
 VALUES ('LEADER_PCR_PECORINE', 'LOC_LEADER_PCR_PECORINE_NAME', 'LEADER_DEFAULT', 4);
 
-INSERT INTO	CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
+INSERT INTO CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_PECORINE', 'LOC_CITY_NAME_PrincessConnectRedive_1');
 
-INSERT INTO	LeaderQuotes (LeaderType, Quote)
+INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_PECORINE', 'LOC_PEDIA_LEADERS_PAGE_PCR_PECORINE_QUOTE');
 
-INSERT INTO	LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
+INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
 VALUES ('LEADER_PCR_PECORINE', 'PCR_Pecorine_Loading', 'Background_Loading', 1);
 
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
@@ -28,11 +28,11 @@ VALUES	('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRCivics',								'Civics'		),
 		(NULL,	'TRAIT_AGENDA_PCR_PECORINE',	'ExploitationLoverExploitationPreference',	'PseudoYields'	);
 
 --------------------------------------------------------------
-INSERT INTO	Traits (TraitType, Name, Description)
+INSERT INTO Traits (TraitType, Name, Description)
 VALUES	('TRAIT_LEADER_PCR_PECORINE',	'LOC_TRAIT_LEADER_PCR_PECORINE_NAME',	'LOC_TRAIT_LEADER_PCR_PECORINE_DESCRIPTION'	),
 		('TRAIT_AGENDA_PCR_PECORINE',	'LOC_AGENDA_PCR_PECORINE_NAME',			'LOC_AGENDA_PCR_PECORINE_DESCRIPTION'		);
 
-INSERT INTO	LeaderTraits (LeaderType, TraitType)
+INSERT INTO LeaderTraits (LeaderType, TraitType)
 VALUES	('LEADER_PCR_PECORINE',	'TRAIT_LEADER_PCR_PECORINE'				),
 		('LEADER_PCR_PECORINE',	'TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE'	);
 
@@ -45,7 +45,7 @@ VALUES	('TRAIT_LEADER_PCR_PECORINE',	'MODIFIER_PECORINE_PLANTATION_SCIENCE'	),
 		('TRAIT_LEADER_PCR_PECORINE',	'MODIFIER_PECORINE_IMPROVEMENT_FOOD'	),
 		('TRAIT_LEADER_PCR_PECORINE',	'MODIFIER_PECORINE_RESOURCE_AMENITY'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'MODIFIER_PECORINE_PLANTATION_SCIENCE',
 	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',
@@ -76,7 +76,7 @@ VALUES (
 	NULL
 );
 
-INSERT INTO	ModifierArguments (ModifierId, Name, Value)
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
 VALUES	('MODIFIER_PECORINE_PLANTATION_SCIENCE',	'YieldType',	'YIELD_SCIENCE'		),
 		('MODIFIER_PECORINE_PLANTATION_SCIENCE',	'Amount',		1					),
 		('MODIFIER_PECORINE_PASTURE_CULTURE',		'YieldType',	'YIELD_CULTURE'		),
@@ -125,7 +125,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_AGENDA_PCR_PECORINE',	'AGENDA_PECORINE_SATISFIED'		),
 		('TRAIT_AGENDA_PCR_PECORINE',	'AGENDA_PECORINE_UNSATISFIED'	);
 
-INSERT INTO	Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES (
 	'AGENDA_PECORINE_SATISFIED',
 	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',

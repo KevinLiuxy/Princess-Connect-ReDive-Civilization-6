@@ -48,4 +48,4 @@ Music Albums：
 1. アニメ「プリンセスコネクト!Re_Dive」テーマソング
 2. プリンセスコネクト！ Re：Dive PRICONNE CHARACTER SONG 02
 3. PRINCESS CONNECT! Re_Dive ORIGINAL SOUNDTRACK
-Source Code: https://github.com/KevinLiuxy/Pricess-Connect-ReDive-Civilization-6
+Source Code: https://github.com/KevinLiuxy/Princess-Connect-ReDive-Civilization-6

@@ -1,10 +1,10 @@
 -- Civilization_Config
 -- Author: liuxi
 --------------------------------------------------------------
-INSERT INTO	Types (Type, Kind)
+INSERT INTO Types (Type, Kind)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'KIND_CIVILIZATION');
 
-INSERT INTO	Civilizations(
+INSERT INTO Civilizations(
 	CivilizationType,
 	Name,
 	Description,
@@ -22,14 +22,14 @@ INSERT INTO	Civilizations(
 	10
 );
 
-INSERT INTO	StartBiasTerrains (CivilizationType, TerrainType, Tier)
+INSERT INTO StartBiasTerrains (CivilizationType, TerrainType, Tier)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'TERRAIN_PLAINS', 2);
 /*
-INSERT INTO	StartBiasFeatures (CivilizationType, FeatureType, Tier)
+INSERT INTO StartBiasFeatures (CivilizationType, FeatureType, Tier)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'FEATURE_FOREST', 5);*/
 
 --------------------------------------------------------------
-INSERT INTO	CityNames (CivilizationType, CityName)
+INSERT INTO CityNames (CivilizationType, CityName)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_1'),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_2'),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_3'),
@@ -77,7 +77,7 @@ VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedi
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITY_NAME_PrincessConnectRedive_45');
 
 --------------------------------------------------------------
-INSERT INTO	CivilizationCitizenNames (CivilizationType, CitizenName, Female)
+INSERT INTO CivilizationCitizenNames (CivilizationType, CitizenName, Female)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_2', 1),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3', 1),
@@ -110,7 +110,7 @@ VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CITIZEN_PrincessConnectRedive_FEMALE_30', 1);
 
 --------------------------------------------------------------
-INSERT INTO	CivilizationInfo (CivilizationType, Header, Caption, SortIndex)
+INSERT INTO CivilizationInfo (CivilizationType, Header, Caption, SortIndex)
 VALUES	('CIVILIZATION_PrincessConnectRedive', 'LOC_CIVINFO_LOCATION'  , 'LOC_CIVINFO_PrincessConnectRedive_LOCATION'  , 10),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CIVINFO_SIZE'      , 'LOC_CIVINFO_PrincessConnectRedive_SIZE'      , 20),
 		('CIVILIZATION_PrincessConnectRedive', 'LOC_CIVINFO_POPULATION', 'LOC_CIVINFO_PrincessConnectRedive_POPULATION', 30),
