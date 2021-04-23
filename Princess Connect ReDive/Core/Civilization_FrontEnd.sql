@@ -20,7 +20,7 @@ INSERT INTO Players(
 ) VALUES (
 	-- Leader Kyaru
 
-	/* Domain           */ 'StandardPlayers',
+	/* Domain           */ 'Players:StandardPlayers',
 	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
 	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
 	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
@@ -71,7 +71,7 @@ INSERT INTO Players(
 --------------------------------------------------------------
 ),(	-- Leader Pecorine
 
-	/* Domain           */ 'StandardPlayers',
+	/* Domain           */ 'Players:StandardPlayers',
 	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
 	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
 	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
@@ -122,7 +122,7 @@ INSERT INTO Players(
 --------------------------------------------------------------
 ),(	-- Leader Kokkoro
 
-	/* Domain           */ 'StandardPlayers',
+	/* Domain           */ 'Players:StandardPlayers',
 	/* CivilizationType */ 'CIVILIZATION_PrincessConnectRedive',
 	/* CivilizationName */ 'LOC_CIVILIZATION_PrincessConnectRedive_NAME',
 	/* CivilizationIcon */ 'ICON_CIVILIZATION_PrincessConnectRedive',
@@ -184,7 +184,7 @@ INSERT INTO PlayerItems(
 ) VALUES (
 	-- Leader Kyaru
 
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU1',
@@ -211,7 +211,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU2',
@@ -238,7 +238,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KYARU',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UI',
@@ -268,7 +268,7 @@ INSERT INTO PlayerItems(
 --------------------------------------------------------------
 ),(	-- Leader Pecorine
 
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU1',
@@ -295,7 +295,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU2',
@@ -322,7 +322,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_PECORINE',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UI',
@@ -352,7 +352,7 @@ INSERT INTO PlayerItems(
 --------------------------------------------------------------
 ),(	-- Leader Kokkoro
 
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU1',
@@ -379,7 +379,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
 	/* SortIndex  */ 10
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UU2',
@@ -406,7 +406,7 @@ INSERT INTO PlayerItems(
 	/* Desc       */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
 	/* SortIndex  */ 20
 ),(
-	/* Domain     */ 'StandardPlayers',
+	/* Domain     */ 'Players:StandardPlayers',
 	/* Civilztion */ 'CIVILIZATION_PrincessConnectRedive',
 	/* LeaderType */ 'LEADER_PCR_KOKKORO',
 	/* Type       */ 'TRAIT_PrincessConnectRedive_UI',

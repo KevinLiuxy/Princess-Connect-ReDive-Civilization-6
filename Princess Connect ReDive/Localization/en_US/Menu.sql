@@ -50,7 +50,7 @@ VALUES
 	-- Unique Unit
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'Princess Knight'	),
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
-		'Unique Medieval era melee unit that replaces the Musketman, unlocked by the Feudalism civic. Does not suffer combat penalties when damaged.'
+		'Unique Medieval era melee unit that replaces the Man-At-Arms, unlocked by the Feudalism civic. Does not suffer combat penalties when damaged.'
 	),
 
 	('en_US',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'Princess Archer'	),

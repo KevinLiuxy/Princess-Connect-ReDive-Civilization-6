@@ -1,4 +1,4 @@
-# Pricess Connect! Re: Dive Civilization VI Mod
+# Princess Connect! Re: Dive Civilization VI Mod
 Princess Connect! Re:Dive Civilization and Leaders Mod for Civilization VI
 
 This is the source coude repository for Steam Workshop Princess Connect Mod for Civilization 6<br>

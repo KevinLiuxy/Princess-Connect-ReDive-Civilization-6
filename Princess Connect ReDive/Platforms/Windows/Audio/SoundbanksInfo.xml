@@ -5,19 +5,19 @@
 	<StreamedFiles>
 		<File Id="68480436" Language="SFX">
 			<ShortName>Music_PCR_Industrial_Era.wav</ShortName>
-			<Path>SFX\Music_PCR_Industrial_Era_58B3D078.wem</Path>
+			<Path>SFX\Music_PCR_Industrial_Era_52DC599B.wem</Path>
 		</File>
 		<File Id="223327493" Language="SFX">
 			<ShortName>Music_PCR_Medieval_Era.wav</ShortName>
-			<Path>SFX\Music_PCR_Medieval_Era_58B3D078.wem</Path>
+			<Path>SFX\Music_PCR_Medieval_Era_52DC599B.wem</Path>
 		</File>
 		<File Id="520363507" Language="SFX">
 			<ShortName>Music_PCR_Atomic_Era.wav</ShortName>
-			<Path>SFX\Music_PCR_Atomic_Era_58B3D078.wem</Path>
+			<Path>SFX\Music_PCR_Atomic_Era_52DC599B.wem</Path>
 		</File>
 		<File Id="901038563" Language="SFX">
 			<ShortName>Music_PCR_Ancient_Era.wav</ShortName>
-			<Path>SFX\Music_PCR_Ancient_Era_58B3D078.wem</Path>
+			<Path>SFX\Music_PCR_Ancient_Era_52DC599B.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>

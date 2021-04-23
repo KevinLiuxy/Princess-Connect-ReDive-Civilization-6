@@ -304,6 +304,7 @@
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
 				<Element text="District.artdef"/>
+				<Element text="Unit.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>

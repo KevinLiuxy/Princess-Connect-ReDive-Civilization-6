@@ -121,7 +121,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text=""/>
+										<m_Value text="Archer"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
@@ -156,7 +156,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Archer"/>
+							<m_ElementName text="Samurai"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -262,7 +262,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="Samurai"/>
+										<m_Value text="Swordsman"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
@@ -331,4 +331,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
-

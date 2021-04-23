@@ -50,7 +50,7 @@ VALUES
 	-- Unique Unit
 	('zh_Hans_CN',	'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',		'公主骑士'	),
 	('zh_Hans_CN',	'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
-		'取代火枪手的公主连结中世纪特色近战单位，由“封建主义”市政解锁。[NEWLINE]受伤害时，不会遭受战斗力减益。'
+		'取代披甲战士的公主连结中世纪特色近战单位，由“封建主义”市政解锁。[NEWLINE]受伤害时，不会遭受战斗力减益。'
 	),
 
 	('zh_Hans_CN',	'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',		'公主射手'	),
