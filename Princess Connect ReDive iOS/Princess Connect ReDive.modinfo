@@ -99,15 +99,13 @@
       <File>Platforms/iOS/Audio/SoundbanksInfo.xml</File>
       <File>Platforms/iOS/Audio/PCR_Music_Bank.bnk</File>
     </UpdateAudio>
-  </InGameActions>
-  <Components>
     <AddUserInterfaces id="fixbgm">
       <Properties>
         <Context>InGame</Context>
       </Properties>
       <File>fixbgm.xml</File>
     </AddUserInterfaces>
-  </Components>
+  </InGameActions>
   <Files>
     <File>ArtDefs/Civilization.artdef</File>
     <File>ArtDefs/Culture.artdef</File>
