@@ -1,16 +1,13 @@
-# Princess Connect! Re: Dive Civilization VI Mod
-Princess Connect! Re:Dive Civilization and Leaders Mod for Civilization VI
+<h3>How to Install:</h3>
+<p>
+1. Download folder <code>Princess Connect ReDive iOS</code> onto your computer.
+2. Connect your iOS device to the computer.
+3. Copy this mod into <code>/Apps/Civ VI/Sid Meier's Civilization VI/Mods</code> folder on your device.
+Note: Accessing iOS directories would require iTunes and iExplorer(free) software on the host computer. (or other equavalent software)
 
-This is the source coude repository for Steam Workshop Princess Connect Mod for Civilization 6<br>
-Learn more about this mod & download please visit:
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2443517691&tscn=1617380622
-
-Thank you<p><br><p>
-
-这是 Steam 创意工坊-文明6 公主连结! Re:Dive Mod 的源代码<br>
-了解详情、下载安装请浏览以下链接：
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2443517691&tscn=1617380622
-
-谢谢
+<h3>使用说明：</h3>
+<p>
+1. 用计算机下载这个MOD文件夹<code>Princess Connect ReDive iOS</code>
+2. 将您的iOS设备连接至电脑
+3. 将MOD复制进您的iOS设备上<code>/Apps/Civ VI/Sid Meier's Civilization VI/Mods</code>目录下
+注意：访问iOS设备文件需要在电脑上下载 iTunes 和 IExplorer（免费），或其他类似软件。

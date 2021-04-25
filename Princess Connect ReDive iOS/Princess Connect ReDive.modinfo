@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f7e7e896-7341-4b2c-8e10-61e5d66768f3" version="1.9">
+  <Properties>
+    <Name>MOD_PRINCESS_CONNECT_REDIVE</Name>
+    <Description>LOC_MOD_PROPERTY_GROUP_DESCRIPTION</Description>
+    <Created>1619271133</Created>
+    <Teaser>LOC_MOD_PROPERTY_GROUP_TEASER</Teaser>
+    <Authors>Kevin Liu</Authors>
+    <SpecialThanks>Hemmelfort &amp; Keniisu</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="MOD_PRINCESS_CONNECT_REDIVE">
+      <en_US>[COLOR_FLOAT_GOLD]Princess Connect! Re:Dive[COLOR_FLOAT_GOLD]</en_US>
+      <zh_Hans_CN>[COLOR_FLOAT_GOLD]公主连结! Re:Dive[COLOR_FLOAT_GOLD]</zh_Hans_CN>
+      <zh_Hant_HK>[COLOR_FLOAT_GOLD]超異域公主連結☆ Re:Dive[COLOR_FLOAT_GOLD]</zh_Hant_HK>
+      <ja_JP>[COLOR_FLOAT_GOLD]プリンセスコネクト! Re:Dive[COLOR_FLOAT_GOLD]</ja_JP>
+    </Text>
+    <Text id="LOC_MOD_PROPERTY_GROUP_TEASER">
+      <en_US>Princess Connect Civilization and Leaders!</en_US>
+      <zh_Hans_CN>“公主连结”文明，和领袖佩可莉姆、凯露、可可萝！</zh_Hans_CN>
+      <zh_Hant_HK>“公主連結”文明，和領袖貪吃佩可、凱留、可可蘿！</zh_Hant_HK>
+      <ja_JP>“プリンセスコネクト”文明と指導者：ペコリーヌ、キャル、コッコロ</ja_JP>
+    </Text>
+    <Text id="LOC_MOD_PROPERTY_GROUP_DESCRIPTION">
+      <en_US>--- Pirncess Connect Civilization ---[NEWLINE]New Leader: Pecorine[NEWLINE]New Leader: Kyaru[NEWLINE]New Leader: Kokkoro[NEWLINE][NEWLINE]Supported Languages:[NEWLINE]en_US, zh_Hans_CN[NEWLINE][NEWLINE]Enjoy!</en_US>
+      <zh_Hans_CN>--- “公主连结”文明 ---[NEWLINE]领袖：佩可莉姆[NEWLINE]领袖：凯露[NEWLINE]领袖：可可萝[NEWLINE][NEWLINE]支持的语言：[NEWLINE]en_US, zh_Hans_CN[NEWLINE][NEWLINE]玩得开心！</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="PCR_MOD_FRONT_END">
+      <File>Core/Civilization_FrontEnd.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="PCR_MOD_FRONT_END">
+      <File>Localization/en_US/Menu.sql</File>
+      <File>Localization/zh_Hans_CN/Menu.sql</File>
+    </UpdateText>
+    <UpdateColors id="PCR_MOD_FRONT_END">
+      <File>Core/Colour_Config.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="PCR_MOD_FRONT_END">
+      <File>Core/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="PCR_MOD_FRONT_END">
+      <File>MOD_PRINCESS_CONNECT_REDIVE.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="PCR_MOD_INGAME">
+      <File>Core/Civilization_Config.sql</File>
+      <File>Core/Civilization_UA.sql</File>
+      <File>Core/Civilization_UI.sql</File>
+      <File>Core/Civilization_UU.sql</File>
+      <File>Core/Leader_Kyaru.sql</File>
+      <File>Core/Leader_Pecorine.sql</File>
+      <File>Core/Leader_Kokkoro.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="PCR_MOD_INGAME">
+      <File>Localization/en_US/Civilization.sql</File>
+      <File>Localization/en_US/Civilopedia.xml</File>
+      <File>Localization/en_US/Kokkoro.sql</File>
+      <File>Localization/en_US/Kyaru.sql</File>
+      <File>Localization/en_US/Pecorine.sql</File>
+      <File>Localization/zh_Hans_CN/Civilization.sql</File>
+      <File>Localization/zh_Hans_CN/Civilopedia.xml</File>
+      <File>Localization/zh_Hans_CN/Kokkoro.sql</File>
+      <File>Localization/zh_Hans_CN/Kyaru.sql</File>
+      <File>Localization/zh_Hans_CN/Pecorine.sql</File>
+      <File>Localization/en_US/Menu.sql</File>
+      <File>Localization/zh_Hans_CN/Menu.sql</File>
+    </UpdateText>
+    <UpdateColors id="PCR_MOD_INGAME">
+      <File>Core/Colour_Config.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="PCR_MOD_INGAME">
+      <File>Core/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="PCR_MOD_INGAME">
+      <File>MOD_PRINCESS_CONNECT_REDIVE.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="PCR_MOD_EXP1">
+      <Criteria>Expansion1</Criteria>
+      <File>Core/Feature_Expansion1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="PCR_MOD_EXP2">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Feature_Expansion2.sql</File>
+    </UpdateDatabase>
+    <UpdateAudio id="PCR_MOD_INGAME">
+      <File>Platforms/iOS/Audio/PCR_Music_Bank.ini</File>
+      <File>Platforms/iOS/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/iOS/Audio/PCR_Music_Bank.bnk</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Components>
+    <AddUserInterfaces id="fixbgm">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>fixbgm.xml</File>
+    </AddUserInterfaces>
+  </Components>
+  <Files>
+    <File>ArtDefs/Civilization.artdef</File>
+    <File>ArtDefs/Culture.artdef</File>
+    <File>ArtDefs/District.artdef</File>
+    <File>ArtDefs/Landmark.artdef</File>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Unit.artdef</File>
+    <File>Core/Civilization_Config.sql</File>
+    <File>Core/Civilization_FrontEnd.sql</File>
+    <File>Core/Civilization_UA.sql</File>
+    <File>Core/Civilization_UI.sql</File>
+    <File>Core/Civilization_UU.sql</File>
+    <File>Core/Colour_Config.sql</File>
+    <File>Core/Feature_Expansion1.sql</File>
+    <File>Core/Feature_Expansion2.sql</File>
+    <File>Core/Icon.xml</File>
+    <File>Core/Leader_Kokkoro.sql</File>
+    <File>Core/Leader_Kyaru.sql</File>
+    <File>Core/Leader_Pecorine.sql</File>
+    <File>Localization/en_US/Civilization.sql</File>
+    <File>Localization/en_US/Civilopedia.xml</File>
+    <File>Localization/en_US/Kokkoro.sql</File>
+    <File>Localization/en_US/Kyaru.sql</File>
+    <File>Localization/en_US/Menu.sql</File>
+    <File>Localization/en_US/Pecorine.sql</File>
+    <File>Localization/zh_Hans_CN/Civilization.sql</File>
+    <File>Localization/zh_Hans_CN/Civilopedia.xml</File>
+    <File>Localization/zh_Hans_CN/Kokkoro.sql</File>
+    <File>Localization/zh_Hans_CN/Kyaru.sql</File>
+    <File>Localization/zh_Hans_CN/Menu.sql</File>
+    <File>Localization/zh_Hans_CN/Pecorine.sql</File>
+    <File>MOD_PRINCESS_CONNECT_REDIVE.dep</File>
+    <File>Platforms/iOS/Audio/223327493.wem</File>
+    <File>Platforms/iOS/Audio/520363507.wem</File>
+    <File>Platforms/iOS/Audio/68480436.wem</File>
+    <File>Platforms/iOS/Audio/901038563.wem</File>
+    <File>Platforms/iOS/Audio/PCR_Music_Bank.bnk</File>
+    <File>Platforms/iOS/Audio/PCR_Music_Bank.ini</File>
+    <File>Platforms/iOS/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/iOS/BLPs/Civilization_Art.blp</File>
+    <File>Platforms/iOS/BLPs/LeaderFallback.blp</File>
+    <File>fixbgm.xml</File>
+    <File>fixbgm.lua</File>
+  </Files>
+</Mod>
