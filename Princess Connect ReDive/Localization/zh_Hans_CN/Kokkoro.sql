@@ -73,7 +73,7 @@ VALUES
 		'您说，倒是希望我能丢下您不管…自由的行动？[NEWLINE]没想到您会觉得我在给您添麻烦，您会不会嫌我烦呢？'
 	),/* Kokro Scene 4 */
 	('zh_Hans_CN',	'LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_PCR_KOKKORO_ANY',
-		'哎呀，您不是我的主人吗？您……真的不是我的主人吗？[NEWLINE]真遗憾。'
+		'哎呀，您不是我的主人吗？您……真的不是我的主人吗？[NEWLINE]真遗憾。（谴责你）'
 	),/* Kokro Scene 5 */
 	('zh_Hans_CN',	'LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_PCR_KOKKORO_ANY',
 		'唔……您似乎还没有认识到身为主人的立场。那就没办法了。[NEWLINE]我必须强迫您改变立场；我不会吝惜为此做出的牺牲。'
@@ -92,9 +92,9 @@ VALUES
 	),/* Kokro Scene 2 */
 	('zh_Hans_CN',	'LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PCR_KOKKORO_ANY',
 		'呀啊……这就是处罚吗？我甘愿受罚。'
-	),/* Kokro Scene 4 */
+	),/* Kokro Scene 2 */
 	('zh_Hans_CN',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_KOKKORO_ANY',
-		'请放心交给我吧。从今以后，主人由我来守护。'
+		'呀啊……这就是处罚吗？我甘愿受罚。'
 	),/* Kokro Scene 5 */
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KOKKORO_ANY',
 		'哦呀？这不是主人和其他的伙伴们吗……[NEWLINE]主人也觉得一个人寂寞，所以来看我了吗？'

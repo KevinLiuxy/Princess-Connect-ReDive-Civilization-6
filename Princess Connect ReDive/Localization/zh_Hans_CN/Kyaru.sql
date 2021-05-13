@@ -92,15 +92,15 @@ VALUES
 	),/* Act 5 Scene 4 */
 	('zh_Hans_CN',	'LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PCR_KYARU_ANY',
 		'我……我会听话的……所以，请别再折磨我了……'
-	),/* Kyaru Scene 1 */
+	),/* Act 5 Scene 4 */
 	('zh_Hans_CN',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_KYARU_ANY',
-		'你现在可是任我宰割了！不管我想对你做什么都可以呢♪'
+		'我……我会听话的……所以，请别再折磨我了……'
 	),/* Kyaru Scene 4 */
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KYARU_ANY',
 		'你，你干什么？在我的边境放这么多军队，想打架吗？[NEWLINE]想打一架的话，我很乐意奉陪！'
 	),/* Kyaru Scene 1 */
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_PCR_KYARU_ANY',
-		'诶？你问我，找你有什么事？还有……是不是军队一直在跟着你？[NEWLINE]不不，你在说什么？我的才没有在跟踪你呢~你是不是自我意识过剩啊？'
+		'诶？你问我，找你有什么事？还有……是不是军队一直在跟着你？[NEWLINE]不不，你在说什么？我才没有在跟踪你呢~你是不是自我意识过剩啊？'
 	),/* Kyaru Scene 1 */
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_PCR_KYARU_ANY',
 		'不是吧，被发现了？我的跟踪明明是完美的！？[NEWLINE]事到如今，只能杀掉你了吧……已经做好觉悟了吗？'
@@ -121,5 +121,5 @@ VALUES
 		'搞什么嘛，信不信我杀了你！？'
 	),/* Kyaru Scene 1 */
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_PCR_KYARU_ANY',
-		'不不，你在说什么？我的才没有在监视你呢~你是不是自我意识过剩啊？'
+		'不不，你在说什么？我才没有在监视你呢~你是不是自我意识过剩啊？'
 	);

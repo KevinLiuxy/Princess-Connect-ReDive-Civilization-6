@@ -30,7 +30,7 @@ If you are interested in localising this mod into you own language, please let m
 Special Thanks
 1. Huge thanks to Hemmelfort[space.bilibili.com] and Keniisu for making Civilization modding tutorials and tools. This mod wouldn't be possible without them.
 2. Thanks to my friends including Pokeman, Dwughjsd for translation and testing.
-3. Last but not least, Thank you for downloading and using my mod!
+3. Last but not least, thank you for downloading and using my mod!
 Please rate it up and share it if you like my mod, and I'll be very grateful ~ やばいですね☆
 
 Credits & References

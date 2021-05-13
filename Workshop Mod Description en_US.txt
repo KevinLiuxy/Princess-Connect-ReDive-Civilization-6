@@ -8,6 +8,8 @@ Unique Ability: Adventure Quest, gives you combat bonuses against barbarians and
 
 This mod also contains BGM from Princess Connect! Re:Dive game and anime albums. There are 18 songs in total. I hope you'll enjoy them and have a good time☆
 
+[url=https://github.com/KevinLiuxy/Princess-Connect-ReDive-Civilization-6/tree/iOS-Platform-Release]--- Get this Mod on iOS ---[/url]
+
 [h1]Game Highlights[/h1][list]
 [*][b]Compatible with all Expansions[/b]
 And works with the vanilla Civ6 too... though playing with Gathering Storm will offer you the best experience.
@@ -19,8 +21,8 @@ The mod includes 45 unique Princess Connect city names, from guilds names to que
 Names of various rivers, lakes, mountains... on continent Astraea are added into the game for you to explore. (in Gathering Storm only)
 
 [*][b]All Three Leaders Can Be on the Map in One Game[/b]
-Having Pecorine, Kyaru, and Kokkoro in the same game is not only possible, but also one of the recommended ways to play -- this is enabled by the plentiful city names and civilian names that almost never collides with each other.
-Most AI's scripts in the diplomatic screen are directly quoted from the Princess Connect! Re:Dive game. Interacting with AIs will feel just like playing Princess Connect! Re:Dive.[/list]
+Having Pecorine, Kyaru, and Kokkoro in the same game is not only possible, but also one of the recommended ways to play.
+Most AI's scripts in the diplomatic screen are directly quoted from the Princess Connect! Re:Dive game. Interacting with AIs will feel just like playing the original game.[/list]
 
 [h1]Suggestions and Bug Reports[/h1]
 Please leave a comment down below for any suggestions or issue reports.
@@ -30,7 +32,7 @@ Updates will be made when necessary. If any bug is found I'll make sure they'd b
 [h1]Special Thanks[/h1]
 1. Huge thanks to [url=https://space.bilibili.com/28399130]Hemmelfort[/url] and [url=https://www.youtube.com/channel/UCA5qRK06Zdrx8-A_vRKPBOg]Keniisu[/url] for making Civilization modding tutorials and tools. This mod wouldn't be possible without them.
 2. Thanks to my friends including [url=https://steamcommunity.com/profiles/76561198070922814]Pokeman[/url], [url=https://steamcommunity.com/profiles/76561198402598762]Dwughjsd[/url] for translation and testing.
-3. Last but not least, Thank you for downloading and using my mod!
+3. Last but not least, thank you for downloading and using my mod!
 Please rate it up and share it if you like my mod, and I'll be very grateful ~ やばいですね☆
 
 [h1]Credits & References[/h1]

@@ -92,9 +92,9 @@ VALUES
 	),/* Kokro Scene 2 */
 	('en_US',	'LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PCR_KOKKORO_ANY',
 		"Hyaah...?! Is this your punishment? I will resign myself to it, master."
-	),/* Kokro Scene 4 */
+	),/* Kokro Scene 2 */
 	('en_US',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_KOKKORO_ANY',
-		"When master is lost, I will guide you to the place you must go."
+		"Hyaah...?! Is this your punishment? I will resign myself to it, master."
 	),/* Kokro Scene 5 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KOKKORO_ANY',
 		"Oya... Isn't this master coming?[NEWLINE]Was master too feeling lonely and is here to visit me?"
