@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Civilopedia -->
+<!-- Author: liuxi, chjimmy -->
+<GameData>
+	<LocalizedText>
+		<!--Civilization-->
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_1">
+			<Text>
+				“公主連結！Re：Dive”的背景設定在2033年的日本，科學技術的飛速發展使得虛擬實境技術飛入尋常百姓家，
+				人人都可以借助特製的設備“MIMI”登錄大型逼真VR網路遊戲《阿斯特朗傳奇》，在遊戲內成功登上索爾之塔的
+				第一人將成為“Princess”（公主）以實現自己的願望。公主連結的舞臺“阿斯特萊亞大陸”就建立在這個
+				叫做《阿斯特朗傳奇》的遊戲中，《阿斯特朗傳奇》的經營者是一個叫做“米奈娃”的超級人工智慧，但在續作中，該
+				人工智慧已經逃亡，下落不明。公主連結中的所有角色都是使用了“MIMI”登錄《阿斯特朗傳奇》的遊戲玩家。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_2">
+			<Text>
+				“公主連結！Re：Dive”的前作遊戲“公主連結”中有個叫做“七冠”的組織，是國際組織“Wisdom”的首席，
+				七個成員全部都是智力超群的天才，經營《阿斯特朗傳奇》的人工智慧米奈娃就是由“七冠”開發，只有被“七冠”
+				選中的人才能成為公主騎士。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_3">
+			<Text>
+				前作的御三家為續作陣營“破曉之星”的三位角色“日和莉”、“優衣”和“怜”，這三人在前作中都是戰鬥力
+				十分強悍的角色。而前作最大反派與本作第一部反派“霸瞳皇帝”在現實中是個IT天才，手下擁有數家IT企業，
+				但其野心非常大，想要創造一個由自己所控制的新世界，並且自稱主導《阿斯特朗傳奇》的研發工作。由於自身
+				是個男性，不能獲得“公主”資格，靠著自己的IT知識奪取了遊戲的高級許可權給自己加上了公主資格並將
+				“公主騎士”的能力也賦予自己使用。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_4">
+			<Text>
+				在前作的最後也是續作的開頭，霸瞳皇帝即將實現願望時被由主人公、日和莉、優衣和怜組成的主角團擊敗，
+				之後遊戲開始重置，霸瞳皇帝則趁機篡改遊戲程式，直接導致騎士軍以及所有登入遊戲的玩家被捲入遊戲
+				資料而喪失記憶，無法登出遊戲回到現實，霸瞳皇帝也成功成為了新世界的統治者，而在現實世界中的全部
+				遊戲玩家都因為昏迷被安置在醫院，此次事件被稱為“米奈娃的禁錮”。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_5">
+			<Text>
+				MOD作者：在文明6中，“公主連結！Re：Drive”再現的是阿斯特萊亞的遊戲世界。它是一個具有歐洲風格的，
+				一個中世紀晚期至文藝復興時期的帝國文明。強大的軍事實力與獨特的戰鬥方式，為遊戲中的王都“蘭德索爾”
+				帶來了長久的和平。公主連結文明的特色在於發達的公會、行會體制；遍佈於大街小巷的公會之家和頻繁的
+				工會活動帶來了繁榮的經濟、和獨特的文化體制——因此在文明6中被刻畫成一個商業特色文明。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PrincessConnectRedive_CHAPTER_HISTORY_PARA_6">
+			<Text>
+				章節引自 萌娘百科 https://zh.moegirl.org.cn
+			</Text>
+		</Row>
+		
+		<!--Loading Screen-->
+		<Row Language="zh_Hant_HK" Tag="LOC_LOADING_INFO_LEADER_PCR_KYARU">
+			<Text>
+				命運的安排對您來說總是如此的無情，善良的魔法師凱留。您時刻保持著對他人動向的敏銳觀察。而這份機敏，能在艱難而黑暗的時刻，幫助您發現自己身邊真正的盟友。珍惜身邊來之不易的羈絆，坦誠地面對自己的內心，您必將克服命運的束縛，戰勝前所未有的邪惡。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_LOADING_INFO_LEADER_PCR_PECORINE">
+			<Text>
+				阿斯特萊亞的公主佩可莉姆，帶上您的皇家裝備，開啟一段屬於你的修行冒險之旅吧！在尋找美食的旅途中，您會結交許多善良而忠誠的夥伴與盟友，她們將在困難之時與您並肩作戰。積極、樂觀、關懷眾生——您必將受到全國人民的擁護與愛戴，登上屬於你的至高王座。
+			</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_LOADING_INFO_LEADER_PCR_KOKKORO">
+			<Text>
+				虔誠的嚮導可可蘿，您是愛梅斯神使的天選之人。無盡的森林與大自然是神明賜予您的恩典。堅定的信念和毅力會照亮您前進的道路，幫助您擊退未知的挑戰與危機。保持內心的寧靜與善良、傾聽神明的教誨，用您的真誠感化他人，引導他們走向光明的聖殿吧。
+			</Text>
+		</Row>
+
+		<!--Leaders-->
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_TITLE">
+			<Text>{LOC_LEADER_PCR_KYARU_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_SUBTITLE">
+			<Text>貓耳的魔法使，皇家的公主騎士，魔物的女王大人</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KYARU_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_KYARU}</Text>
+		</Row>
+
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_TITLE">
+			<Text>{LOC_LEADER_PCR_PECORINE_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_SUBTITLE">
+			<Text>阿斯特萊亞的尤絲蒂亞娜公主，餓肚子的貪吃佩可</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_PECORINE_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_PECORINE}</Text>
+		</Row>
+
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_TITLE">
+			<Text>{LOC_LEADER_PCR_KOKKORO_NAME}</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_SUBTITLE">
+			<Text>愛梅斯的使徒，忠誠的嚮導</Text>
+		</Row>
+		<Row Language="zh_Hant_HK" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PCR_KOKKORO_CHAPTER_CAPSULE_BODY">
+			<Text>{LOC_LOADING_INFO_LEADER_PCR_KOKKORO}</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

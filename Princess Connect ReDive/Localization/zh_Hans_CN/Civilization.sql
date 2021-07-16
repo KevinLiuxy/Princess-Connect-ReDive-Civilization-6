@@ -53,7 +53,7 @@ VALUES
 	-- Citizen Names
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_1',	'出云宫子'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_2',	'冰川镜华'		),
-	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3',	'妮侬·朱贝尔'	),
+	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_3',	'妮侬·朱贝尔'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_4',	'美波铃奈'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_5',	'宫坂珠希'		),
 	('zh_Hans_CN',	'LOC_CITIZEN_PrincessConnectRedive_FEMALE_6',	'藤堂秋乃'		),
