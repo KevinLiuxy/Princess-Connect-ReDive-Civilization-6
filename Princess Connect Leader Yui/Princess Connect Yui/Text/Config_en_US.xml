@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_LEADER_PCR_YUI_NAME"
+			Text="Yui"/>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_PCR_YUI_NAME"
+			Text="Skill"/>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_PCR_YUI_DESCRIPTION"
+			Text="PlaceHolder"/>
+	</LocalizedText>
+</GameData>

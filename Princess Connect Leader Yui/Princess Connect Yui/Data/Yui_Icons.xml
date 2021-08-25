@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_256.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_48.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_PCR_YUI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_PCR_YUI_32.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_PCR_YUI" Atlas="ICON_ATLAS_LEADER_PCR_YUI" index="0"/>
+	</IconDefinitions>
+</GameData>

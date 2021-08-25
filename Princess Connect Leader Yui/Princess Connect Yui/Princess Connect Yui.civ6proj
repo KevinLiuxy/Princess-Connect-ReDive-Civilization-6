@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>MOD_PRINCESS_CONNECT_YUI</Name>
+    <Guid>12709b06-1505-4b2e-8675-dc04abc79296</Guid>
+    <ProjectGuid>73bdbd1d-2585-4edd-ac4e-d6c9f9c80e91</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>MOD_PRINCESS_CONNECT_YUI_TEASER</Teaser>
+    <Description>MOD_PRINCESS_CONNECT_YUI_DESCRIPTION</Description>
+    <Authors>Kevin Liu</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Princess Connect Yui</AssemblyName>
+    <RootNamespace>Princess Connect Yui</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Data/Yui_Config.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Data/Yui_Colors.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Data/Yui_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Text/Config_en_US.xml</File><File>Text/Config_zh_Hans_CN.xml</File><File>Text/Config_zh_Hant_HK.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Data/Yui_Leader.sql</File></UpdateDatabase><UpdateDatabase id="NewAction"><File>Data/Yui_Expansion1.sql</File></UpdateDatabase><UpdateDatabase id="NewAction"><File>Data/Yui_Expansion2.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Data/Yui_Colors.sql</File></UpdateColors><UpdateIcons id="NewAction"><File>Data/Yui_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Text/Config_en_US.xml</File><File>Text/Config_zh_Hans_CN.xml</File><File>Text/Config_zh_Hant_HK.xml</File><File>Text/InGame_en_US.xml</File><File>Text/InGame_zh_Hans_CN.xml</File><File>Text/InGame_zh_Hant_HK.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateAudio id="NewAction" /></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Princess Connect Yui.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\Leader.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\LeaderFallback.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Data\Yui_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yui_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yui_Expansion1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yui_Expansion2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yui_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yui_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Config_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Config_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Config_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\InGame_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\InGame_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\InGame_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Data\" />
+    <Folder Include="Text\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
