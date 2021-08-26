@@ -1,0 +1,18 @@
+<m_GeometrySet>
+<m_ModelInstances>
+<Element>
+<m_Name text="pCube1"/>
+<m_GeoName text="Priconne Shadow Box"/>
+<m_GroupStates>
+<Element>
+<m_Values>
+<m_Values/>
+</m_Values>
+<m_GroupName text="lambert1"/>
+<m_MeshName text="pCubeShape1"/>
+<m_StateName text="Default"/>
+</Element>
+</m_GroupStates>
+</Element>
+</m_ModelInstances>
+</m_GeometrySet>

@@ -10,6 +10,9 @@ VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_YUI', 'LOC_CITY_NAME_P
 INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
 VALUES ('LEADER_PCR_YUI', 'LOADING_FOREGROUND_PCR_YUI', 'Background_Loading', 1);
 
+INSERT INTO DiplomacyInfo (Type, BackgroundImage)
+VALUES ('LEADER_PCR_YUI', 'Background_Diplomacy');
+
 INSERT INTO LeaderQuotes (LeaderType, Quote, QuoteAudio)
 VALUES ('LEADER_PCR_YUI', 'LOC_PEDIA_LEADERS_PAGE_PCR_YUI_QUOTE', 'PCRD_UE_WIKI_QUOTE');
 

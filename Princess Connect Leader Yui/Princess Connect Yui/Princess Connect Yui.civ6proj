@@ -70,11 +70,21 @@
     <Content Include="Text\InGame_zh_Hant_HK.xml">
       <SubType>Content</SubType>
     </Content>
+    <XLP Include="XLPs\Yui_Art.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\Yui_Fallback.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\Yui_Leader.xlp">
+      <SubType>Content</SubType>
+    </XLP>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs\" />
     <Folder Include="Data\" />
     <Folder Include="Text\" />
+    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
