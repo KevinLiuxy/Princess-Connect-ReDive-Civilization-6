@@ -15,7 +15,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Saladin_LightRig"/>
+							<m_EntryName text="Cleopatra_LightRig"/>
 							<m_XLPClass text="LeaderLighting"/>
 							<m_XLPPath text="Leader_LightRigs.xlp"/>
 							<m_BLPPackage text="leaders/light_rigs"/>

@@ -228,6 +228,216 @@
 <m_MeshName text="E_42 Reserved"/>
 <m_StateName text="Default"/>
 </Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M00 Normal"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M01 Normal"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M02 Normal"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M10 Shy"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M11 Shy"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M12 Shy"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M20 Scared"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M21 Scared"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M22 Scared"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M30 Sad"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M31 Sad"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M32 Sad"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M40 Angry"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M41 Angry"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Expression_2"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Expression_2"/>
+<m_MeshName text="M42 Angry"/>
+<m_StateName text="Default"/>
+</Element>
 </m_GroupStates>
 </Element>
 </m_ModelInstances>

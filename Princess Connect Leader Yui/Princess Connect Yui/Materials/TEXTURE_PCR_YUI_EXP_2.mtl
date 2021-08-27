@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="TEXTURE_PCR_YUI_EXP_ALPHA1"/>
+				<m_ObjectName text="TEXTURE_PCR_YUI_EXP_ALPHA2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Opacity"/>
 			</Element>
@@ -82,7 +82,7 @@
 	</m_Version>
 	<m_ClassName text="Leader"/>
 	<m_DataFiles/>
-	<m_Name text="TEXTURE_PCR_YUI_EXP"/>
+	<m_Name text="TEXTURE_PCR_YUI_EXP_2"/>
 	<m_Description text=""/>
 	<m_Tags/>
 </AssetObjects..MaterialInstance>

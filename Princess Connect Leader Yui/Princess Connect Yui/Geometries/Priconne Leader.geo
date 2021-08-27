@@ -218,6 +218,201 @@
 <m_nPrimitiveCount>2</m_nPrimitiveCount>
 <m_nVertexCount>4</m_nVertexCount>
 </Element>
+<Element>
+<m_Name text="M00 Normal"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M01 Normal"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M02 Normal"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M10 Shy"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M11 Shy"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M12 Shy"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M20 Scared"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M21 Scared"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M22 Scared"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M30 Sad"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M31 Sad"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M32 Sad"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M40 Angry"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M41 Angry"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="M42 Angry"/>
+<m_Groups>
+<Element>
+<m_Name text="Expression_2"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>2</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>2</m_nPrimitiveCount>
+<m_nVertexCount>4</m_nVertexCount>
+</Element>
 </m_Meshes>
 <m_Bones>
 <Element text="Priconne Leader"/>
@@ -238,6 +433,21 @@
 <Element text="E_22 Reserved"/>
 <Element text="E_32 Reserved"/>
 <Element text="E_42 Reserved"/>
+<Element text="M00 Normal"/>
+<Element text="M01 Normal"/>
+<Element text="M02 Normal"/>
+<Element text="M10 Shy"/>
+<Element text="M11 Shy"/>
+<Element text="M12 Shy"/>
+<Element text="M20 Scared"/>
+<Element text="M21 Scared"/>
+<Element text="M22 Scared"/>
+<Element text="M30 Sad"/>
+<Element text="M31 Sad"/>
+<Element text="M32 Sad"/>
+<Element text="M40 Angry"/>
+<Element text="M41 Angry"/>
+<Element text="M42 Angry"/>
 </m_Bones>
 <m_ModelName text="Priconne Leader"/>
 <m_SourceFilePath text=""/>
