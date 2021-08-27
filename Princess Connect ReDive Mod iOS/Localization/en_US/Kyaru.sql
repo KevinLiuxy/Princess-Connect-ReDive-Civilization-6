@@ -92,9 +92,9 @@ VALUES
 	),/* Act 5 Scene 4 */
 	('en_US',	'LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PCR_KYARU_ANY',
 		"I-I'll listen to whatever you say... so please don't torture me anymore..."
-	),/* Kyaru Scene 1 */
+	),/* Act 5 Scene 4 */
 	('en_US',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_KYARU_ANY',
-		"Now I could cut you or kill you as I pleased! Whatever I wanted to do, I'd be free to do it!"
+		"I-I'll listen to whatever you say... so please don't torture me anymore..."
 	),/* Kyaru Scene 4 */
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_KYARU_ANY',
 		"Hah! Dispatching such a sizable army on my border, do you wanna fight?[NEWLINE]If you wanna fight, I'll crush you!"

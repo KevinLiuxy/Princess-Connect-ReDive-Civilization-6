@@ -94,7 +94,7 @@ VALUES
 		"Eh... I feel lonely and peckish..."
 	),
 	('en_US',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_PECORINE_ANY',
-		"Pleace rest in peace. I'll make good use of your remains as culinary ingredients."
+		"Eh... I feel lonely and peckish..."
 	),
 	('en_US',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_PECORINE_ANY',
 		"Aah, I saw your companions gathering on my borders. Are you all coming her to seek for food with us together?"

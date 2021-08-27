@@ -94,7 +94,7 @@ VALUES
 		'呜呜……我的肚子空空如也……'
 	),
 	('zh_Hans_CN',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PCR_PECORINE_ANY',
-		'请安心，我会绝不浪费，好好地把你做成美食的！'
+		'呜呜……我的肚子空空如也……'
 	),
 	('zh_Hans_CN',	'LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PCR_PECORINE_ANY',
 		'哎呀,你和你的伙伴们都来到了我这里，是来一起寻觅美食的吗？'

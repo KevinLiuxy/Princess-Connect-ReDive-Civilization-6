@@ -32,7 +32,7 @@ VALUES	('UNIT_PRINCESS_KNIGHT',	'UNITAI_COMBAT'			),
 		('UNIT_PRINCESS_ARCHER',	'UNITTYPE_LAND_COMBAT'	);
 
 INSERT INTO UnitReplaces (CivUniqueUnitType, ReplacesUnitType)
-VALUES	('UNIT_PRINCESS_KNIGHT',	'UNIT_MUSKETMAN'	),
+VALUES	('UNIT_PRINCESS_KNIGHT',	'UNIT_MAN_AT_ARMS'	),
 		('UNIT_PRINCESS_ARCHER',	'UNIT_CROSSBOWMAN'	);
 
 INSERT INTO Tags (Tag, Vocabulary)
@@ -71,7 +71,7 @@ INSERT INTO Units(
 	/* UnitType      */ 'UNIT_PRINCESS_KNIGHT',
 	/* Name          */ 'LOC_TRAIT_PrincessConnectRedive_UU1_NAME',
 	/* Description   */ 'LOC_TRAIT_PrincessConnectRedive_UU1_DESCRIPTION',
-	/* Cost          */ 210,
+	/* Cost          */ 160,
 	/* Maintenance   */ 3,
 	/* BaseMoves     */ 2,
 	/* BaseSightRnge */ 2,
@@ -93,7 +93,7 @@ INSERT INTO Units(
 	/* UnitType      */ 'UNIT_PRINCESS_ARCHER',
 	/* Name          */ 'LOC_TRAIT_PrincessConnectRedive_UU2_NAME',
 	/* Description   */ 'LOC_TRAIT_PrincessConnectRedive_UU2_DESCRIPTION',
-	/* Cost          */ 240,
+	/* Cost          */ 180,
 	/* Maintenance   */ 3,
 	/* BaseMoves     */ 2,
 	/* BaseSightRnge */ 2,
@@ -114,5 +114,5 @@ INSERT INTO Units(
 );
 
 INSERT INTO UnitUpgrades (Unit, UpgradeUnit)
-VALUES	('UNIT_PRINCESS_KNIGHT',	'UNIT_INFANTRY'		),
+VALUES	('UNIT_PRINCESS_KNIGHT',	'UNIT_LINE_INFANTRY'),
 		('UNIT_PRINCESS_ARCHER',	'UNIT_FIELD_CANNON'	);

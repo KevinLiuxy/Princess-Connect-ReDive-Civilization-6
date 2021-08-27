@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="10" SoundbankVersion="113">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths/>
 	<DialogueEvents/>
 	<StreamedFiles>
