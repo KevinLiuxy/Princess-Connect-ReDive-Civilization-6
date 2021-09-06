@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D191F839-CEF8-4FC9-98CE-A9A94A73B4EF}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D191F839-CEF8-4FC9-98CE-A9A94A73B4EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PCRD_UE_DECLARE_FRIEND" ID="{D946AF35-AAEB-4150-BFC1-C3BAC2D892FB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{16EC3079-19C6-4F25-8627-85FCF62BFF88}" ShortID="723545958" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{06D40815-4A9D-4AB6-B04B-24084F2782BA}" Global="false">
+									<ObjectRef Name="PCRD_UE_DECLARE_FRIEND" ID="{844C4CFE-0D26-45E9-B5B6-60CF1BA116B6}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_DECLARE_WAR_FROM_AI" ID="{33CF9F93-047C-4CD0-88A8-B7DB70FC7AC6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EC993C25-36B2-45C0-A81A-86F281F30EB6}" ShortID="144181195" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A1E6C9BC-55BF-4E59-B907-D5A203509B06}" Global="false">
+									<ObjectRef Name="PCRD_UE_DECLARE_WAR_FROM_AI" ID="{17572868-0EF3-446B-929F-218654D17777}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN" ID="{7CEE0B3E-28AC-4054-BEF0-F657019943C7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7E4E44A1-C9D9-499D-A5C9-3DDE4CB80934}" ShortID="1072805959" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{554B6B12-B249-4B1C-B183-C6E437C83D95}" Global="false">
+									<ObjectRef Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN" ID="{14DFF62B-AA45-40C4-823B-D3A38DC8DCF4}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_DEFEAT" ID="{C1DE08C6-0620-4337-8915-17DD0DDC1F7E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B7A40DAB-84BD-4EE7-B32B-46609DF22776}" ShortID="348073381" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1338B2EC-4467-4036-8391-9DC7457E49A1}" Global="false">
+									<ObjectRef Name="PCRD_UE_DEFEAT" ID="{3A6E22A5-43E9-458A-9FAC-101B5C83CD21}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_DENOUNCE_FROM_AI" ID="{E583FE16-3F3E-45F6-AFCC-721FA5E2E1DB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1FD9BC38-DF21-477C-9332-C3A348E5805A}" ShortID="431005544" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2E73FAD7-BEF7-4A20-A8D2-82B2B9CCFF12}" Global="false">
+									<ObjectRef Name="PCRD_UE_DENOUNCE_FROM_AI" ID="{6B852DCE-B8A8-4143-BE35-0EF9958D0F3F}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_DENOUNCE_FROM_HUMAN" ID="{A54D68BA-CFF8-4C60-A6EA-58565A5AAC01}">
+					<ChildrenList>
+						<Action Name="Play" ID="{13962B69-EB04-433D-974E-26CB76DA4987}" ShortID="253930156" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{892F07A4-4173-4757-B016-A7973225BFAE}" Global="false">
+									<ObjectRef Name="PCRD_UE_DENOUNCE_FROM_HUMAN" ID="{EB8EF171-A29D-4C87-A4E6-34EEEA34AC18}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_FIRST_MEET" ID="{2E6F97E6-30A6-411D-8816-D1675493539F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7654ECA3-EB7E-4B07-A6EA-58F7DCBA6D9B}" ShortID="848940859" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3108B3C8-3299-47BD-BCC3-0B325EFB42DD}" Global="false">
+									<ObjectRef Name="PCRD_UE_FIRST_MEET" ID="{F364878F-0D58-4D88-8AD2-D40E55DB19D2}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_HAPPY_NEGATIVE" ID="{46270FD4-50D7-4B87-90DE-0AEBC92EF134}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B8E13820-04E1-4EA1-8409-996E35AF800B}" ShortID="1072342095" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65D24564-D7A9-4C6B-BEAC-010C16CE1EE4}" Global="false">
+									<ObjectRef Name="PCRD_UE_HAPPY_NEGATIVE" ID="{73271633-3263-44AF-8945-2DF913B007D3}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_HAPPY_POSITIVE" ID="{11294735-02A3-439E-B291-A9AD83DA76D0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EC88BAE7-CF86-4364-AABA-18900455308C}" ShortID="1040704751" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{391F08D1-7517-42AF-84A3-ACF13B1F7A8F}" Global="false">
+									<ObjectRef Name="PCRD_UE_HAPPY_POSITIVE" ID="{C60D2108-20EC-4BFF-BAD8-8DC982D41099}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_KUDO" ID="{5BC97E2C-0EE9-49B8-900D-DD267745A2DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A0EA8952-DF25-4587-BD0E-1A4009A3DE57}" ShortID="507832880" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1400227B-6649-4616-A6C5-B59DAADB5517}" Global="false">
+									<ObjectRef Name="PCRD_UE_KUDO" ID="{CE400641-643D-4E08-9366-586FE36D6543}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_MAKE_PEACE" ID="{31F0E345-053F-4613-A085-68649F0EFB00}">
+					<ChildrenList>
+						<Action Name="Play" ID="{80A1CFD8-1DB7-4ABE-AB91-08B34F922A5A}" ShortID="38632241" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EF7C9088-6105-497E-A972-03BD48EF0817}" Global="false">
+									<ObjectRef Name="PCRD_UE_MAKE_PEACE" ID="{CBE36CCA-4F90-4DEE-BEA9-C162EABEF29F}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_NEUTRAL_NEGATIVE" ID="{8935FEAB-E8E5-4F29-BCF3-E392EB440015}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A2FA1A51-6798-4E34-BCC2-AB1B69F39466}" ShortID="883895615" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{83949A17-C8F0-48DF-BE56-7EA3E32690D8}" Global="false">
+									<ObjectRef Name="PCRD_UE_NEUTRAL_NEGATIVE" ID="{9AA6122E-39CE-474E-BE4A-37E54DC0A134}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_NEUTRAL_POSITIVE" ID="{4499591D-99D5-4AC6-BF8C-CEF863FF434D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F92CA913-A6D9-4E77-A118-DF82794B7DEB}" ShortID="535279328" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7F8A0073-C37B-42FE-8BAD-3A4BAFF60C3A}" Global="false">
+									<ObjectRef Name="PCRD_UE_NEUTRAL_POSITIVE" ID="{F90E97D8-52EA-4DA1-97D8-6E4B8BDD77FE}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_UNHAPPY_NEGATIVE" ID="{A1C76357-DFBB-4B80-982E-05A9985D1B28}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CC246C28-F15C-4B54-A1AC-4C98FA83DB2D}" ShortID="287103658" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4B05C468-6CCA-4387-996A-BE65F78FF2D6}" Global="false">
+									<ObjectRef Name="PCRD_UE_UNHAPPY_NEGATIVE" ID="{7D639F03-253F-4162-8CD0-3A3DC0EF8E16}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_UNHAPPY_POSITIVE" ID="{AE3F85A2-CA9E-44AE-8487-76D53ECDDDBD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6F054C15-2E17-4336-8FD1-88F98E295354}" ShortID="480223374" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A64E1374-84B2-48AF-912B-E57CB49F3EB3}" Global="false">
+									<ObjectRef Name="PCRD_UE_UNHAPPY_POSITIVE" ID="{D61FA6F2-2529-4C3E-824F-C79004F75BFE}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_WARNING" ID="{CC0F2BA5-BEEA-42CF-B610-61C67A068531}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A8FA4195-B791-411D-9071-161F76432A9E}" ShortID="973922453" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{97B0C999-832B-45A6-9BEC-9402334D386E}" Global="false">
+									<ObjectRef Name="PCRD_UE_WARNING" ID="{8B5C32E5-FB34-4C1B-91B1-52DEB6897836}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PCRD_UE_WIKI_QUOTE" ID="{87E0D97C-C89C-4EA6-97BA-038D2B4F0218}">
+					<ChildrenList>
+						<Action Name="Play" ID="{310A56DC-3DD1-4EEE-8659-1A18D71A5997}" ShortID="484637000" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{41CFC35C-8633-4DE3-87A0-C00B169F4A7D}" Global="false">
+									<ObjectRef Name="PCRD_UE_WIKI_QUOTE" ID="{E243B45B-EE1B-433B-8201-CF1B0ABAF62A}" WorkUnitID="{605616CD-53B5-457F-8A3B-2489E380BE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

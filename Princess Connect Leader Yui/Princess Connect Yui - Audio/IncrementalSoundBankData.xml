@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="4" Flags="601859981">
+	<Platform GUID="{9D17C512-1B9C-445B-BB83-87B7B378AC31}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="2839276394" StreamHash="157587662" Timestamp="132754225513982551"/>
+			<Bank Name="Princess_Connect_Yui_Speech" Hash="1683514998" StreamHash="157587662" Timestamp="132754240605041327"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{6B277118-9A71-488B-81DB-AD38776DBF82}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="2531163421" StreamHash="157587662" Timestamp="132754225505534871"/>
+			<Bank Name="Princess_Connect_Yui_Speech" Hash="1683514998" StreamHash="157587662" Timestamp="132754240602028588"/>
+		</Language>
+	</Platform>
+</IncrementalBankBuild>

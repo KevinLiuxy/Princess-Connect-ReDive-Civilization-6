@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths/>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="3406695998" Language="SFX">
+			<ShortName>Princess_Connect_Yui_Speech</ShortName>
+			<Path>Princess_Connect_Yui_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4080893081" Name="PCRD_UE_DECLARE_FRIEND"/>
+				<Event Id="2501534193" Name="PCRD_UE_DECLARE_WAR_FROM_AI"/>
+				<Event Id="2704002314" Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN"/>
+				<Event Id="116901661" Name="PCRD_UE_DEFEAT"/>
+				<Event Id="2496330849" Name="PCRD_UE_DENOUNCE_FROM_AI"/>
+				<Event Id="3256783226" Name="PCRD_UE_DENOUNCE_FROM_HUMAN"/>
+				<Event Id="2079969768" Name="PCRD_UE_FIRST_MEET"/>
+				<Event Id="3536321552" Name="PCRD_UE_HAPPY_NEGATIVE"/>
+				<Event Id="3440269240" Name="PCRD_UE_HAPPY_POSITIVE"/>
+				<Event Id="3009010051" Name="PCRD_UE_KUDO"/>
+				<Event Id="3477724473" Name="PCRD_UE_MAKE_PEACE"/>
+				<Event Id="1968919625" Name="PCRD_UE_NEUTRAL_NEGATIVE"/>
+				<Event Id="2891140933" Name="PCRD_UE_NEUTRAL_POSITIVE"/>
+				<Event Id="2166181493" Name="PCRD_UE_UNHAPPY_NEGATIVE"/>
+				<Event Id="3461063729" Name="PCRD_UE_UNHAPPY_POSITIVE"/>
+				<Event Id="2056122480" Name="PCRD_UE_WARNING"/>
+				<Event Id="3707066101" Name="PCRD_UE_WIKI_QUOTE"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="13327439" Language="SFX">
+					<ShortName>PCRD_UE_DEFEAT.wav</ShortName>
+					<Path>SFX\PCRD_UE_DEFEAT_50328C8D.wem</Path>
+				</File>
+				<File Id="102368736" Language="SFX">
+					<ShortName>PCRD_UE_DENOUNCE_FROM_HUMAN.wav</ShortName>
+					<Path>SFX\PCRD_UE_DENOUNCE_FROM_HUMAN_50328C8D.wem</Path>
+				</File>
+				<File Id="136709671" Language="SFX">
+					<ShortName>PCRD_UE_MAKE_PEACE.wav</ShortName>
+					<Path>SFX\PCRD_UE_MAKE_PEACE_50328C8D.wem</Path>
+				</File>
+				<File Id="266241388" Language="SFX">
+					<ShortName>PCRD_UE_UNHAPPY_NEGATIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_UNHAPPY_NEGATIVE_50328C8D.wem</Path>
+				</File>
+				<File Id="337676065" Language="SFX">
+					<ShortName>PCRD_UE_FIRST_MEET.wav</ShortName>
+					<Path>SFX\PCRD_UE_FIRST_MEET_50328C8D.wem</Path>
+				</File>
+				<File Id="349455349" Language="SFX">
+					<ShortName>PCRD_UE_DECLARE_WAR_FROM_AI.wav</ShortName>
+					<Path>SFX\PCRD_UE_DECLARE_WAR_FROM_AI_50328C8D.wem</Path>
+				</File>
+				<File Id="405646517" Language="SFX">
+					<ShortName>PCRD_UE_DECLARE_WAR_FROM_HUMAN.wav</ShortName>
+					<Path>SFX\PCRD_UE_DECLARE_WAR_FROM_HUMAN_50328C8D.wem</Path>
+				</File>
+				<File Id="485415745" Language="SFX">
+					<ShortName>PCRD_UE_DENOUNCE_FROM_AI.wav</ShortName>
+					<Path>SFX\PCRD_UE_DENOUNCE_FROM_AI_50328C8D.wem</Path>
+				</File>
+				<File Id="527468382" Language="SFX">
+					<ShortName>PCRD_UE_NEUTRAL_NEGATIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_NEUTRAL_NEGATIVE_50328C8D.wem</Path>
+				</File>
+				<File Id="532399167" Language="SFX">
+					<ShortName>PCRD_UE_NEUTRAL_POSITIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_NEUTRAL_POSITIVE_50328C8D.wem</Path>
+				</File>
+				<File Id="548873801" Language="SFX">
+					<ShortName>PCRD_UE_WIKI_QUOTE.wav</ShortName>
+					<Path>SFX\PCRD_UE_WIKI_QUOTE_50328C8D.wem</Path>
+				</File>
+				<File Id="610243434" Language="SFX">
+					<ShortName>PCRD_UE_HAPPY_POSITIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_HAPPY_POSITIVE_50328C8D.wem</Path>
+				</File>
+				<File Id="633492842" Language="SFX">
+					<ShortName>PCRD_UE_DECLARE_FRIEND.wav</ShortName>
+					<Path>SFX\PCRD_UE_DECLARE_FRIEND_50328C8D.wem</Path>
+				</File>
+				<File Id="640572601" Language="SFX">
+					<ShortName>PCRD_UE_WARNING.wav</ShortName>
+					<Path>SFX\PCRD_UE_WARNING_50328C8D.wem</Path>
+				</File>
+				<File Id="676444029" Language="SFX">
+					<ShortName>PCRD_UE_HAPPY_NEGATIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_HAPPY_NEGATIVE_50328C8D.wem</Path>
+				</File>
+				<File Id="875857379" Language="SFX">
+					<ShortName>PCRD_UE_KUDO.wav</ShortName>
+					<Path>SFX\PCRD_UE_KUDO_50328C8D.wem</Path>
+				</File>
+				<File Id="1037316944" Language="SFX">
+					<ShortName>PCRD_UE_UNHAPPY_POSITIVE.wav</ShortName>
+					<Path>SFX\PCRD_UE_UNHAPPY_POSITIVE_50328C8D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

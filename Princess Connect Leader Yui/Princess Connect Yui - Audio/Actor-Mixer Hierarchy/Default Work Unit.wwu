@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{605616CD-53B5-457F-8A3B-2489E380BE52}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{605616CD-53B5-457F-8A3B-2489E380BE52}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="ID88602518" ID="{06DCB2F6-49D9-4686-A3AD-57F9352780E6}" ShortID="88602518">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="a4zeqgn" ID="{93015D83-1B73-4106-A61A-8F6A8DE2ED25}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="ID854467727" ID="{52FCD8E1-D391-4676-8B25-5D5F10EEC50F}" ShortID="854467727">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="ID424381547" ID="{FD187DFD-D94C-4E65-9A05-D0F96F543C9B}" ShortID="424381547">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="Yui Speech" ID="{FC9D1552-2389-439C-98E6-AF5EEEF08553}" ShortID="470457814">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PCRD_UE_DECLARE_FRIEND" ID="{844C4CFE-0D26-45E9-B5B6-60CF1BA116B6}" ShortID="388239412" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DECLARE_FRIEND" ID="{845F192E-D4E2-4FBC-81E0-78A39EE82C51}" ShortID="633492842">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DECLARE_FRIEND.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DECLARE_FRIEND" ID="{845F192E-D4E2-4FBC-81E0-78A39EE82C51}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_DECLARE_WAR_FROM_AI" ID="{17572868-0EF3-446B-929F-218654D17777}" ShortID="864514823" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DECLARE_WAR_FROM_AI" ID="{873D9E6B-ED62-4BFC-8C6D-DA4BA6394395}" ShortID="349455349">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DECLARE_WAR_FROM_AI.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DECLARE_WAR_FROM_AI" ID="{873D9E6B-ED62-4BFC-8C6D-DA4BA6394395}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN" ID="{14DFF62B-AA45-40C4-823B-D3A38DC8DCF4}" ShortID="382843596" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN" ID="{5731E8A2-D997-43F3-8C18-ED5AFCBED83F}" ShortID="405646517">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DECLARE_WAR_FROM_HUMAN.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DECLARE_WAR_FROM_HUMAN" ID="{5731E8A2-D997-43F3-8C18-ED5AFCBED83F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_DEFEAT" ID="{3A6E22A5-43E9-458A-9FAC-101B5C83CD21}" ShortID="968396980" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DEFEAT" ID="{EF5CD14A-2782-4003-86E9-8DD5455026E5}" ShortID="13327439">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DEFEAT.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DEFEAT" ID="{EF5CD14A-2782-4003-86E9-8DD5455026E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_DENOUNCE_FROM_AI" ID="{6B852DCE-B8A8-4143-BE35-0EF9958D0F3F}" ShortID="487046902" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DENOUNCE_FROM_AI" ID="{A08B7275-B068-43F8-B94F-E1155B1B5F27}" ShortID="485415745">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DENOUNCE_FROM_AI.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DENOUNCE_FROM_AI" ID="{A08B7275-B068-43F8-B94F-E1155B1B5F27}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_DENOUNCE_FROM_HUMAN" ID="{EB8EF171-A29D-4C87-A4E6-34EEEA34AC18}" ShortID="502576956" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_DENOUNCE_FROM_HUMAN" ID="{5CB77075-FA2E-4C6D-B609-6FE820F4CF68}" ShortID="102368736">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_DENOUNCE_FROM_HUMAN.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_DENOUNCE_FROM_HUMAN" ID="{5CB77075-FA2E-4C6D-B609-6FE820F4CF68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_FIRST_MEET" ID="{F364878F-0D58-4D88-8AD2-D40E55DB19D2}" ShortID="523770251" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_FIRST_MEET" ID="{FAB1CBAF-4C80-417A-A4FE-AB076D5A0CB7}" ShortID="337676065">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_FIRST_MEET.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_FIRST_MEET" ID="{FAB1CBAF-4C80-417A-A4FE-AB076D5A0CB7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_HAPPY_NEGATIVE" ID="{73271633-3263-44AF-8945-2DF913B007D3}" ShortID="85761390" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_HAPPY_NEGATIVE" ID="{5524E188-8F57-43DB-AD10-DE3A8F159518}" ShortID="676444029">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_HAPPY_NEGATIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_HAPPY_NEGATIVE" ID="{5524E188-8F57-43DB-AD10-DE3A8F159518}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_HAPPY_POSITIVE" ID="{C60D2108-20EC-4BFF-BAD8-8DC982D41099}" ShortID="882950808" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_HAPPY_POSITIVE" ID="{44478E18-86E6-4334-BFE0-9AF4FAC5B2AA}" ShortID="610243434">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_HAPPY_POSITIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_HAPPY_POSITIVE" ID="{44478E18-86E6-4334-BFE0-9AF4FAC5B2AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_KUDO" ID="{CE400641-643D-4E08-9366-586FE36D6543}" ShortID="241957497" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_KUDO" ID="{9A87FFA0-5A5B-4A01-8B4B-312369FE6423}" ShortID="875857379">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_KUDO.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_KUDO" ID="{9A87FFA0-5A5B-4A01-8B4B-312369FE6423}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_MAKE_PEACE" ID="{CBE36CCA-4F90-4DEE-BEA9-C162EABEF29F}" ShortID="496379637" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_MAKE_PEACE" ID="{4C4714E3-167F-4FD0-9F24-813D4197109E}" ShortID="136709671">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_MAKE_PEACE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_MAKE_PEACE" ID="{4C4714E3-167F-4FD0-9F24-813D4197109E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_NEUTRAL_NEGATIVE" ID="{9AA6122E-39CE-474E-BE4A-37E54DC0A134}" ShortID="979831151" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_NEUTRAL_NEGATIVE" ID="{131556EE-3C74-420D-AA30-F96F27E2B2FE}" ShortID="527468382">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_NEUTRAL_NEGATIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_NEUTRAL_NEGATIVE" ID="{131556EE-3C74-420D-AA30-F96F27E2B2FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_NEUTRAL_POSITIVE" ID="{F90E97D8-52EA-4DA1-97D8-6E4B8BDD77FE}" ShortID="885120687" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_NEUTRAL_POSITIVE" ID="{E3C24F6F-67EF-45A4-8F83-04ED53CA9B84}" ShortID="532399167">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_NEUTRAL_POSITIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_NEUTRAL_POSITIVE" ID="{E3C24F6F-67EF-45A4-8F83-04ED53CA9B84}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_UNHAPPY_NEGATIVE" ID="{7D639F03-253F-4162-8CD0-3A3DC0EF8E16}" ShortID="803018554" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_UNHAPPY_NEGATIVE" ID="{ED0840F1-2509-4087-BEC6-4D441371ACFF}" ShortID="266241388">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_UNHAPPY_NEGATIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_UNHAPPY_NEGATIVE" ID="{ED0840F1-2509-4087-BEC6-4D441371ACFF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_UNHAPPY_POSITIVE" ID="{D61FA6F2-2529-4C3E-824F-C79004F75BFE}" ShortID="459418112" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_UNHAPPY_POSITIVE" ID="{11A98DE1-ADD4-4C3D-9112-CCAE0C2EC911}" ShortID="1037316944">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_UNHAPPY_POSITIVE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_UNHAPPY_POSITIVE" ID="{11A98DE1-ADD4-4C3D-9112-CCAE0C2EC911}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_WARNING" ID="{8B5C32E5-FB34-4C1B-91B1-52DEB6897836}" ShortID="604399392" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_WARNING" ID="{672343BC-E084-4221-9260-2C729A7BCB9B}" ShortID="640572601">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_WARNING.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_WARNING" ID="{672343BC-E084-4221-9260-2C729A7BCB9B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PCRD_UE_WIKI_QUOTE" ID="{E243B45B-EE1B-433B-8201-CF1B0ABAF62A}" ShortID="1053104588" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55B38BE4-2B34-4689-9E39-EBEDB12D4971}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A43DA13F-1F25-4807-98A5-9540D32435A4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PCRD_UE_WIKI_QUOTE" ID="{0055D86F-BA62-40C9-A36B-DE3C2BC3E226}" ShortID="548873801">
+															<Language>SFX</Language>
+															<AudioFile>PCRD_UE_WIKI_QUOTE.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PCRD_UE_WIKI_QUOTE" ID="{0055D86F-BA62-40C9-A36B-DE3C2BC3E226}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
