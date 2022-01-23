@@ -6,7 +6,11 @@
 				<m_Bindings>
 					<Element>
 						<m_SlotName text="01_FIRST_MEET"/>
-						<m_AnimationName text="LEAD_PCRD_Yui_FirstMeet.fbx"/>
+						<m_AnimationName text="LEAD_PCRD_Yui_FirstMeet"/>
+					</Element>
+					<Element>
+						<m_SlotName text="04_KUDOS"/>
+						<m_AnimationName text="LEAD_PCRD_Yui_Kudos"/>
 					</Element>
 					<Element>
 						<m_SlotName text="NEUTRAL_IDLE_A"/>
@@ -20,19 +24,60 @@
 						<m_SlotName text="NEUTRAL_IDLE_A"/>
 						<m_TimelineName text="NEUTRAL_IDLE_A"/>
 					</Element>
+					<Element>
+						<m_SlotName text="01_FIRST_MEET"/>
+						<m_TimelineName text="01_FIRST_MEET"/>
+					</Element>
+					<Element>
+						<m_SlotName text="04_KUDOS"/>
+						<m_TimelineName text="04_KUDOS"/>
+					</Element>
 				</m_Bindings>
 			</m_timelineBindings>
 			<m_timelines>
 				<m_Timelines>
 					<Element>
+						<m_Name text="NEUTRAL_IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="LEAD_PCRD_Yui_Neutral_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
 						<m_Name text="01_FIRST_MEET"/>
 						<m_Description text=""/>
-						<m_AnimationName text="LEAD_PCRD_Yui_FirstMeet.fbx"/>
+						<m_AnimationName text="LEAD_PCRD_Yui_FirstMeet"/>
 						<m_fDuration>0.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
-								<m_Name text="3"/>
+								<m_Name text="1"/>
 								<m_Description text=""/>
 								<m_FXName text="PCRD_UE_FIRST_MEET"/>
 								<m_CollectionName text=""/>
@@ -70,16 +115,16 @@
 						</m_Tracks>
 					</Element>
 					<Element>
-						<m_Name text="NEUTRAL_IDLE_A"/>
+						<m_Name text="04_KUDOS"/>
 						<m_Description text=""/>
-						<m_AnimationName text="LEAD_PCRD_Yui_Neutral_Idle"/>
+						<m_AnimationName text="LEAD_PCRD_Yui_Kudos"/>
 						<m_fDuration>0.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
 								<m_Name text="2"/>
 								<m_Description text=""/>
-								<m_FXName text="PCRD_UE_FIRST_MEET"/>
+								<m_FXName text="PCRD_UE_KUDO"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
 								<m_fStartTime>0.250000</m_fStartTime>

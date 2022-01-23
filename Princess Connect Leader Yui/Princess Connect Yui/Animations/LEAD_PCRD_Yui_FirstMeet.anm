@@ -18,10 +18,10 @@
 	<m_DataFiles>
 		<Element>
 			<m_ID text="GR2"/>
-			<m_RelativePath text="LEAD_PCRD_Yui_FirstMeet.fbx.fgx"/>
+			<m_RelativePath text="LEAD_PCRD_Yui_FirstMeet.fgx"/>
 		</Element>
 	</m_DataFiles>
-	<m_Name text="LEAD_PCRD_Yui_FirstMeet.fbx"/>
+	<m_Name text="LEAD_PCRD_Yui_FirstMeet"/>
 	<m_Description text=""/>
 	<m_Tags>
 		<Element text="Leader"/>

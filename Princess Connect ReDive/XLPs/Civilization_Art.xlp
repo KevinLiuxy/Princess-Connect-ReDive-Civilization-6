@@ -10,12 +10,12 @@
 	<m_PackageName text="Civilization_Art"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Background_Diplomacy"/>
-			<m_ObjectName text="Background_Diplomacy"/>
+			<m_EntryID text="PCR_KOKKORO_1"/>
+			<m_ObjectName text="REDIVE_1"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Background_Loading"/>
-			<m_ObjectName text="Background_Loading"/>
+			<m_EntryID text="LEADER_PCR_KOKKORO_BACKGROUND"/>
+			<m_ObjectName text="REDIVE_LOADING_BACKGROUND"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Moment_Guild_Clan"/>
@@ -30,7 +30,7 @@
 			<m_ObjectName text="Moment_Princess_Knight"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PCR_Kokkoro_Loading"/>
+			<m_EntryID text="LEADER_PCR_KOKKORO_NEUTRAL"/>
 			<m_ObjectName text="PCR_Kokkoro_Loading"/>
 		</Element>
 		<Element>
@@ -38,7 +38,7 @@
 			<m_ObjectName text="PCR_Kokkoro_Menu"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PCR_Kyaru_Loading"/>
+			<m_EntryID text="LEADER_PCR_KYARU_NEUTRAL"/>
 			<m_ObjectName text="PCR_Kyaru_Loading"/>
 		</Element>
 		<Element>
@@ -50,7 +50,7 @@
 			<m_ObjectName text="PCR_Menu_Background"/>
 		</Element>
 		<Element>
-			<m_EntryID text="PCR_Pecorine_Loading"/>
+			<m_EntryID text="LEADER_PCR_PECORINE_NEUTRAL"/>
 			<m_ObjectName text="PCR_Pecorine_Loading"/>
 		</Element>
 		<Element>
@@ -248,6 +248,22 @@
 		<Element>
 			<m_EntryID text="PrincessConnectRedive_80"/>
 			<m_ObjectName text="PrincessConnectRedive_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PCR_KYARU_BACKGROUND"/>
+			<m_ObjectName text="REDIVE_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PCR_PECORINE_BACKGROUND"/>
+			<m_ObjectName text="REDIVE_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_KYARU_1"/>
+			<m_ObjectName text="REDIVE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PCR_PECORINE_1"/>
+			<m_ObjectName text="REDIVE_1"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

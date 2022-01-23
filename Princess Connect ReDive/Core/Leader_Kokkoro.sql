@@ -16,12 +16,6 @@ VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_KOKKORO', 'LOC_CITY_NA
 INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_KOKKORO', 'LOC_PEDIA_LEADERS_PAGE_PCR_KOKKORO_QUOTE');
 
-INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
-VALUES ('LEADER_PCR_KOKKORO', 'PCR_Kokkoro_Loading', 'Background_Loading', 1);
-
-INSERT INTO DiplomacyInfo (Type, BackgroundImage)
-VALUES ('LEADER_PCR_KOKKORO', 'Background_Diplomacy');
-
 INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
 VALUES	('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRCivics',								'Civics'		),
 		('TRAIT_LEADER_PCR_KOKKORO',	NULL,	'PCRTechs',									'Technologies'	),

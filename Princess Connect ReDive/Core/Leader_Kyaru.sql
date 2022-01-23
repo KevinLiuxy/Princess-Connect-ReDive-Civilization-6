@@ -15,12 +15,6 @@ VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_KYARU', 'LOC_CITY_NAME
 INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_KYARU', 'LOC_PEDIA_LEADERS_PAGE_PCR_KYARU_QUOTE');
 
-INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
-VALUES ('LEADER_PCR_KYARU', 'PCR_Kyaru_Loading', 'Background_Loading', 1);
-
-INSERT INTO DiplomacyInfo (Type, BackgroundImage)
-VALUES ('LEADER_PCR_KYARU', 'Background_Diplomacy');
-
 INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
 VALUES	('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRCivics',								'Civics'		),
 		('TRAIT_LEADER_PCR_KYARU',	NULL,	'PCRTechs',									'Technologies'	),

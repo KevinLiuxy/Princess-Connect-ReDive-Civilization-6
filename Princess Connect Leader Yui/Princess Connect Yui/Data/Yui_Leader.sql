@@ -8,10 +8,10 @@ INSERT INTO CivilizationLeaders (CivilizationType, LeaderType, CapitalName)
 VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_YUI', 'LOC_CITY_NAME_PrincessConnectRedive_1');
 
 INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
-VALUES ('LEADER_PCR_YUI', 'LOADING_FOREGROUND_PCR_YUI', 'Background_Loading', 1);
+VALUES ('LEADER_PCR_YUI', 'LOADING_FOREGROUND_PCR_YUI', 'LEADER_PCR_PECORINE_BACKGROUND', 1);
 
 INSERT INTO DiplomacyInfo (Type, BackgroundImage)
-VALUES ('LEADER_PCR_YUI', 'Background_Diplomacy');
+VALUES ('LEADER_PCR_YUI', 'PCR_PECORINE_1');
 
 INSERT INTO LeaderQuotes (LeaderType, Quote, QuoteAudio)
 VALUES ('LEADER_PCR_YUI', 'LOC_PEDIA_LEADERS_PAGE_PCR_YUI_QUOTE', 'PCRD_UE_WIKI_QUOTE');
@@ -19,4 +19,3 @@ VALUES ('LEADER_PCR_YUI', 'LOC_PEDIA_LEADERS_PAGE_PCR_YUI_QUOTE', 'PCRD_UE_WIKI_
 --------------------------------------------------------------
 /*INSERT INTO LeaderTraits (LeaderType, TraitType)
 VALUES*/
-

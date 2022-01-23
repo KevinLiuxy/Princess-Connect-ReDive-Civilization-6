@@ -15,12 +15,6 @@ VALUES ('CIVILIZATION_PrincessConnectRedive', 'LEADER_PCR_PECORINE', 'LOC_CITY_N
 INSERT INTO LeaderQuotes (LeaderType, Quote)
 VALUES ('LEADER_PCR_PECORINE', 'LOC_PEDIA_LEADERS_PAGE_PCR_PECORINE_QUOTE');
 
-INSERT INTO LoadingInfo (LeaderType, ForegroundImage, BackgroundImage, PlayDawnOfManAudio)
-VALUES ('LEADER_PCR_PECORINE', 'PCR_Pecorine_Loading', 'Background_Loading', 1);
-
-INSERT INTO DiplomacyInfo (Type, BackgroundImage)
-VALUES ('LEADER_PCR_PECORINE', 'Background_Diplomacy');
-
 INSERT INTO AiLists (LeaderType, AgendaType, ListType, System)
 VALUES	('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRCivics',								'Civics'		),
 		('TRAIT_LEADER_PCR_PECORINE',	NULL,	'PCRTechs',									'Technologies'	),
