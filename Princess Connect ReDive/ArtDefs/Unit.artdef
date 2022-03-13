@@ -338,8 +338,8 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..RGBValue">
-										<m_r>255.000000</m_r>
-										<m_g>255.000000</m_g>
+										<m_r>234.000000</m_r>
+										<m_g>254.000000</m_g>
 										<m_b>255.000000</m_b>
 										<m_ParamName text="Color"/>
 									</Element>

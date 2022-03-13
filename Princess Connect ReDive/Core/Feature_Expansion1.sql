@@ -26,6 +26,8 @@ INSERT INTO MomentIllustrations(
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 VALUES ('DISTRICT_GUILD_CLAN', 'Government_Gold_PCR');
 
+DELETE FROM DistrictModifiers WHERE DistrictType = 'DISTRICT_GUILD_CLAN' AND ModifierId = 'COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY';
+
 INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentDistrict)
 VALUES ('Government_Gold_PCR', 'LOC_DISTRICT_GOVERNMENT_GOLD', 'YIELD_GOLD', 1, 1, 'DISTRICT_GOVERNMENT');
 

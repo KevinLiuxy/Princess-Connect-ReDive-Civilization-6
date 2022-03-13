@@ -112,11 +112,12 @@ INSERT INTO District_TradeRouteYields(
 		('DISTRICT_GUILD_CLAN',		'YIELD_GOLD',			0,	0,	3);
 
 INSERT INTO District_CitizenYieldChanges (DistrictType, YieldType, YieldChange)
-VALUES ('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
+VALUES	('DISTRICT_GUILD_CLAN', 'YIELD_GOLD', 4);
 
 --------------------------------------------------------------
 INSERT INTO DistrictModifiers (DistrictType, ModifierId)
-VALUES ('DISTRICT_GUILD_CLAN', 'GUILD_CLAN_DISTRICT_HOUSING');
+VALUES	('DISTRICT_GUILD_CLAN', 'GUILD_CLAN_DISTRICT_HOUSING'			),
+		('DISTRICT_GUILD_CLAN', 'COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY'	);
 
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES ('GUILD_CLAN_DISTRICT_HOUSING', 'MODIFIER_SINGLE_CITY_ADJUST_BUILDING_HOUSING', 'DISTRICT_IS_GUILD_CLAN');
