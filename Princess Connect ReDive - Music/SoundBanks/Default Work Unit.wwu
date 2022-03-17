@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD4C8945-287C-4D01-A4EC-9A368C1CF109}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FD4C8945-287C-4D01-A4EC-9A368C1CF109}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="PCR_Music_Bank" ID="{66CF3295-BEC8-470A-AE25-6EFF61A9A1D3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Leader_Music_PrincessConnectRedive" ID="{0EDA4F09-4415-45B8-8785-1F03D4594FA1}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_PrincessConnectRedive" ID="{B672C909-A815-46CC-B6FF-567B8294A43F}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start_Music_PrincessConnectRedive" ID="{EADAD998-9A01-4332-9D2C-6A6FF2939E97}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_PrincessConnectRedive" ID="{FF9D99A1-4766-4C5C-B607-EE155A3EB3FA}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_PrincessConnectRedive" ID="{7618B7CC-90F8-452B-892E-67015CD9FB70}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_PrincessConnectRedive" ID="{8F6FC2CC-5AC6-45CA-A3D7-B4D57EE0EEDA}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Leader_Music_PrincessConnectRedive" ID="{2DB023F4-9B81-4C41-938F-5A03AB8FCFCC}" WorkUnitID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

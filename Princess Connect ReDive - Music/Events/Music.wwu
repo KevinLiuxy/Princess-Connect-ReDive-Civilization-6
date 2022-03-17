@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Music" ID="{5D44508E-A41A-42C4-883F-7C38713DE3F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start_Music_PrincessConnectRedive" ID="{EADAD998-9A01-4332-9D2C-6A6FF2939E97}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5396D26A-2A63-493F-ACF8-B7356E2237A4}" ShortID="404322264" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A2635921-75EC-4220-BD24-5C4718270A0D}" Global="false">
+									<ObjectRef Name="CivilizationMusic" ID="{EA5165BB-4DC2-4950-B678-3CE1F271069E}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_PrincessConnectRedive" ID="{FF9D99A1-4766-4C5C-B607-EE155A3EB3FA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{35AB5891-FFC9-43FC-92FD-178FAE397413}" ShortID="320054498" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C60FF5B9-A569-4F8E-8321-1EBAF83421BF}" Global="false">
+									<ObjectRef Name="CivilizationMusic" ID="{EA5165BB-4DC2-4950-B678-3CE1F271069E}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{52BB1DDD-7947-45CC-9D76-116B45EA73A4}" ShortID="247606532" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{54CD153D-AAA4-4A55-96F6-80D3B10B0015}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Music_PrincessConnectRedive" ID="{8F6FC2CC-5AC6-45CA-A3D7-B4D57EE0EEDA}">
+					<ChildrenList>
+						<Action Name="Pause" ID="{A75360CA-F45E-4795-951D-8BBB188684D1}" ShortID="926966564" Type="Pause" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42D3219D-2BAB-4EF2-BAE1-B167E0DBD698}" Global="false">
+									<ObjectRef Name="CivilizationMusic" ID="{EA5165BB-4DC2-4950-B678-3CE1F271069E}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{A173DCA9-319E-426D-B3F6-1821E80EF452}" ShortID="114789325" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{E236E221-CEFC-4830-8A4A-7511D74B2DBB}" Global="true">
+									<ObjectRef Name="ID276876398" ID="{CA447C83-6459-4F8D-AA9C-4FF2F641FC4A}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{78265A9E-3632-41A3-8544-9FF37BE69582}" ShortID="325757546" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{9D0186E3-B1BF-44E8-A6D2-FC73F9F32511}" Global="true">
+									<ObjectRef Name="ID409025991" ID="{7CF65FC9-D36F-4DEE-A49A-B96287271FFC}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{B345D970-BA35-4232-B3DE-EB9B95DD2615}" ShortID="966758032" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{890BA0A9-EFB9-4A4F-9543-976B5B5B8C2A}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Music_PrincessConnectRedive" ID="{7618B7CC-90F8-452B-892E-67015CD9FB70}">
+					<ChildrenList>
+						<Action Name="Resume" ID="{79583167-AD90-4841-ACD0-AED91D18B7A9}" ShortID="288525092" Type="Resume" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{57B582C7-11EA-49E6-8B7E-1345619D4000}" Global="false">
+									<ObjectRef Name="CivilizationMusic" ID="{EA5165BB-4DC2-4950-B678-3CE1F271069E}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{98282904-F221-4631-A501-CD72EAA85A16}" ShortID="834547522" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{A35EA787-F115-4E67-9610-2C742014A0E7}" Global="true">
+									<ObjectRef Name="ID276876398" ID="{CA447C83-6459-4F8D-AA9C-4FF2F641FC4A}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{61B4CEC2-23CC-4B00-B523-7A53B0554977}" ShortID="390102131" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{055C7C0B-0C78-492B-84CB-2D108C82E511}" Global="true">
+									<ObjectRef Name="ID409025991" ID="{7CF65FC9-D36F-4DEE-A49A-B96287271FFC}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{314B9A51-8F90-4F52-A828-C0BE26D95D96}" ShortID="1044558646" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{11C73EF3-9AF5-4021-BE55-DF0F6DADBD6E}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_PrincessConnectRedive" ID="{B672C909-A815-46CC-B6FF-567B8294A43F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C67B3CC3-6136-4DC4-8A7F-B37202293D8E}" ShortID="293584511" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{57155E88-1CCF-4F91-8BD4-CC89E1AECB3E}" Global="false">
+									<ObjectRef Name="CivilizationMusic" ID="{EA5165BB-4DC2-4950-B678-3CE1F271069E}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{2C0171D1-DC22-4B69-AFE9-B3E6FB8FB13F}" ShortID="671712442" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{D0B62C2F-F373-449D-AC45-B619C55511F2}" Global="true">
+									<ObjectRef Name="ID276876398" ID="{CA447C83-6459-4F8D-AA9C-4FF2F641FC4A}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{C744F948-048B-4EE6-9225-D8BE5F0720FB}" ShortID="334824690" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{59863278-ABA2-4B57-926C-301ACB3CBE4E}" Global="true">
+									<ObjectRef Name="ID409025991" ID="{7CF65FC9-D36F-4DEE-A49A-B96287271FFC}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{DF46135C-3926-4551-A0A3-B8285EAB683A}" ShortID="444967299" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{54A21470-C963-4F3B-BC80-29EC3A35FA02}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Leader_Music_PrincessConnectRedive" ID="{0EDA4F09-4415-45B8-8785-1F03D4594FA1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{98AFD39C-8AEF-4614-999A-075DCF5D78BB}" ShortID="163551364" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1838D49C-17A4-427E-B238-E81A21C726A5}" Global="false">
+									<ObjectRef Name="Leader_Music" ID="{E8D74D7E-1DF8-413F-8315-D598B0443C75}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{7D2E97BA-2E50-480E-BC55-898710CE05A8}" ShortID="997432855" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{F1DD87F8-63AD-4A7C-8BE2-AA3B7FC8E104}" Global="true">
+									<ObjectRef Name="ID276876398" ID="{CA447C83-6459-4F8D-AA9C-4FF2F641FC4A}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{3033B873-3792-4FBB-AD77-51DE98DA0CED}" ShortID="379967219" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{88479F71-B764-4F2C-9934-7D3504C80335}" Global="true">
+									<ObjectRef Name="ID409025991" ID="{7CF65FC9-D36F-4DEE-A49A-B96287271FFC}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Pause" ID="{5CBA6D79-4B53-4431-B523-E21DE9D9D5B9}" ShortID="702763897" Type="Pause" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{30C7B769-10F1-4816-839E-98859E93FDE8}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Leader_Music_PrincessConnectRedive" ID="{2DB023F4-9B81-4C41-938F-5A03AB8FCFCC}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{83BB3B1E-7A9C-44E0-9FFA-99E4B75D3189}" ShortID="773894072" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DE39BBA0-CB4B-4074-B228-5185ACA19398}" Global="false">
+									<ObjectRef Name="Leader_Music" ID="{E8D74D7E-1DF8-413F-8315-D598B0443C75}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{4FEF3DA7-5B5A-401F-8E2A-D4D22F97C49E}" ShortID="867057181" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{B5B6AC2C-6DC3-4CE2-A07E-C12D4E702577}" Global="true">
+									<ObjectRef Name="ID276876398" ID="{CA447C83-6459-4F8D-AA9C-4FF2F641FC4A}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{26FF30F2-AF29-4B56-B7B5-414FCBB4A420}" ShortID="919086916" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{E6947B46-3EB7-48BC-AC06-A8CC9A76FE92}" Global="true">
+									<ObjectRef Name="ID409025991" ID="{7CF65FC9-D36F-4DEE-A49A-B96287271FFC}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Resume" ID="{F7994E07-814A-40A3-BE8F-AFA2A0195600}" ShortID="671773983" Type="Resume" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{4C818F37-A085-4960-A4D1-D4FDDDFACB51}" Global="true">
+									<ObjectRef Name="ID552184141" ID="{08D62E03-3688-449F-9C67-C57F7ACC93BF}" WorkUnitID="{C65DFFF8-8D57-44D2-8206-635BAEDE6F6D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

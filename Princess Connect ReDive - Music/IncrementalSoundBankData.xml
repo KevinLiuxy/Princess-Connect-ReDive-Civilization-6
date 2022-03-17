@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="4" Flags="601859981">
+	<Platform GUID="{48DF5062-3C7F-4984-9E96-53959E71AC96}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="187113221" StreamHash="157587662" Timestamp="132628606273637911"/>
+			<Bank Name="PCR_Music_Bank" Hash="3193139679" StreamHash="3793323654" Timestamp="132628606273548342"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{4AEE95B8-E945-4EEF-B9EB-A8AD603F4E39}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="1631803907" StreamHash="157587662" Timestamp="132659497718192128"/>
+			<Bank Name="PCR_Music_Bank" Hash="12652180" StreamHash="3028112766" Timestamp="132659497718082029"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{0BDEE6C2-B235-46D8-BDD8-DD75F1664AB9}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="1315229632" StreamHash="157587662" Timestamp="132659497704951616"/>
+			<Bank Name="PCR_Music_Bank" Hash="12652180" StreamHash="3028112766" Timestamp="132659497704811620"/>
+		</Language>
+	</Platform>
+</IncrementalBankBuild>
